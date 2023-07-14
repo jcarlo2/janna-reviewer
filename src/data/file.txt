@@ -1,0 +1,62 @@
+1. Fuel is normally supplied to an APU form
+a. Its own independent fuel supply
+b. The airplane’s reserve fuel supply
+c. The airplane’s main fuel system
+2. Fuel scheduling during APU start under varying
+pneumatic bleed and electrical loads is maintained
+a. Manually through power control lever position.
+b. Automatically by the APU fuel control
+system.
+c. Automatically by an aircraft main engine fuel
+control unit.
+3. Usually, most of the load placed on an APU occurs
+when
+a. An electrical load is placed on the generator(s).
+b. The bleed air valve is opened.
+c. The bleed air valve is closed.
+4. When in operation, the speed of an APU
+a. Is controlled by a cockpit power lever.
+b. Remains at idle and automatically accelerates to
+rated speed when placed under load.
+c. Remains at or near rated speed regardless of
+the load condition
+5. Frequently, an aircraft’s auxiliary power unit (APU)
+generator
+a. Is identical to the engine-driven generators.
+b. Supplements the aircraft’s engine- driven
+generators during peak loads.
+c. Has a higher load capacity than the enginedriven generators.
+6. An APU is usually rotated during start by
+a. A turbine impingement system.
+b. A pneumatic starter.
+c. An electric starter.
+7. Generally, when maximum APU shaft output power
+is being used in conjunction with pneumatic power
+a. Pneumatic loading will be automatically
+modulated to maintain a safe EGT.
+b. Electrical loading will be automatically
+modulated to maintain a safe EGT.
+c. Temperature limits and loads must be carefully
+monitored by the operator to maintain a safe
+EGT.
+8. When necessary, APU engine cooling before
+shutdown may be accomplished by
+a. Unloading the generator(s).
+b. Closing the bleed air valve.
+c. Opening the bleed air valve.
+9. The function of an APU air inlet plenum is to
+a. Increase the velocity of the air before entering
+the compressor.
+b. Decrease the pressure of the air before entering
+the compressor.
+c. Stabilize the pressure of the air before it
+enters the compressor.
+10. On APU’s equipped with a free turbine and load
+compressor, the primary function of the load
+compressor is to
+a. Provide air for combustion and cooling in the
+engine gas path.
+b. Provide bleed air for aircraft pneumatic
+systems.
+c. Supply the turning force for operation of the
+APU generator(s).

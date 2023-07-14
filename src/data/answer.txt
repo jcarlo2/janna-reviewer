@@ -1,0 +1,103 @@
+Airlaw
+	AIRFRAME INSPECTION	
+		[b,b,a,c,b,bc,a,a,a,a,a]
+	MAINTENANCE FORMS AND RECORDS
+		[b,b,b,a,a,c,a,c,c,a,c,a,a,a,c,b,b,b,a,b,b,c,b,b,c,c,c,a,a,a,c,a,b,a,c,a]
+	MAINTENANCE PUBLICATIONS
+		[a,c,a,c,c,c,c,c,b,b,a,c,a,a,c,a,b,c,a,c,c,b,c,c,a,c,a,b,b,b,c,b,b,a,c,a,c,c,]
+	MECHANIC PRIVILEGES AND LIMITATIONS
+		[a,a,a,b,c,b,c,c,a,a,b,c,a,b,a,a,a,b,c,a,a,a,a,c,c,b,a,c,c,c,a,b,b,]
+	PCAR
+		[b,c,a,c,b,b,a,c,c,a,a,a,a,a,a,c,a,a,c,a,a,c,c,a,c,a,b,a,c,b,c,a,b,a,b,a,b,c,b,b,c,c,c,c,c,c,b,a]
+	AFCAR
+		[a,c,a,b,b,c,b,c,a,b,d,c,a,c,b,c,d,b,b,d,a,b,d,d,c,c,c,a,d,d,a,a,d,a,a,b,c,a,c,a,b,a,a,b,a,]
+	Last page
+		[a,b,a,b,a,c,b,d,b,c,c,b,b]
+
+AC ENGINEERING
+	ASSEMBLY AND RIGGING
+		[a,a,a,a,a,c,b,b,b,c,c,b,b,c,a,b,c,c,a,c,a,c,c,b,c,a,c,a,a,b,c,c,c,a,a,b,a,c,a,b,b,c,c,b,a,c,a,b,c,b,a,c,a,b,a,b,c,b,c,a,b,c,a,b,c,c,b,a,b,a,a,c,a,b,b,b,a,c]
+	AIRCRAFT ELECTRICAL SYSTEM
+		[b,b,a,c,c,b,b,a,c,c,c,b,c,b,a,b,a,a,b,c,c,c,c,c,c,b,c,c,b,b,a,c,a,c,c,b,a,c,b,b,b,b,b,a,c,c,c,a,b,a,a,a,c,c,c,b,c,c,c,b,b,c,c,a,a,c,c,b,a,b,a,a,c,b,b,c,a,b,a,b,c,a,a,a,a,b,a,b,c,b,a,c,c,b,c,a,c,a,c,a,c,c,a,c,c,b,c,b,a,c,a,a,b,a,a,b,a,b,b,b,a,b,a,a,c,c,a,c,b,a,a,c]
+	AIRCRAFT INSTRUMENT SYSTEM
+		[b,a,a,a,b,b,c,c,a,b,a,a,b,c,c,b,c,c,a,b,c,a,b,c,a,a,a,c,b,c,c,b,c,b,b,c,a,a,a,b,c,a,a,b,b,c,b,a,c,a,c,b,b,c,c,a,b,c,b,a,b]
+	ENGINE INSTRUMENT SYSTEM
+		[b,c,c,a,b,a,b,b,b,c,b,b,a,a,a,b,c,c,c,a,a,b,c,c,b,b,a,a,a,c,a,a,b,b,b,b,c,a,a,a,a,a,c,c,c,a,c,b,c,b,c,b,b,b,]
+	FLUID LINES & FITTINGS
+		[a,a,c,c,c,a,b,b,b,c,b,b,a,c,a,a,b,a,b,b,b,a,c,c,a,c,b,a,b,c,a,c,b,a,c]
+	AUXILIARY POWER UNIT
+		[c,b,b,c,a,c,a,b,c,b]
+	MATERIALS AND PROCESSES
+		[b,b,b,b,b,b,c,b,a,a,a,a,c,c,c,c,c,c,a,a,a,c,b,b,a,b,b,c,a,c,a,a,c,c,a,a,c,a,c,c,b,b,b,c,a,a,c,a,a,b,b,c,c,c,a,c,a,b,a,c,b,a,c,a,a,a,a,a,c,a,a,c,c,c,a,b,b,c,b,c,c,c,c,b,b,a]
+	SHEETMETAL & NON-SHEETMETALIC STRUCTURE
+		[b,b,b,b,b,c,c,c,c,b,a,c,a,c,a,b,a,a,b,a,b,a,a,b,a,c,c,c,a,b,b,b,c,c,b,b,a,b,c,a,c,a,c,b,b,b,c,a,c,c,b,a,b,b,c,c,c,a,c,c,a,c,a,a,c,c,a,a,a,a,b,a,b,c,a,b,a,a,a,c,b,c,a,b,c,c,a,b,b,a,a,b,a,b,b,c,b,b,a,b,c,b,b,a,b,b,b,c,a,c,b,b,a,b,c,c,b,c,a,a,b,b,a,b,b,a,c,c,c,a]
+	WELDING
+		[b,b,a,b,c,c,c,b,c,b,a,a,c,a,a,b,a,b,c,c,a,b,a,a,b,c,a,c,b,b,c,a,c,a]
+	AIRCRAFT FINISHES
+		[b,b,b,b,a,c,a,c,b,c,b,c,a,a,c]
+
+AIRFRAME
+	Wood Structure
+		[a,a,c,c,c,a,c,a,c,b,b,a,b,a,a,b]
+	AIRCRAFT LANDING GEAR SYSTEM
+		[c,a,a,b,c,a,c,c,c,b,c,c,b,a,a,c,c,c,b,c,c,b,c,c,c,b,b,a,b,a,b,a,a,c,c,c,a,c,c,c,b,b,a,c,a,c,b,c,b,b,c,b,b,c,b,b,c,c,c,a,b,b,c,a,b,b,a,c,a,c,b,c,a,a,c,b,a,c,c,c]
+	AIRCRAFT FINISHES
+		[b,b,b,b,a,c,a,c,b,c,b,c,a,a,c]
+	ASSEMBLY AND RIGGING
+		[a,a,a,a,a,c,b,b,b,c,c,b,b,c,a,b,c,c,a,c,a,c,c,b,c,a,c,a,a,b,c,c,c,a,a,b,a,c,a,b,b,c,c,b,a,c,a,b,c,b,a,c,a,b,a,b,c,b,c,a,b,c,a,b,c,c,b,a,b,a,a,c,a,b,b,b,a,c]
+	FIRE PROTECTION SYSTEMS
+		[b,b,a,b,b,b,a,c,c,b,b,c,c,c,b,b,b,c,b,c,b,a,b,a,b,a,b,c,b,c]
+	Aircraft Fuel System
+		['c','c','c','c','a','a','c','a','c','c','c','b','a','a','a','c','c','a','b','a','c','b','b,'b','c','c','c','c','c','c','c','a','a','a','c','a','a','c','a','a','a','a','a','c','b','b','a','b','a','b','b','a','a','c','b','a','c','b','b','a','a','b','c','a','a','b','b','a','b','c','c','b','a','a','c','b,'b','a','c','a','a','c','a','b','a','a','a','b','c','b','a','a','a','a','a','a','b','c','a','b','b','c','c','c','b','a','b','c','a','c','a','c','a']
+  HYDRAULIC & PNEUMATIC POWER SYSTEM
+		[c,a,a,b,c,b,a,c,c,a,c,a,a,c,c,b,a,a,b,a,a,a,c,a,c,c,c,c,c,c,a,b,a,a,c,c,a,b,b,b,a,c,b,b,c,c,b,c,b,b,c,c,c,a,b,c,b,a,b,c,a,b,c,b,c,a,c,a,a,b,a,b,c,c,c,a,b,c,c,c,b,b,b,c,a,b,c,c,c,c,b,c,b,c,b,c,a,b,b,c,b,b,a,c,b,c,c,c]
+	ICE & RAIN CONTROL SYSTEMS
+		[c,b,c,a,b,a,b,a,c,c,a,c,b,a,b,c,b,a,c,a,b,c,a,c,a,b,a,a]
+	SHEETMETAL & NON-SHEETMETALIC STRUCTURE
+		['b','b','b','b','b','c','c','c','c','b','a','c','a','c','a','b','a','a','b','a','b','a','a','b','a',''c','c','c','a','b','b','b','c','c','b','b','a','b','c','a','c','a','c','b','b','b','c','a','c','c','b','a','b','b','c','c','c','a','c','c','a','c','a','a','c','c','a','a','a','a','b','a','b','c','a','b','a','a','a','c','b','c','a','b','c','c','a','b','b','a','a','b','a','b','b','c','b','b','a','b','c','b','b','a','b','b','b','c','a','c','b','b','a','b','c','c','b','c','a','a','b','b','a','b','b','a','c','c','c','a']
+
+AIRCRAFT MAINTENANCE
+	Aircraft Landing Gear System
+		[c,a,a,b,c,a,c,c,c,b,c,c,b,a,a,c,c,c,b,c,c,b,c,c,c,b,b,a,b,a,b,a,a,c,c,c,a,c,b,c,b,b,a,c,a,c,b,c,b,b,c,b,b,c,b,b,c,b,c,a,b,b,c,a,b,b,a,c,a,c,b,c,a,a,c,b,a,c,c,c]
+	Sheetmetal & Non-Sheetmetalic Structure
+		[b,b,b,b,b,c,c,c,c,b,a,c,a,c,a,b,a,a,b,a,b,a,a,b,a,c,c,c,a,b,b,b,c,c,b,b,a,b,c,a,c,a,c,b,b,b,c,a,c,c,b,a,b,b,c,c,c,a,c,c,a,c,a,a,c,c,a,a,a,a,b,a,b,c,a,b,a,a,a,c,b,c,a,b,c,c,a,b,b,a,a,b,a,b,b,c,b,b,a,b,c,b,b,a,b,b,b,c,a,c,b,b,a,b,c,c,b,c,a,a,b,b,a,b,b,a,c,c,c,a]
+	Aircraft Fuel System
+		[c,c,c,c,a,a,c,a,c,c,c,b,a,a,a,c,c,a,b,a,c,b,b,b,c,c,c,c,c,c,c,a,a,a,c,a,a,c,a,a,a,a,a,c,b,b,a,b,a,b,b,a,a,c,b,a,c,b,b,a,a,b,c,a,a,b,b,a,b,c,c,b,a,c,b,b,a,c,a,a,c,a,b,a,a,a,,b,c,b,a,a,a,a,a,a,b,c,a,b,b,c,c,c,b,a,b,c,a,c,a,c,a]
+	Materials and Processes
+		[b,b,b,b,b,b,c,b,a,a,a,a,c,c,c,c,c,c,a,a,a,c,b,b,a,b,b,c,a,c,a,a,c,c,a,a,c,a,c,c,b,b,b,c,a,a,c,a,a,b,b,c,c,c,a,c,a,b,a,c,b,a,c,a,a,a,a,a,c,a,a,c,c,c,a,b,b,c,b,c,c,c,c,b,b,a]
+	MAINTENANCE FORMS AND RECORDS
+		[b,b,b,a,a,c,a,c,c,a,c,a,a,a,c,b,b,b,a,b,b,c,b,b,c,c,c,a,a,a,c,a,b,a,c,a]
+	TURBINE ENGINES
+		[b,c,b,c,a,c,a,a,a,c,b,a,b,b,b,a,c,c,c,a,a,b,a,c,c,b,a,a,c,c,c,b,c,c,a,b,a,c,b,c,b,b,c,a,a,a,a,c,a,a,a,a,b,a,c,a,a,b,c,c,a,c,c,c,a,c,b,c,c,a,c,b,a,b,a,a,a,c,b,b,b,c,a,c,c,a,a,a,b,c,b,c,b,c,b,a,b,b,c,c,b,b,c,c,c,a,a,b,c,a,c,c,a,b,a,a,a,a,c,c]
+	GROUND OPERATIONS &SERVICING
+		[c,c,c,c,b,b,c,a,b,c,a,b,a,a,a,c,b,c,b,b,c,c,a,b,a,c,b,c,c,b,c,b,b,c,a,c,c,a]
+	CLEANING AND CORROSION CONTROL
+		[b,b,b,c,c,b,b,b,c,b,b,c,a,a,a,c,a,b,a,c,c,b,b,a,a,a,c,b,c,b,c,c,c,a]
+	RECIPROCATING ENGINES
+		[b,a,c,c,b,c,a,c,c,b,c,c,a,a,b,c,c,c,a,b,a,b,c,b,a,c,a,c,b,c,c,c,c,b,c,b,a,c,c,a,c,c,a,b,b,a,a,c,c,a,a,b,c,b,b,c,a,a,a,a,c,c,c,c,c,b,a,c,a,c,b,a,b,c,a,b,c,b,b,a,a,c,c,a,b,a,a,b,b,c,a,c,c,a,a,c,a,c,c,b,b,b,c,a,c,b,c]
+  HYDRAULIC & PNEUMATIC POWER SYSTEM
+		[c,a,a,b,c,b,a,c,c,a,c,a,a,c,c,b,a,a,b,a,a,a,c,a,c,c,c,c,c,c,a,b,a,a,c,c,a,b,b,b,a,c,b,b,c,c,b,c,b,b,c,c,c,a,b,c,b,a,b,c,a,b,c,b,c,a,c,a,a,b,a,b,c,c,c,a,b,c,c,c,b,b,b,c,a,b,c,c,c,c,b,c,b,c,b,c,a,b,b,c,b,b,a,c,b,c,c,c]
+	FUEL METERING SYSTEMS
+		[b,b,c,a,c,a,a,a,b,c,a,c,a,c,c,a,c,c,a,c,c,c,b,a,c,c,a,a,b,a,a,b,c,c,a,b,a,c,b,c,b,b,c,c,c,a,b,b,c,c,c,b,a,a,c,c,c,b,a,c,a,b,c,b,b,a,a,c,b,b,c,c,c,a,c,a,c,a,a,b,a,c,c,c,b,a,c,b,b,c,b,a,b,a,b,b]
+	FLUID LINES & FITTINGS
+		[a,a,c,c,c,a,b,b,b,c,b,b,a,c,a,a,b,a,b,b,b,a,c,c,a,c,b,a,b,c,a,c,b,a,c]
+	INDUCTION AND ENGINE AIRFLOW SYSTEM
+		[c,b,a,c,b,c,b,b,b,b,b,c,b,c,b,b,c,a,c,a,c,c,c,b,a,a,a,b,b,a,a,c,b,b,b,c,a,c,a,a,a,a]
+
+POWERPLANT
+	ENGINE INSTRUMENT SYSTEM
+		[b,c,b,c,b,b,b,b,c,c,c,c,a,a,b,a,b,b,b,c,b,b,a,a,a,a,c,c,c,a,a,a,b,c,a,b,c,c,b,b,a,a,a,c,a,a,b,b,b,b,c,a,a,c]
+	RECIPROCATING ENGINES
+		[b,a,c,c,b,c,a,c,c,b,c,c,a,a,b,c,c,c,a,b,a,b,c,b,a,c,a,c,b,c,c,c,c,b,c,b,a,c,c,a,c,c,a,b,b,a,a,c,c,a,a,b,a,b,b,c,a,a,a,a,c,c,c,c,c,b,a,c,a,c,b,a,b,c,a,b,c,b,b,a,a,c,c,a,b,a,a,b,b,c,a,c,c,a,a,c,a,c,c,b,b,b,c,a,c,b,c]
+  PROPELLERS
+		[b,c,c,a,b,a,c,c,b,c,b,b,a,a,b,b,b,b,a,b,b,c,a,b,c,b,c,a,b,c,b,c,a,b,c,b,a,a,a,c,b,c,a,b,a,b,c,c,b,a,c,a,a,a,a,a,a,a,b,c,a,a,a,a,c,a,a,c,a,c,a,c,c,c,a,b,b,b,c,c,c,c,b,c,b,a,a,a,b,b,a,c,c,a,b,a,b,b,b,c,c,c,c,a,c,c,a,b,b,c,a,b,b,a,c,c,c]
+	INDUCTION AND ENGINE AIRFLOW SYSTEM
+		[c,b,a,c,c,c,b,b,b,b,a,b,c,b,c,b,b,c,a,c,a,c,c,c,b,a,a,a,b,b,c,a,c,b,b,b,c,a,c,a,a,a,a]
+	TURBINE ENGINES
+		[b,c,b,c,a,c,a,a,a,c,b,a,b,b,b,a,c,c,c,a,a,b,a,c,c,b,a,a,c,c,c,b,c,c,a,b,a,c,b,c,b,b,c,a,a,a,a,c,a,a,a,a,b,a,c,a,a,b,c,c,a,c,c,c,a,c,b,c,c,a,c,b,a,b,a,a,a,c,b,b,b,c,a,c,c,a,a,a,b,c,b,c,b,c,b,a,b,b,c,c,b,b,c,c,c,a,a,b,c,a,c,c,a,b,a,a,a,a,c,c]
+	IGNITION STARTING SYSTEM
+		[b,a,a,a,a,b,c,c,b,a,c,b,a,c,a,a,b,b,a,c,b,c,b,c,b,a,a,b,b,b,a,a,c,b,b,a,a,c,c,b,a,c,b,a,a,b,a,a,c,c,c,a,c,a,a,c,c,c,c,b,b,a,a,b,c,b,a,a,a,c,c,a,b,a,c,b,c,b,c,c,b,b,b,a,c,b,a,b,c,c,c,a,b,c,c,a,a,b,b,b,c,b,b,b,a,c,c,b,a,b,b,b,c,b,a,b,b,c,c,a,c,b,b,c,a,c,a,a]
+	FUEL METERING SYSTEMS
+		[b,b,c,a,c,a,a,a,b,c,a,c,a,c,c,a,c,c,a,c,c,c,b,a,c,c,a,a,b,a,a,b,c,c,c,b,a,c,b,c,b,b,c,c,c,a,b,b,c,c,c,b,a,a,c,c,c,b,a,c,a,b,c,b,b,a,a,c,b,b,c,c,c,a,c,a,c,a,a,b,a,c,c,c,b,a,c,b,b,c,b,a,b,a,a,b]
+	AUXILIARY POWER UNIT
+		[c,b,b,c,a,c,a,b,c,b]
