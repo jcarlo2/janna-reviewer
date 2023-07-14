@@ -16,6 +16,7 @@ const Main = ({ options, data, score, setScore }) => {
   const [c, setC] = useState("");
   const [d, setD] = useState();
   const [answer, setAnswer] = useState("");
+  const [bookFlag, setBookFlag] = useState("");
 
   useEffect(() => {
     const booksName = Object.keys(options.books).filter(
@@ -53,7 +54,8 @@ const Main = ({ options, data, score, setScore }) => {
     setAnswer(
       questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].answer
     );
-    console.log(questions);
+    setBookFlag(Object.keys(questions[bookIndex])[0]);
+    console.log(questions.length);
   }, [questions, bookIndex, pageIndex]);
 
   const convertToOneArray = (arr) => {
@@ -96,7 +98,7 @@ const Main = ({ options, data, score, setScore }) => {
     if (choice === answer) setScore((prevState) => prevState + 1);
     const book = questions[bookIndex];
     if (
-      questions.length < bookIndex &&
+      bookIndex < questions.length &&
       pageIndex === book[Object.keys(book)].length - 1
     ) {
       console.log("ONE");
@@ -126,9 +128,7 @@ const Main = ({ options, data, score, setScore }) => {
       </div>
       <section>
         <div>
-          <p className="bookFlag">
-            {Object.keys(questions[bookIndex])[bookIndex]}
-          </p>
+          <p className="bookFlag">{bookFlag}</p>
           <p className="question">{question}</p>
         </div>
         <div className="choices">
