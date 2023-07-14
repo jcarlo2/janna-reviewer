@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/janna-reviewer/static/css/main.5ea48592.css",
-    "main.js": "/janna-reviewer/static/js/main.a400b9f6.js",
+    "main.js": "/janna-reviewer/static/js/main.4e193fd3.js",
     "static/js/787.76a6362b.chunk.js": "/janna-reviewer/static/js/787.76a6362b.chunk.js",
     "index.html": "/janna-reviewer/index.html",
     "static/media/back.svg": "/janna-reviewer/static/media/back.87fd3953b10ee9867681.svg",
     "main.5ea48592.css.map": "/janna-reviewer/static/css/main.5ea48592.css.map",
-    "main.a400b9f6.js.map": "/janna-reviewer/static/js/main.a400b9f6.js.map",
+    "main.4e193fd3.js.map": "/janna-reviewer/static/js/main.4e193fd3.js.map",
     "787.76a6362b.chunk.js.map": "/janna-reviewer/static/js/787.76a6362b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ea48592.css",
-    "static/js/main.a400b9f6.js"
+    "static/js/main.4e193fd3.js"
   ]
 }
