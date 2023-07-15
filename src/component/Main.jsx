@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Main = ({ options, data, score, setScore }) => {
+const Main = ({ options, data, setScore }) => {
   const navigate = useNavigate();
   const [bookIndex, setBookIndex] = useState(0);
   const [pageIndex, setPageIndex] = useState(0);
@@ -17,8 +17,14 @@ const Main = ({ options, data, score, setScore }) => {
   const [d, setD] = useState();
   const [answer, setAnswer] = useState("");
   const [bookFlag, setBookFlag] = useState("");
+  const aRef = useRef();
+  const bRef = useRef();
+  const cRef = useRef();
+  const dRef = useRef();
+  const choicesContainerRef = useRef();
 
   useEffect(() => {
+    if (!options.start) navigate("/");
     const booksName = Object.keys(options.books).filter(
       (name) => options.books[name] === true
     );
@@ -36,7 +42,6 @@ const Main = ({ options, data, score, setScore }) => {
           return { airlaw: Object.values(data["Airlaw"]) };
       }
     });
-
     if (options.shuffle) initShuffle(questionSet);
     const newArr = convertToOneArray(questionSet);
     setQuestions(newArr);
@@ -55,7 +60,6 @@ const Main = ({ options, data, score, setScore }) => {
       questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].answer
     );
     setBookFlag(Object.keys(questions[bookIndex])[0]);
-    console.log(questions.length);
   }, [questions, bookIndex, pageIndex]);
 
   const convertToOneArray = (arr) => {
@@ -64,8 +68,10 @@ const Main = ({ options, data, score, setScore }) => {
       const bookName = Object.keys(num)[0];
       const book = num[bookName];
       let tempArr = [];
-      book.forEach((section) => {
-        tempArr = [...tempArr, ...section];
+      book.forEach((section, index) => {
+        if (options.subs[bookName][index] === true) {
+          tempArr = [...tempArr, ...section];
+        }
       });
       newArr.push({ [bookName]: tempArr });
     });
@@ -90,26 +96,66 @@ const Main = ({ options, data, score, setScore }) => {
     }
   };
 
-  useEffect(() => {
-    console.log(score, answer);
-  }, [score, answer]);
-
-  const handleNext = (choice) => {
-    if (choice === answer) setScore((prevState) => prevState + 1);
-    const book = questions[bookIndex];
+  const handleNext = (choice, e) => {
+    updateChoicesBackground();
     if (
-      bookIndex < questions.length &&
-      pageIndex === book[Object.keys(book)].length - 1
+      choice === answer &&
+      !e.target.classList.contains("incorrect") &&
+      !e.target.classList.contains("correct")
     ) {
-      console.log("ONE");
-      setBookIndex((prevState) => prevState + 1);
-      setPageIndex(0);
-    } else if (pageIndex < book[Object.keys(book)].length - 1) {
-      console.log("TWO");
-      setPageIndex((prevState) => prevState + 1);
-    } else {
-      navigate("/score");
+      setScore((prevState) => prevState + 1);
     }
+    if (choicesContainerRef.current.classList.contains("next")) {
+      const book = questions[bookIndex];
+      if (
+        bookIndex < questions.length - 1 &&
+        pageIndex === book[Object.keys(book)].length - 1
+      ) {
+        setBookIndex((prevState) => prevState + 1);
+        setPageIndex(0);
+      } else if (pageIndex < book[Object.keys(book)].length - 1) {
+        setPageIndex((prevState) => prevState + 1);
+      } else {
+        navigate("/score");
+      }
+      resetChoicesBackground();
+    } else choicesContainerRef.current.classList.add("next");
+  };
+
+  const updateChoicesBackground = () => {
+    aRef.current.classList.add("incorrect");
+    bRef.current.classList.add("incorrect");
+    cRef.current.classList.add("incorrect");
+    dRef.current?.classList.add("incorrect");
+    switch (answer) {
+      case "a":
+        aRef.current.classList.add("correct");
+        aRef.current.classList.remove("incorrect");
+        break;
+      case "b":
+        bRef.current.classList.add("correct");
+        bRef.current.classList.remove("incorrect");
+        break;
+      case "c":
+        cRef.current.classList.add("correct");
+        cRef.current.classList.remove("incorrect");
+        break;
+      default:
+        dRef.current?.classList.add("correct");
+        dRef.current?.classList.remove("incorrect");
+    }
+  };
+
+  const resetChoicesBackground = () => {
+    aRef.current.classList.remove("correct");
+    aRef.current.classList.remove("incorrect");
+    bRef.current.classList.remove("correct");
+    bRef.current.classList.remove("incorrect");
+    cRef.current.classList.remove("correct");
+    cRef.current.classList.remove("incorrect");
+    dRef.current?.classList.remove("correct");
+    dRef.current?.classList.remove("incorrect");
+    choicesContainerRef.current.classList.remove("next");
   };
 
   const handleTime = () => {};
@@ -131,21 +177,21 @@ const Main = ({ options, data, score, setScore }) => {
           <p className="bookFlag">{bookFlag}</p>
           <p className="question">{question}</p>
         </div>
-        <div className="choices">
-          <div onClick={() => handleNext("a")}>
+        <div ref={choicesContainerRef} className="choices">
+          <div ref={aRef} onClick={(e) => handleNext("a", e)}>
             <span>A</span>
             <p>{a}</p>
           </div>
-          <div onClick={() => handleNext("b")}>
+          <div ref={bRef} onClick={(e) => handleNext("b", e)}>
             <span>B</span>
             <p>{b}</p>
           </div>
-          <div onClick={() => handleNext("c")}>
+          <div ref={cRef} onClick={(e) => handleNext("c", e)}>
             <span>C</span>
             <p>{c}</p>
           </div>
           {d && (
-            <div onClick={() => handleNext("d")}>
+            <div ref={dRef} onClick={(e) => handleNext("d", e)}>
               <span>D</span>
               <p>{d}</p>
             </div>

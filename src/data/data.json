@@ -1372,9 +1372,10 @@
       },
       {
         "question": "Changes to the basic design of the fuel or oil system is considered",
-        "a": "Airframe major modification d. Airframe minor modification",
+        "a": "Airframe major modification",
         "b": "A preventive maintenance",
         "c": "Airframe major alteration",
+        "d": "Airframe minor modification",
         "answer": "a"
       },
       {

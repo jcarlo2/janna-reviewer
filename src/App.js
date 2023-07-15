@@ -9,6 +9,7 @@ function App() {
   const [options, setOptions] = useState({
     time: "unlimited",
     shuffle: true,
+    start: false,
     books: {
       airlaw: true,
       engineer: true,
@@ -59,12 +60,11 @@ function App() {
             <Main
               options={options}
               data={data}
-              score={score}
               setScore={setScore}
             />
           }
         />
-        <Route path="score" element={<Score score={score} />} />
+        <Route path="score" element={<Score score={score} isStart={options.start} />} />
       </Routes>
     </>
   );

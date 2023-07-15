@@ -16,7 +16,7 @@ const Option = ({ books, setOptions, options }) => {
 
   useEffect(() => {
     setOptions({
-      time: 'unlimited',
+      time: "unlimited",
       shuffle: true,
       books: {
         airlaw: true,
@@ -29,11 +29,25 @@ const Option = ({ books, setOptions, options }) => {
         airlaw: [true, true, true, true, true, true, true],
         engineer: [true, true, true, true, true, true, true, true, true, true],
         airframe: [true, true, true, true, true, true, true, true, true],
-        aircraft: [true, true, true, true, true, true, true, true, true, true, true, true, true],
+        aircraft: [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+        ],
         powerplant: [true, true, true, true, true, true, true, true],
-      }
-    })
-  },[]);
+      },
+    });
+  }, []);
 
   const handleCheckBoxOnChange = (isBooks, bookName, num) => {
     if (isBooks) {
@@ -375,6 +389,10 @@ const Option = ({ books, setOptions, options }) => {
           value="Start"
           onClick={() => {
             if (Object.values(options.books).some((name) => name === true)) {
+              setOptions((prevState) => ({
+                ...prevState,
+                start: true,
+              }));
               navigate("/main");
             } else {
               setError("Select atleast one book");
