@@ -175,7 +175,9 @@ const Main = ({ options, data, setScore }) => {
       <section>
         <div>
           <p className="bookFlag">{bookFlag}</p>
-          <p className="question">{question}</p>
+          <p
+            className="question"
+            dangerouslySetInnerHTML={{ __html: question }}></p>
         </div>
         <div ref={choicesContainerRef} className="choices">
           <div ref={aRef} onClick={(e) => handleNext("a", e)}>

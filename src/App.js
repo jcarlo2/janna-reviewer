@@ -41,32 +41,23 @@ function App() {
   });
   const [score, setScore] = useState(0);
 
-  useEffect(() => {
-    // console.log(data)
-  }, []);
-
   return (
-    <>
-      <Routes>
-        <Route
-          index
-          element={
-            <Option books={data} setOptions={setOptions} options={options} />
-          }
-        />
-        <Route
-          path="main"
-          element={
-            <Main
-              options={options}
-              data={data}
-              setScore={setScore}
-            />
-          }
-        />
-        <Route path="score" element={<Score score={score} isStart={options.start} />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route
+        index
+        element={
+          <Option books={data} setOptions={setOptions} options={options} />
+        }
+      />
+      <Route
+        path="main"
+        element={<Main options={options} data={data} setScore={setScore} />}
+      />
+      <Route
+        path="score"
+        element={<Score score={score} isStart={options.start} />}
+      />
+    </Routes>
   );
 }
 

@@ -47,7 +47,7 @@ const Option = ({ books, setOptions, options }) => {
         powerplant: [true, true, true, true, true, true, true, true],
       },
     });
-  }, []);
+  }, [setOptions]);
 
   const handleCheckBoxOnChange = (isBooks, bookName, num) => {
     if (isBooks) {
@@ -388,14 +388,23 @@ const Option = ({ books, setOptions, options }) => {
           type="button"
           value="Start"
           onClick={() => {
-            if (Object.values(options.books).some((name) => name === true)) {
+            const isBookSelected = Object.values(options.books).some(
+              (name) => name === true
+            );
+            let isSectionSelected = false 
+            Object.keys(options.subs).forEach((name) => {
+              options.subs[name].forEach((section) => {
+                if(section && options.books[name]) isSectionSelected = true
+              });
+            });
+            if (isBookSelected && isSectionSelected) {
               setOptions((prevState) => ({
                 ...prevState,
                 start: true,
               }));
               navigate("/main");
             } else {
-              setError("Select atleast one book");
+              setError("Select at least one book and section");
             }
           }}
         />

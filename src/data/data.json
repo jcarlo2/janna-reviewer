@@ -221,7 +221,7 @@
         "answer": "a"
       },
       {
-        "question": "An aircraft owner was provided a list of discrepancies on an aircraft that was not approved for return to service after an annual inspection. Which of the following statements is/are true concerning who may correct the discrepancies? 1. Only a mechanic with an inspection authorization 2. An appropriately rated mechanic 3. Any certified repair station",
+        "question": "An aircraft owner was provided a list of discrepancies on an aircraft that was not approved for return to service after an annual inspection. Which of the following statements is/are true concerning who may correct the discrepancies? <br/> 1. Only a mechanic with an inspection authorization 2. An appropriately rated mechanic 3. Any certified repair station",
         "a": "2&3",
         "b": "2",
         "c": "1",

@@ -6,8 +6,8 @@ const Score = ({ score, isStart }) => {
 
   useEffect(() => {
     if (!isStart) navigate("/");
-  }, []);
-  
+  }, [isStart, navigate]);
+
   return (
     <div className="score">
       <h1>Score</h1>
