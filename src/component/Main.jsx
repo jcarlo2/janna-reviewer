@@ -17,6 +17,10 @@ const Main = ({ options, data, setScore }) => {
   const [d, setD] = useState();
   const [answer, setAnswer] = useState("");
   const [bookFlag, setBookFlag] = useState("");
+  const [timeInterval, setTimeInterval] = useState(-1);
+  const [time, setTime] = useState({ minute: 0, second: 0 });
+  const [timeoutNext, setTimeoutNext] = useState(false);
+  const [nextBookTimeout, setNextBookTimeout] = useState(-1);
   const aRef = useRef();
   const bRef = useRef();
   const cRef = useRef();
@@ -25,6 +29,52 @@ const Main = ({ options, data, setScore }) => {
 
   useEffect(() => {
     if (!options.start) navigate("/");
+    handleQuestions();
+  }, []);
+
+  useEffect(() => {
+    handleTime();
+    setTimeoutNext(true);
+    return () => clearInterval(timeInterval);
+  }, [answer, question]);
+
+  useEffect(() => {
+    const set = options.time;
+    const minute = time.minute;
+    const second = time.second;
+    let target;
+    const isNextBook = set === "hour" && minute === -99 && second === -99;
+
+    if (answer === "a") target = aRef;
+    else if (answer === "b") target = bRef;
+    else if (answer === "c") target = cRef;
+    else target = dRef;
+
+    if (minute === -99 && second === -99 && timeoutNext && !isNextBook) {
+      handleNext(answer, target, true);
+      setTimeoutNext(false);
+    }else if (isNextBook && bookIndex < questions.length - 1) {
+      setBookIndex((prevState) => prevState + 1);
+      setPageIndex(0);
+    } else if(isNextBook && bookIndex === questions.length - 1) navigate('/score')
+  }, [time]);
+
+  useEffect(() => {
+    setQuestion(
+      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex]
+        .question
+    );
+    setA(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].a);
+    setB(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].b);
+    setC(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].c);
+    setD(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].d);
+    setAnswer(
+      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].answer
+    );
+    setBookFlag(Object.keys(questions[bookIndex])[0]);
+  }, [questions, bookIndex, pageIndex]);
+
+  const handleQuestions = () => {
     const booksName = Object.keys(options.books).filter(
       (name) => options.books[name] === true
     );
@@ -45,22 +95,7 @@ const Main = ({ options, data, setScore }) => {
     if (options.shuffle) initShuffle(questionSet);
     const newArr = convertToOneArray(questionSet);
     setQuestions(newArr);
-  }, []);
-
-  useEffect(() => {
-    setQuestion(
-      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex]
-        .question
-    );
-    setA(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].a);
-    setB(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].b);
-    setC(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].c);
-    setD(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].d);
-    setAnswer(
-      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].answer
-    );
-    setBookFlag(Object.keys(questions[bookIndex])[0]);
-  }, [questions, bookIndex, pageIndex]);
+  };
 
   const convertToOneArray = (arr) => {
     let newArr = [];
@@ -96,12 +131,13 @@ const Main = ({ options, data, setScore }) => {
     }
   };
 
-  const handleNext = (choice, e) => {
+  const handleNext = (choice, target, isTimeout) => {
     updateChoicesBackground();
     if (
       choice === answer &&
-      !e.target.classList.contains("incorrect") &&
-      !e.target.classList.contains("correct")
+      !target?.current.classList.contains("incorrect") &&
+      !target?.current.classList.contains("correct") &&
+      !isTimeout
     ) {
       setScore((prevState) => prevState + 1);
     }
@@ -158,7 +194,43 @@ const Main = ({ options, data, setScore }) => {
     choicesContainerRef.current.classList.remove("next");
   };
 
-  const handleTime = () => {};
+  const handleTime = () => {
+    clearInterval(timeInterval);
+    const set = options.time;
+    if (set === "half") {
+      setTime({
+        minute: 0,
+        second: 30,
+      });
+    } else if (set === "full") {
+      setTime({
+        minute: 1,
+        second: 0,
+      });
+    } else if (set === "hour") {
+      setTime({
+        minute: 60,
+        second: 0,
+      });
+    }
+    const interval = setInterval(() => {
+      setTime((prevState) => ({
+        minute:
+          prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
+            ? prevState.minute - 1
+            : prevState.minute === 0 && prevState.second - 1 < 0
+            ? -99
+            : prevState.minute,
+        second:
+          prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
+            ? 59
+            : prevState.second - 1 < 0
+            ? -99
+            : prevState.second - 1,
+      }));
+    }, 1000);
+    setTimeInterval(interval);
+  };
 
   return (
     <div className="main">
@@ -166,7 +238,11 @@ const Main = ({ options, data, setScore }) => {
         <button onDoubleClick={() => navigate("/")}>
           <i></i>
         </button>
-        <p className="time">60 : 00</p>
+        {options.time !== "unlimited" && (
+          <p className="time">
+            {time.minute} : {time.second}
+          </p>
+        )}
         <p>
           {pageIndex + 1} /{" "}
           {questions[bookIndex][Object.keys(questions[bookIndex])].length}
@@ -180,20 +256,20 @@ const Main = ({ options, data, setScore }) => {
             dangerouslySetInnerHTML={{ __html: question }}></p>
         </div>
         <div ref={choicesContainerRef} className="choices">
-          <div ref={aRef} onClick={(e) => handleNext("a", e)}>
+          <div ref={aRef} onClick={() => handleNext("a", aRef, false)}>
             <span>A</span>
             <p>{a}</p>
           </div>
-          <div ref={bRef} onClick={(e) => handleNext("b", e)}>
+          <div ref={bRef} onClick={() => handleNext("b", bRef, false)}>
             <span>B</span>
             <p>{b}</p>
           </div>
-          <div ref={cRef} onClick={(e) => handleNext("c", e)}>
+          <div ref={cRef} onClick={() => handleNext("c", cRef, false)}>
             <span>C</span>
             <p>{c}</p>
           </div>
           {d && (
-            <div ref={dRef} onClick={(e) => handleNext("d", e)}>
+            <div ref={dRef} onClick={() => handleNext("d", dRef, false)}>
               <span>D</span>
               <p>{d}</p>
             </div>

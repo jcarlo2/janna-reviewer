@@ -221,7 +221,7 @@
         "answer": "a"
       },
       {
-        "question": "An aircraft owner was provided a list of discrepancies on an aircraft that was not approved for return to service after an annual inspection. Which of the following statements is/are true concerning who may correct the discrepancies? <br/> 1. Only a mechanic with an inspection authorization 2. An appropriately rated mechanic 3. Any certified repair station",
+        "question": "An aircraft owner was provided a list of discrepancies on an aircraft that was not approved for return to service after an annual inspection. Which of the following statements is/are true concerning who may correct the discrepancies? <br/> 1. Only a mechanic with an inspection authorization <br/>2. An appropriately rated mechanic 3. Any certified repair station",
         "a": "2&3",
         "b": "2",
         "c": "1",
@@ -342,14 +342,14 @@
     ],
     "MAINTENANCE PUBLICATIONS": [
       {
-        "question": "(1) Propellers are NOT included in the Airworthiness Directive system. (2) A certificated powerplant mechanic may make a minor repair on an aluminum propeller and approve for return to service Regarding the above statements,",
+        "question": "(1) Propellers are NOT included in the Airworthiness Directive system. <br/>(2) A certificated powerplant mechanic may make a minor repair on an aluminum propeller and approve for return to service Regarding the above statements,",
         "a": "Only No.2 is true",
         "b": "Both No.1 and No.2 are true",
         "c": "Neither No.1 nor No.2 is true",
         "answer": "a"
       },
       {
-        "question": "(1) The Federal Aviation Regulations require approval after compliance with the data of a Supplemental Type Certificate (2) An installation of an item manufactured in accordance with the Technical Standard Order system requires no further approval for installation in a particular aircraft Regarding the above statements,",
+        "question": "(1) The Federal Aviation Regulations require approval after compliance with the data of a Supplemental Type Certificate <br/>(2) An installation of an item manufactured in accordance with the Technical Standard Order system requires no further approval for installation in a particular aircraft Regarding the above statements,",
         "a": "Only No.2 is true",
         "b": "Neither No.1 nor No.2 is true",
         "c": "Only No.1 is true",
@@ -370,7 +370,7 @@
         "answer": "c"
       },
       {
-        "question": "(1) Manufacturer’s data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data (2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,",
+        "question": "(1) Manufacturer’s data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data <br/>(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,",
         "a": "Both No.1 and No.2 are true",
         "b": "Only No.1 is true",
         "c": "Only No.2 is true",
@@ -510,7 +510,7 @@
         "answer": "c"
       },
       {
-        "question": "The action required by an AD may take what form? 1. Inspection 2. Part(s) replacement 3. Design modification 4. Change in operating procedure(s) 5. Overall change in the content, firm and disposition of the aircraft maintenance records.",
+        "question": "The action required by an AD may take what form? <br/>1. Inspection <br/>2. Part(s) replacement <br/>3. Design modification <br/>4. Change in operating procedure(s) <br/>5. Overall change in the content, firm and disposition of the aircraft maintenance records.",
         "a": "1,2,3 and/or 4",
         "b": "1,2,3 and/or 5",
         "c": "1,2,3,4 and/or 5",
@@ -1163,23 +1163,25 @@
     "AFCAR FIX LETTER D": [
       {
         "question": "Replacement of an autopilot with parts manufactured with approved drawing is considered",
-        "a": "Appliance major repair d. Airframe minor repair",
+        "a": "Appliance major repair",
         "b": "Accessory major repair",
         "c": "Component minor repair",
+        "d": "Airframe minor repair",
         "answer": "a"
       },
       {
         "question": "Replacing any cowling not requiring removal of the propeller or any disconnecting of flight control is considered",
-        "a": "Airframe maintenance repair d. Airframe minor repair",
+        "a": "Airframe maintenance repair",
         "b": "Component minor repair",
         "c": "Preventive maintenance",
+        "d": "Airframe minor repair",
         "answer": "c"
       },
       {
         "question": "Which statement about Airworthiness Directives (AD’s) is true?",
-        "a": "Compliance with an applicable AD is mandatory and must be recorded in the maintenance record the airframe, powerplant, or component manufacturer unless the aircraft is affected is for hire",
-        "b": "AD’s are information alert bullets issued by",
-        "c": "Compliance with an AD is not mandatory",
+        "a": "Compliance with an applicable AD is mandatory and must be recorded",
+        "b": "AD’s are information alert bullets issued by in the maintenance record the airframe, powerplant, or component manufacturer",
+        "c": "Compliance with an AD is not mandatory unless the aircraft is affected is for hire",
         "answer": "a"
       },
       {
@@ -1191,51 +1193,57 @@
       },
       {
         "question": "Modification to basic design of the exhaust system is considered",
-        "a": "Aircraft major alteration d. Powerplant major alteration",
+        "a": "Aircraft major alteration",
         "b": "Airframe major alteration",
         "c": "System major alteration",
+        "d": "Powerplant major alteration",
         "answer": "b"
       },
       {
         "question": "Which is not considered an airframe major alteration?",
-        "a": "Installation of any system affecting the structural airworthiness or control of the aircraft longeron d. A change to the basic design of the hydraulic system",
+        "a": "Installation of any system affecting the structural airworthiness or control of the aircraft longeron",
         "b": "Modification of the wing",
         "c": "Strengthening or reinforcing the fuselage",
+        "d": "A change to the basic design of the hydraulic system",
         "answer": "c"
       },
       {
         "question": "Which statement is correct regarding an aircraft that is found to be not airworthy after an annual inspection, due to an item requiring a major repair (assuming approved data is issued to accomplish the repair)?",
-        "a": "An appropriately approved mechanic or repair station may repair the defect and approve the aircraft for return to service accomplish the repair and an IA may approve the aircraft for return to service inspection may approve the aircraft for return to service after the major repair",
-        "b": "An appropriately rated mechanic may",
-        "c": "Only the person who performed the animal",
+        "a": "An appropriately approved mechanic or repair station may repair the defect and approve the aircraft for return to service",
+        "b": "An appropriately rated mechanic may accomplish the repair and an IA may approve the aircraft for return to service",
+        "c": "Only the person who performed the animal inspection may approve the aircraft for return to service after the major repair",
         "answer": "b"
       },
       {
         "question": "An aircraft that is required by section 91.409 to have a 100 hour inspection may be flown beyond the inspection requirement",
-        "a": "If necessary to reach a place at which the inspection can be accomplished, but a special permit is necessary inspection can be accomplished, but not to exceed 15 flight hours inspection can be accomplished, but not to exceed 10 flight hours d. If necessary to reach a place at which the inspection can be accomplished, but not to exceed 5 flight hours",
-        "b": "If necessary to reach a place at which the",
-        "c": "If necessary to reach a place at which the",
+        "a": "If necessary to reach a place at which the inspection can be accomplished, but a special permit is necessary",
+        "b": "If necessary to reach a place at which the inspection can be accomplished, but not to exceed 15 flight hours",
+        "c": "If necessary to reach a place at which the inspection can be accomplished, but not to exceed 10 flight hours",
+        "d": "If necessary to reach a place at which the inspection can be accomplished, but not to exceed 5 flight hours",
         "answer": "c"
       },
       {
         "question": "The repair station or manufacturer may use a maintenance release of its own design provided the release includes the following",
-        "a": "Make of aircraft, model, serial number, nationality and registration mark, nationality nationality and identification mark d. Make of aircraft, identification mark, type and serial number",
+        "a": "Make of aircraft, model, serial number, nationality and registration mark, nationality nationality and identification mark",
         "b": "Ake of aircraft, identification and registration",
         "c": "Make of aircraft, type, model, serial number,",
+        "d": "Make of aircraft, identification mark, type and serial number",
         "answer": "a"
       },
       {
         "question": "An aircraft that is due an annual inspection may be flown",
-        "a": "For the purpose of performing maintenance aircraft d. For the purpose of obtaining permit",
-        "b": "If special permit has been issued for the",
+        "a": "For the purpose of performing maintenance",
+        "b": "If special permit has been issued for the aircraft",
         "c": "For a period of time not to exceed 10 hours",
+        "d": "For the purpose of obtaining permit",
         "answer": "b"
       },
       {
         "question": "Repair made on the hydraulic/pneumatic system is considered",
-        "a": "An accessory minor repair d. An airframe minor repair",
+        "a": "An accessory minor repair",
         "b": "A preventive maintenance",
         "c": "An airframe major repair",
+        "d": "An airframe minor repair",
         "answer": "d"
       },
       {
@@ -1243,13 +1251,14 @@
         "a": "Airframe minor repair d. Aircraft major alterations",
         "b": "Airframe major alterations",
         "c": "Airframe minor alterations",
+        "d": "Aircraft major alterations",
         "answer": "c"
       },
       {
         "question": "Airframe shall mean",
-        "a": "Any and all kinds of booms, landing gear, empennages, fairing or control of fuselage, booms empennages, nacelles, fairing, cowlings, control surfaces landing gear, or control of whatever description appertaining thereto, but not including powerplant and electrical landing gear, or control of whatever description appertaining thereto but not including powerplant and electrical d. None of the above",
-        "b": "Any kind all kinds contrivance, hull, cowlings,",
-        "c": "Any and all kinds of fuselage, booms, cowling,",
+        "a": "Any and all kinds of booms, landing gear, empennages, fairing or control of fuselage, booms empennages, nacelles, fairing, cowlings, control surfaces",
+        "b": "Any kind all kinds contrivance, hull, cowlings, landing gear, or control of whatever description appertaining thereto, but not including powerplant and electrical",
+        "c": "Any and all kinds of fuselage, booms, cowling, landing gear, or control of whatever description appertaining thereto but not including powerplant and electrical",
         "answer": "a"
       },
       {
@@ -1278,6 +1287,7 @@
         "a": "Supervising aircraft mechanic d. Direct supervision",
         "b": "Mechanic aide",
         "c": "Under supervision",
+        "d": "Direct supervision",
         "answer": "d"
       },
       {
@@ -1296,8 +1306,10 @@
       },
       {
         "question": "The maximum time a 100-hour inspection may be extended is",
-        "a": "undefined d.10 hours",
+        "a": "10 hours with a special flight permit",
+        "b": "12 hours with a special flight permit",
         "c": "15 hours with a special flight permit",
+        "d": "10 hours",
         "answer": "d"
       },
       {
@@ -1319,13 +1331,15 @@
         "a": "Airframe rating only inspection authorization d. Airframe and powerplant ratings",
         "b": "Airframe and powerplant ratings with an",
         "c": "Powerplant rating only",
+        "d": "Airframe and powerplant ratings",
         "answer": "d"
       },
       {
         "question": "Who is authorized among the following to perform maintenance Preventive maintenance, repair or alteration on civil aircraft of the Philippine registry",
-        "a": "Licensed pilot who owns and operates the aircraft that is not used in an air carrier service under the supervision of the licensed mechanic d. All of the above",
-        "b": "A licensed aircraft mechanic or a person working",
+        "a": "LLicensed pilot who owns and operates the aircraft that is not used in an air carrier service",
+        "b": "A licensed aircraft mechanic or a person working under the supervision of the licensed mechanic ",
         "c": "An appropriate rated repair station",
+        "d": "All of the above",
         "answer": "d"
       },
       {
@@ -1361,6 +1375,7 @@
         "a": "Box beams d. Wing and control surface fairings",
         "b": "Wing or tail surface brace-struts",
         "c": "Main seat support brace and brackets",
+        "d": "Wing and control surface fairings",
         "answer": "d"
       },
       {
@@ -1368,6 +1383,7 @@
         "a": "The repair of the leading edge of the wing and control surface between two adjacent wing and control surface ribs type covering exceeding at least (10) inches in any direction d. The repair damaged areas in the plywood stressed covering exceeding (6) inches in any direction",
         "b": "The repair of a control surface ribs of a convenient",
         "c": "The repair of damaged areas in the stressed",
+        "d": "The repair damaged areas in the plywood stressed covering exceeding (6) inches in any direction",
         "answer": "d"
       },
       {
@@ -1390,6 +1406,7 @@
         "a": "Progressive maintenance d. Preventive maintenance",
         "b": "Airframe minor repair",
         "c": "Routine maintenance",
+        "d": "Preventive maintenance",
         "answer": "d"
       },
       {
@@ -1529,9 +1546,9 @@
       },
       {
         "question": "The owner of an aircraft or, in the case of a leased aircraft, the lessee, shall be responsible for maintaining the aircraft in an airworthy condition",
-        "a": "All maintenance, overhaul, modifications and repairs which affect airworthiness are performed as prescribed by the State of Registry appropriate entries in the aircraft maintenance records certifying that the aircraft is airworthy certify that the maintenance work performed has been completed satisfactorily and in accordance with the prescribed method d. All of the above",
-        "b": "Authorized maintenance personnel make",
-        "c": "A maintenance release is completed to the",
+        "a": "All maintenance, overhaul, modifications and repairs which affect airworthiness are performed as prescribed by the State of Registry",
+        "b": "Authorized maintenance personnel make appropriate entries in the aircraft maintenance records certifying that the aircraft is airworthy ",
+        "c": "A maintenance release is completed to the certify that the maintenance work performed has been completed satisfactorily and in cordance with the prescribed method",
         "answer": "d"
       },
       {
@@ -2241,7 +2258,7 @@
         "answer": "a"
       },
       {
-        "question": "Which of the following factors must be taken into consideration when determining the wire size to use for an aircraft installation? 1. Mechanical strength. 2. Allowable power loss. 3. Ease of installation. 4. Resistance of current return path through the aircraft structure. 5. Permissible voltage drop. 6. Current carrying capability of the conductor. 7. Type of load (continuous or intermittent).",
+        "question": "Which of the following factors must be taken into consideration when determining the wire size to use for an aircraft installation? <br/>1. Mechanical strength. <br/>2. Allowable power loss. <br/>3. Ease of installation. <br/>4. Resistance of current return path through the aircraft structure. <br/>5. Permissible voltage drop. <br/>6. Current carrying capability of the conductor. <br/>7. Type of load (continuous or intermittent).",
         "a": "2,5,6,7.",
         "b": "1,2,4,5.",
         "c": "2,4, 6,7.",
@@ -2332,7 +2349,7 @@
         "answer": "b"
       },
       {
-        "question": "(1) There are three basic types of dc motors; series, shunt, and compound.  (2) In the series motor, the field windings, consisting of relatively few, turns of heavy wire, are connected in series with the armature winding.  Regarding the above statements,",
+        "question": "(1) There are three basic types of dc motors; series, shunt, and compound.  <br/>(2) In the series motor, the field windings, consisting of relatively few, turns of heavy wire, are connected in series with the armature winding.  Regarding the above statements,",
         "a": "only No. 1 is true.",
         "b": "only No. 2 is true.",
         "c": "both No. 1 and No. 2 are true.",
@@ -2570,7 +2587,7 @@
         "answer": "a"
       },
       {
-        "question": "Which of the following are the major parts of a dc motor? 1. Armature assembly. 2. Field assembly. 3. Brush assembly. 4. Commutator. 5. Pole piece. 6. Rheostat. 7. End frame.",
+        "question": "Which of the following are the major parts of a dc motor? <br/>1. Armature assembly. <br/>2. Field assembly. <br/>3. Brush assembly. <br/>4. Commutator. <br/>5. Pole piece. <br/>6. Rheostat. <br/>7. End frame.",
         "a": "1, 2, 3, 7.",
         "b": "2,3,4,5.",
         "c": "3,5,6,7.",
@@ -2766,7 +2783,7 @@
         "answer": "c"
       },
       {
-        "question": "What is the voltage drop for a No. 18 copper wire 50 feet long to carry 12.5 amperes, continuous operation? Use the formula VD = RLA VD = Voltage drop R = Resistance per ft = .00644 L = Length of wire A = Amperes",
+        "question": "What is the voltage drop for a No. 18 copper wire 50 feet long to carry 12.5 amperes, continuous operation? Use the formula <br/>VD = RLA VD = Voltage drop <br/>R = Resistance per ft = .00644 <br/>L = Length of wire <br/>A = Amperes",
         "a": "1/2V.",
         "b": "1V",
         "c": "4V.",
@@ -2787,7 +2804,7 @@
         "answer": "c"
       },
       {
-        "question": "When selecting hardware for attaching bonding connections to an aircraft structure, which of the following should be considered? 1. Mechanical strength. 2. Allowable power loss. 3. Ease of installation. 4. Permissible voltage drop. 5. Amount of current to be carried. 6. Type of load (continuous or intermittent).",
+        "question": "When selecting hardware for attaching bonding connections to an aircraft structure, which of the following should be considered? <br/>1. Mechanical strength. <br/>2. Allowable power loss. <br/>3. Ease of installation. <br/>4. Permissible voltage drop. <br/>5. Amount of current to be carried. <br/>6. Type of load (continuous or intermittent).",
         "a": "1, 3 , 5",
         "b": "4, 5, 6",
         "c": "1, 3, 3",
@@ -3069,7 +3086,7 @@
         "answer": "a"
       },
       {
-        "question": "Which instruments are connected to an aircraft’s static pressure system only? i. Vertical speed indicator. ii. Cabin altimeter. iii. Altimeter. iv. Cabin rate-of-change indicator. v. Airspeed indicator.",
+        "question": "Which instruments are connected to an aircraft’s static pressure system only? <br/>i. Vertical speed indicator. <br/>ii. Cabin altimeter. <br/>iii. Altimeter. <br/>iv. Cabin rate-of-change indicator. <br/>v. Airspeed indicator.",
         "a": "i and iii.",
         "b": "ii, iv, and v.",
         "c": "ii and iv.",
@@ -3083,7 +3100,7 @@
         "answer": "b"
       },
       {
-        "question": "Which instrument condition is acceptable and would not require correction? i. Red line missing. ii. Case leaking. iii. Glass cracked. iv. Mounting screws loose. v. Case paint chipped. vi. Leaking at line B nut. vii. Will not zero out. viii. Fogged.",
+        "question": "Which instrument condition is acceptable and would not require correction? <br/>i. Red line missing. <br/>ii. Case leaking. <br/>iii. Glass cracked. <br/>iv. Mounting screws loose. <br/>v. Case paint chipped. <br/>vi. Leaking at line B nut. <br/>vii. Will not zero out. <br/>viii. Fogged.",
         "a": "i",
         "b": "v",
         "c": "None",
@@ -3146,7 +3163,7 @@
         "answer": "c"
       },
       {
-        "question": "When an unpressurized aircraft’s static pressure system is leak checked to comply with the requirements of Section 91.411, what aircraft instrument maybe used in lieu of a pitot-static system tester? 1. Vertical speed indicator. 2. Cabin altimeter. 3. Altimeter. 4. Cabin rate-of-change indicator. 5. Airspeed indicator.",
+        "question": "When an unpressurized aircraft’s static pressure system is leak checked to comply with the requirements of Section 91.411, what aircraft instrument maybe used in lieu of a pitot-static system tester? <br/>1. Vertical speed indicator. <br/>2. Cabin altimeter. <br/>3. Altimeter. <br/>4. Cabin rate-of-change indicator. <br/>5. Airspeed indicator.",
         "a": "1 or 5.",
         "b": "2 or 4.",
         "c": "3",
@@ -3160,21 +3177,21 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following instrument discrepancies could be corrected by an aviation mechanic? 1. Red line missing. 2. Case leaking. 3. Glass cracked. 4. Mounting screws loose. 5. Case paint chipped. 6. Leaking at line B nut. 7. Will not adjust. 8. Fogged.",
+        "question": "Which of the following instrument discrepancies could be corrected by an aviation mechanic? <br/>1. Red line missing. <br/>2. Case leaking. <br/>3. Glass cracked. <br/>4. Mounting screws loose. <br/>5. Case paint chipped. <br/>6. Leaking at line B nut. <br/>7. Will not adjust. <br/>8. Fogged.",
         "a": "1, 4, 6.",
         "b": "3,4,5,6.",
         "c": "1,4,5,6.",
         "answer": "c"
       },
       {
-        "question": "Who is authorized to repair an aircraft instrument? 1. A certified mechanic with an airframe rating. 2. A certificated repairman with an airframe rating. 3. A certificated repair station approved for that class instrument. 4. A certificated airframe repair station.",
+        "question": "Who is authorized to repair an aircraft instrument? <br/>1. A certified mechanic with an airframe rating. <br/>2. A certificated repairman with an airframe rating. <br/>3. A certificated repair station approved for that class instrument. <br/>4. A certificated airframe repair station.",
         "a": "1,2,3 and 4",
         "b": "3 and 4",
         "c": "3",
         "answer": "c"
       },
       {
-        "question": "A Bourdon tube instrument may be used to indicate 1. pressure. 2. temperature. 3. position.",
+        "question": "A Bourdon tube instrument may be used to indicate <br/>1. pressure. <br/>2. temperature. <br/>3. position.",
         "a": "1 and 2.",
         "b": "1",
         "c": "2 and 3",
@@ -3216,7 +3233,7 @@
         "answer": "c"
       },
       {
-        "question": "How many of the following are controlled by gyroscopes? 1. Attitude indicator. 2. Heading indicator. 3. Turn needle of the turn-and-slip indicator.",
+        "question": "How many of the following are controlled by gyroscopes? <br/>1. Attitude indicator. <br/>2. Heading indicator. <br/>3. Turn needle of the turn-and-slip indicator.",
         "a": "Three.",
         "b": "Two.",
         "c": "One.",
@@ -3272,7 +3289,7 @@
         "answer": "b"
       },
       {
-        "question": "Which instruments are connected to an aircraft’s pitot-static system? 1. Vertical speed indicator. 2. Cabin altimeter. 3. Altimeter. 4. Cabin rate-of-change indicator. 5. Airspeed indicator.",
+        "question": "Which instruments are connected to an aircraft’s pitot-static system? <br/>1. Vertical speed indicator. <br/>2. Cabin altimeter. <br/>3. Altimeter. <br/>4. Cabin rate-of-change indicator. <br/>5. Airspeed indicator.",
         "a": "1,2,3,4, and 5.",
         "b": "1,2, and 4.",
         "c": "1,3, and 5.",
@@ -3307,7 +3324,7 @@
         "answer": "a"
       },
       {
-        "question": "Where may a person look for the information necessary to determine the required markings on an engine instrument? 1. Engine manufacturer’s specifications. 2. Aircraft flight manual.  3. Instrument manufacturer’s specifications. 4. Aircraft maintenance manual.",
+        "question": "Where may a person look for the information necessary to determine the required markings on an engine instrument? <br/>1. Engine manufacturer’s specifications. <br/>2. Aircraft flight manual.  <br/>3. Instrument manufacturer’s specifications. <br/>4. Aircraft maintenance manual.",
         "a": "2 or 4.",
         "b": "1 or 4.",
         "c": "2 or 3.",
@@ -3335,7 +3352,7 @@
         "answer": "c"
       },
       {
-        "question": "(1) Aircraft instruments are color-coded to direct attention to operational ranges and limitations. (2) Aircraft instruments range markings are not specified by Title 14 of the Code of Federal Regulations but are standardized by aircraft manufacturers. Regarding the above statements,",
+        "question": "(1) Aircraft instruments are color-coded to direct attention to operational ranges and limitations. <br/>(2) Aircraft instruments range markings are not specified by Title 14 of the Code of Federal Regulations but are standardized by aircraft manufacturers. Regarding the above statements,",
         "a": "only No. 1 is true.",
         "b": "only No. 2 is true.",
         "c": "both No. 1 and No. 2 are true.",
@@ -3349,7 +3366,7 @@
         "answer": "a"
       },
       {
-        "question": "Resistance-type temperature indicators using Wheatstone bridge or ratiometer circuits may be used to indicate the temperatures of which of the fo1lowing? 1. Free air. 2. Exhaust gas temperature. 3. Carburetor air. 4. Coolant (engine). 5. Oil temperature. 6. Cylinder head temperature.",
+        "question": "Resistance-type temperature indicators using Wheatstone bridge or ratiometer circuits may be used to indicate the temperatures of which of the fo1lowing? <br/>1. Free air. <br/>2. Exhaust gas temperature. <br/>3. Carburetor air. <br/>4. Coolant (engine). <br/>5. Oil temperature. <br/>6. Cylinder head temperature.",
         "a": "1, 2, 3, 4, 5, and 6.",
         "b": "1,3, 4,and 5.",
         "c": "1,2,3 and 6.",
@@ -3377,7 +3394,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following instrument discrepancies would require replacement of the instrument? 1. Red line missing. 2. Case leaking. 3. Glass cracked. 4. Mounting screws loose. 5. Case paint chipped. 6. Leaking at line B nut. 7. Will not zero out. 8. Fogged.",
+        "question": "Which of the following instrument discrepancies would require replacement of the instrument? <br/>1. Red line missing. <br/>2. Case leaking. <br/>3. Glass cracked. <br/>4. Mounting screws loose. <br/>5. Case paint chipped. <br/>6. Leaking at line B nut. <br/>7. Will not zero out. <br/>8. Fogged.",
         "a": "2,3,7,8.",
         "b": "1,4,6,7.",
         "c": "1, 3,5,8.",
@@ -3554,7 +3571,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following instrument discrepancies require replacement of the instrument? 1. Red line missing from glass 2. Glass cracked 3. Case paint chipped 4. Will not zero out 5. Pointer loose on shaft 6. Mounting screw loose 7. Leaking at line B nut 8. Fogged",
+        "question": "Which of the following instrument discrepancies require replacement of the instrument? <br/>1. Red line missing from glass <br/>2. Glass cracked <br/>3. Case paint chipped <br/>4. Will not zero out <br/>5. Pointer loose on shaft <br/>6. Mounting screw loose <br/>7. Leaking at line B nut <br/>8. Fogged",
         "a": "2,3,7,8",
         "b": "2,4,5,8",
         "c": "1,2,4,7",
@@ -3575,7 +3592,7 @@
         "answer": "a"
       },
       {
-        "question": "(1) Powerplant instrument range markings show whether the current state of powerplant operation is normal, acceptable for a limited time, or unauthorized. (2) Powerplant instrument range makings are based are based on installed engine operating limits which may not exceed (but necessarily equal to) those limits shown on the engine Type Certificate Data Sheet. Regarding the above statements,",
+        "question": "(1) Powerplant instrument range markings show whether the current state of powerplant operation is normal, acceptable for a limited time, or unauthorized. <br/>(2) Powerplant instrument range makings are based are based on installed engine operating limits which may not exceed (but necessarily equal to) those limits shown on the engine Type Certificate Data Sheet. Regarding the above statements,",
         "a": "Both No. 1 & No. 2 are true",
         "b": "Neither No. 1 nor No. 2 Is true",
         "c": "Only No. 1 is true",
@@ -3610,7 +3627,7 @@
         "answer": "c"
       },
       {
-        "question": "(1) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure to the engine inlet air pressure, and indicates the thrust produced. (2) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure in the engine inlet air pressure, and indicates volumetric efficiency. Regarding the above statements,",
+        "question": "(1) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure to the engine inlet air pressure, and indicates the thrust produced. <br/>(2) Engine pressure ratio (EPR) is a ratio of the exhaust gas pressure in the engine inlet air pressure, and indicates volumetric efficiency. Regarding the above statements,",
         "a": "Only No. 1 is true",
         "b": "Only No. 2 is true",
         "c": "Bothe No. 1 & No. 2 are true",
@@ -3687,7 +3704,7 @@
         "answer": "c"
       },
       {
-        "question": "A bourdon-tube instrument may be used to indicate 1. Pressure 2. Temperature 3. Position 4. Quantity",
+        "question": "A bourdon-tube instrument may be used to indicate <br/>1. Pressure <br/>2. Temperature <br/>3. Position <br/>4. Quantity",
         "a": "1 and 2",
         "b": "1 and 3",
         "c": "2 and 4",
@@ -3785,7 +3802,7 @@
         "answer": "c"
       },
       {
-        "question": "(1) Generally, when a turbine engine indicates high EGT for a particular EPR (when there is no significant damage), it means that the engine is out of trim (2) Some turbine-powered aircraft use RPM as the primary indicator of thrust produced, others use EPR as the primary indicator Regarding the above statements,",
+        "question": "(1) Generally, when a turbine engine indicates high EGT for a particular EPR (when there is no significant damage), it means that the engine is out of trim <br/>(2) Some turbine-powered aircraft use RPM as the primary indicator of thrust produced, others use EPR as the primary indicator Regarding the above statements,",
         "a": "Only No. 1 is true",
         "b": "Only No. 2 is true",
         "c": "Both No. 1 and No.2 is true",
@@ -3813,7 +3830,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following instrument conditions is acceptable and does not require immediate correction? 1. Red line missing 2. Pointer loose on shaft 3. Glass cracked 4. Mounting screws loose 5. Case paint chipped 6. Leaking at line B nut 7. Will not zero out 8. Fogged",
+        "question": "Which of the following instrument conditions is acceptable and does not require immediate correction? <br/>1. Red line missing <br/>2. Pointer loose on shaft <br/>3. Glass cracked <br/>4. Mounting screws loose <br/>5. Case paint chipped <br/>6. Leaking at line B nut <br/>7. Will not zero out <br/>8. Fogged",
         "a": "1",
         "b": "4",
         "c": "5",
@@ -3848,7 +3865,7 @@
         "answer": "b"
       },
       {
-        "question": "In addition to fuel quantity, a computerized fuel system (CFS) with a totalizer-indicator provides indication of how many of the following? 1. Fuel flow rate 2. Fuel used since reset or initial start-up 3. Fuel time remaining at current power setting 4. Fuel temperature",
+        "question": "In addition to fuel quantity, a computerized fuel system (CFS) with a totalizer-indicator provides indication of how many of the following? <br/>1. Fuel flow rate <br/>2. Fuel used since reset or initial start-up <br/>3. Fuel time remaining at current power setting <br/>4. Fuel temperature",
         "a": "Two",
         "b": "Three",
         "c": "Four",
@@ -3892,7 +3909,7 @@
         "answer": "c"
       },
       {
-        "question": "Which statement (s) about Military Standard (MS) flareless fittings is/are correct? 1. During installation, MS flareless fittings are normally tightened by turning the nut a specified amount, rather than being torqued 2. New MS flareless tubing/fittings should be assembled clean and dry without lubrication 3. During installation, MS flareless fittings are normally tightened by applying a specified torque to the nut",
+        "question": "Which statement (s) about Military Standard (MS) flareless fittings is/are correct? <br/>1. During installation, MS flareless fittings are normally tightened by turning the nut a specified amount, rather than being torqued <br/>2. New MS flareless tubing/fittings should be assembled clean and dry without lubrication <br/>3. During installation, MS flareless fittings are normally tightened by applying a specified torque to the nut",
         "a": "1",
         "b": "1 and 2",
         "c": "3",
@@ -3906,7 +3923,7 @@
         "answer": "b"
       },
       {
-        "question": "From the following sequences of steps, indicate the proper order you would use to make a single flare on a piece of tubing 1. Place the tube in the proper size hole in the flaring block 2. Project the end of the tube slightly from the top of the flaring tool, about the thickness of a dime 3. Slip the fitting nut and sleeve on the tube 4. Strike the plunger several light blows with a lightweight hammer or mallet and turn the plunger one-half turn after each blow 5. Tightened the clamp bar securely to prevent slippage 6. Center the plunger or flaring pin over the tube",
+        "question": "From the following sequences of steps, indicate the proper order you would use to make a single flare on a piece of tubing <br/>1. Place the tube in the proper size hole in the flaring block <br/>2. Project the end of the tube slightly from the top of the flaring tool, about the thickness of a dime <br/>3. Slip the fitting nut and sleeve on the tube <br/>4. Strike the plunger several light blows with a lightweight hammer or mallet and turn the plunger one-half turn after each blow <br/>5. Tightened the clamp bar securely to prevent slippage 6. Center the plunger or flaring pin over the tube",
         "a": "1,3,5,2,4,6",
         "b": "3,1,6,2,5,4",
         "c": "3,1,2,6,5,4",
@@ -3941,7 +3958,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following hose materials are compatible with phosphate-ester base hydraulic fluids? 1. Butyl 2. Teflon 3. Buna-N 4. Neoprene",
+        "question": "Which of the following hose materials are compatible with phosphate-ester base hydraulic fluids? <br/>1. Butyl <br/>2. Teflon <br/>3. Buna-N <br/>4. Neoprene",
         "a": "1 and 2",
         "b": "2 and 4",
         "c": "1 and 3",
@@ -4046,7 +4063,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following statements is/are correct in reference to flare fittings? 1. AN fittings have an identifying shoulder between the end of the threads and the flare cone 2. AC and AN fittings are considered identical except for material composition and identifying colors 3. AN fittings are generally interchangeable with AC fittings of compatible material composition",
+        "question": "Which of the following statements is/are correct in reference to flare fittings? <br/>1. AN fittings have an identifying shoulder between the end of the threads and the flare cone <br/>2. AC and AN fittings are considered identical except for material composition and identifying colors <br/>3. AN fittings are generally interchangeable with AC fittings of compatible material composition",
         "a": "1",
         "b": "1 and 3",
         "c": "1,2 and 3",
@@ -4197,7 +4214,7 @@
         "answer": "b"
       },
       {
-        "question": "How many of these factors are considered essential knowledge for x-ray exposure? i. Processing of the film ii. Material thickness and density iii. Exposure distance and angle iv. Film characteristics",
+        "question": "How many of these factors are considered essential knowledge for x-ray exposure? <br/>i. Processing of the film <br/>ii. Material thickness and density <br/>iii. Exposure distance and angle <br/>iv. Film characteristics",
         "a": "i",
         "b": "iii",
         "c": "iv",
@@ -4274,7 +4291,7 @@
         "answer": "c"
       },
       {
-        "question": "Which of the following defects are not acceptable for metal lines? 1. Cracked flare 2. Seams 3. Dents in the heel of a bend less than 20% of the diameter 4. Scratches/nicks on the inside of a bend less than 10% of wall thickness 5. Dents in straight section that are 20% of tube diameter",
+        "question": "Which of the following defects are not acceptable for metal lines? <br/>1. Cracked flare <br/>2. Seams <br/>3. Dents in the heel of a bend less than 20% of the diameter <br/>4. Scratches/nicks on the inside of a bend less than 10% of wall thickness <br/>5. Dents in straight section that are 20% of tube diameter",
         "a": "1,2,3,4 and 5",
         "b": "1,2 and 3",
         "c": "1,2,3 and 5",
@@ -4295,7 +4312,7 @@
         "answer": "c"
       },
       {
-        "question": "(1) In nondestructive testing a discontinuity may be defined as an interruption in the normal physical structure or configuration of a part (2) A discontinuity may or may not affect the usefulness of a part Regarding the above statements,",
+        "question": "(1) In nondestructive testing a discontinuity may be defined as an interruption in the normal physical structure or configuration of a part <br/>(2) A discontinuity may or may not affect the usefulness of a part Regarding the above statements,",
         "a": "Only No.1 is true",
         "b": "Only No.2 is true",
         "c": "Both No.1 and No.2 are true",
@@ -4323,7 +4340,7 @@
         "answer": "a"
       },
       {
-        "question": "Which of the following occurs when a mechanical force is repeatedly applied to most metals at room temperature, such as rolling, hammering, or bending? 1. The metals become artificially aged. 2. The metals become stress corrosion cracked 3. The metals become cold worked, strain or work hardened",
+        "question": "Which of the following occurs when a mechanical force is repeatedly applied to most metals at room temperature, such as rolling, hammering, or bending? <br/>1. The metals become artificially aged. <br/>2. The metals become stress corrosion cracked <br/>3. The metals become cold worked, strain or work hardened",
         "a": "2",
         "b": "1 and 3",
         "c": "3.",
@@ -4477,7 +4494,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following materials may be inspected using the magnetic particle inspection method? 1. Magnesium alloys 2. Aluminum alloys 3. Iron alloys 4. Copper alloys 5. Zinc alloys",
+        "question": "Which of the following materials may be inspected using the magnetic particle inspection method? <br/>1. Magnesium alloys <br/>2. Aluminum alloys <br/>3. Iron alloys <br/>4. Copper alloys <br/>5. Zinc alloys",
         "a": "1,2,3",
         "b": "1,2,3,4",
         "c": "3",
@@ -4624,7 +4641,7 @@
         "answer": "a"
       },
       {
-        "question": "Which of the following methods may be suitable to use to detect cracks open to the surface in aluminum forgings and castings? 1. Dye penetrant inspection 2. Magnetic particle inspection 3. Metallic ring (coin tap) inspection 4. Eddy current inspection 5. Ultrasonic inspection 6. Visual inspection",
+        "question": "Which of the following methods may be suitable to use to detect cracks open to the surface in aluminum forgings and castings? <br/>1. Dye penetrant inspection <br/>2. Magnetic particle inspection <br/>3. Metallic ring (coin tap) inspection <br/>4. Eddy current inspection <br/>5. Ultrasonic inspection <br/>6. Visual inspection",
         "a": "1,4,5,6",
         "b": "1,2,4,5,6",
         "c": "1,2,3,4,5,6",
@@ -4652,7 +4669,7 @@
         "answer": "a"
       },
       {
-        "question": "Liquid penetrant inspection methods may be used on which of the following? 1. Porous plastics 2. Ferrous metals 3. Nonferrous metals 4. Smooth primer-sealed wood 5. Nonporous plastics",
+        "question": "Liquid penetrant inspection methods may be used on which of the following? <br/>. Porous plastics <br/>2. Ferrous metals <br/>3. Nonferrous metals <br/>4. Smooth primer-sealed wood <br/>5. Nonporous plastics",
         "a": "2,3,4",
         "b": "1,2,3",
         "c": "2,3,5",
@@ -4780,7 +4797,7 @@
     ],
     "SHEETMETAL & NON-SHEETMETALIC STRUCTURE": [
       {
-        "question": "(1) When performing a ring (coin tap) test on composite structure, a change in sound may be due to damage or to transition to a different internal structure (2) The extent of separation damage in composite structures is most accurately measured by a ring (coin tap) test Regarding the above statements,",
+        "question": "(1) When performing a ring (coin tap) test on composite structure, a change in sound may be due to damage or to transition to a different internal structure <br/>(2) The extent of separation damage in composite structures is most accurately measured by a ring (coin tap) test Regarding the above statements,",
         "a": "Both No.1 and No.2 are true",
         "b": "Only No.1 is true",
         "c": "Only No.2 is true",
@@ -5054,9 +5071,9 @@
       },
       {
         "question": "Which is correct concerning the use of a file?",
-        "a": "Apply pressure on the forward stroke, only, except when filing very soft metals such as lead or aluminum double-cut file than by using a single-cut file the same meaning in reference to files",
-        "b": "A smoother finish can be obtained by using a",
-        "c": "The terms ’double-cut’ and ‘second-cut’ have",
+        "a": "Apply pressure on the forward stroke, only, except when filing very soft metals such as lead or aluminum file",
+        "b": "A smoother finish can be obtained by using a double-cut file than by using a single-cut",
+        "c": "The terms ’double-cut’ and ‘second-cut’ have the same meaning in reference to files",
         "answer": "a"
       },
       {
@@ -5082,9 +5099,9 @@
       },
       {
         "question": "Metal fasteners used with carbon/graphite composite structures",
-        "a": "May be constructed of any of the metals commonly used in aircraft fasteners titanium or corrosion resistant steel aluminum-lithium alloy",
-        "b": "Must be constructed of material such as",
-        "c": "Must be constructed of high strength",
+        "a": "May be constructed of any of the metals commonly used in aircraft fasteners",
+        "b": "Must be constructed of material such as titanium or corrosion resistant steel",
+        "c": "Must be constructed of high strength aluminum-lithium alloy",
         "answer": "b"
       },
       {
@@ -5117,9 +5134,9 @@
       },
       {
         "question": "The identifying marks on the heads of aluminum alloy rivets indicate the",
-        "a": "Degree of dimensional and process control observed during manufacture specifications adhered to during manufacture the rivets",
-        "b": "Head shape, shank size, material used, and",
-        "c": "Specific alloy used in the manufacture of",
+        "a": "Degree of dimensional and process control observed during manufacture",
+        "b": "Head shape, shank size, material used, and specifications adhered to during manufacture",
+        "c": "Specific alloy used in the manufacture of the rivets",
         "answer": "c"
       },
       {
@@ -5201,16 +5218,16 @@
       },
       {
         "question": "Sandwich panels made of metal honeycomb construction ae used on modern aircraft because this type of construction",
-        "a": "Has a high strength to weight ratio the inner core material with thermoplastic resin strength and is more corrosion resistant",
-        "b": "May be repaired by gluing replacement skin to",
-        "c": "Is lighter than single sheet skin of the same",
+        "a": "Has a high strength to weight ratio",
+        "b": "May be repaired by gluing replacement skin to the inner core material with thermoplastic resin",
+        "c": "Is lighter than single sheet skin of the same strength and is more corrosion resistant",
         "answer": "a"
       },
       {
         "question": "Which statement is true regarding the inspection of a stressed skin metal wing assembly known to have been critically loaded?",
-        "a": "If rivets show no visible distortion, further investigation is unnecessary will be joggled groups of consecutive rivet heads will be tipped in the same direction",
-        "b": "If bearing failure has occurred, the rivet shanks",
-        "c": "If genuine rivet tipping has occurred,",
+        "a": "If rivets show no visible distortion, further investigation is unnecessary",
+        "b": "If bearing failure has occurred, the rivet shanks will be joggled",
+        "c": "If genuine rivet tipping has occurred, groups of consecutive rivet heads will be tipped in the same direction",
         "answer": "c"
       },
       {
@@ -5229,9 +5246,9 @@
       },
       {
         "question": "What is the purpose of a gusset or gusset plate used in the construction and repair of aircraft structures?",
-        "a": "To hold structural members in position temporarily until the permanent attachment has been completed attachments members",
-        "b": "To provide access for inspection of structural",
-        "c": "To join and reinforce intersecting structural",
+        "a": "To hold structural members in position temporarily until the permanent attachment has been completed",
+        "b": "To provide access for inspection of structural attachments",
+        "c": "To join and reinforce intersecting structural members",
         "answer": "c"
       },
       {
@@ -5257,9 +5274,9 @@
       },
       {
         "question": "Aircraft structural units, such as spars, engine supports, etc., which have been built up from sheet metal, are normally",
-        "a": "Repairable, using approved methods compressive loads damaged or deteriorated",
-        "b": "Repairable, except when subjected to",
-        "c": "Not repairable, but must be replaced when",
+        "a": "Repairable, using approved methods",
+        "b": "Repairable, except when subjected to compressive loads",
+        "c": "Not repairable, but must be replaced when damaged or deteriorated",
         "answer": "a"
       },
       {
@@ -5271,23 +5288,23 @@
       },
       {
         "question": "When comparing the machining techniques for stainless steel sheet material to those for aluminum alloy sheet, it is normally considered good practice to drill the stainless steel at a",
-        "a": "Higher speed with less pressure applied to the drill the drill drill",
-        "b": "Lower speed with more pressure applied to",
-        "c": "Lower speed with less pressure applied to the",
+        "a": "Higher speed with less pressure applied to the drill",
+        "b": "Lower speed with more pressure applied to the drill",
+        "c": "Lower speed with less pressure applied to the drill",
         "answer": "b"
       },
       {
         "question": "How does acoustic emission testing detect defects in composite materials?",
-        "a": "By picking up the ‘noise’ of any deterioration that may be present into the parts being inspected being inspected",
-        "b": "By analyzing ultrasonic signals transmitted",
-        "c": "By creating sonogram pictures of the areas",
+        "a": "By picking up the ‘noise’ of any deterioration that may be present",
+        "b": "By analyzing ultrasonic signals transmitted into the parts being inspected",
+        "c": "By creating sonogram pictures of the areas being inspected",
         "answer": "a"
       },
       {
         "question": "One of the best ways to assure that a properly prepared batch of matrix resin has been achieved is to",
-        "a": "Perform a chemical composition analysis after mixing",
+        "a": "Perform a chemical composition analysis",
         "b": "Have mixed enough for a test sample",
-        "c": "Test the viscosity of the resin immediately",
+        "c": "Test the viscosity of the resin immediately after mixing",
         "answer": "b"
       },
       {
@@ -5306,9 +5323,9 @@
       },
       {
         "question": "Which is considered good practice concerning the installation of acrylic plastics?",
-        "a": "When nuts and bolts are used, the plastic should be installed hot and tightened to a firm fit before the plastic cools other satisfactory means to prevent excessive tightening of the frame to the plastic should be provided holes are not recommended",
-        "b": "When rivets are used, adequate spacer or",
-        "c": "When rivets or nuts and bolts are used, slotted",
+        "a": "When nuts and bolts are used, the plastic should be installed hot and tightened to a firm fit before the plastic cools",
+        "b": "When rivets are used, adequate spacer or other satisfactory means to prevent excessive tightening of the frame to the plastic should be provided",
+        "c": "When rivets or nuts and bolts are used, slotted holes are not recommended",
         "answer": "b"
       },
       {
@@ -5319,7 +5336,7 @@
         "answer": "a"
       },
       {
-        "question": "How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels? 1. Greater concentrations of resin in edges and corners 2. Improved strength to weight ratio 3. Less density 4. Lower stress concentrations",
+        "question": "How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels? <br/>1. Greater concentrations of resin in edges and corners <br/>2. Improved strength to weight ratio <br/>3. Less density <br/>4. Lower stress concentrations",
         "a": "2,3, and 4",
         "b": "1,2 and 4",
         "c": "All of the above",
@@ -5404,8 +5421,8 @@
       },
       {
         "question": "Fiberglass laminate damage out exceeding the first layer or play can be repaired by",
-        "a": "filling with a putty consisting of a compatible resin and clean, short glass fibers. smoothness is obtained paint",
-        "b": "Sanding the damaged area until aerodynamic",
+        "a": "filling with a putty consisting of a compatible resin and clean, short glass fibers.",
+        "b": "Sanding the damaged area until aerodynamic smoothness is obtained paint",
         "c": "Trimming the rough edges and sealing with",
         "answer": "a"
       },
@@ -5439,9 +5456,9 @@
       },
       {
         "question": "When riveting dissimilar metals together, what precautions must be taken to prevent an electrolytic action?",
-        "a": "Treat the surfaces to be riveted together with a process called anodic treatment of potential electrical difference redesigning the unit according to the recommendations outlined in AC 43.13-1A",
-        "b": "Place a protective separator between areas",
-        "c": "Avoid the use of dissimilar metals by",
+        "a": "Treat the surfaces to be riveted together with a process called anodic treatment",
+        "b": "Place a protective separator between areas of potential electrical difference",
+        "c": "Avoid the use of dissimilar metals by redesigning the unit according to the recommendations outlined in AC 43.13-1A",
         "answer": "b"
       },
       {
@@ -5453,13 +5470,13 @@
       },
       {
         "question": "When a piece of aluminum alloy is to be bent using minimum radius for the type and thickness of material",
-        "a": "The piece should be bent slowly to eliminate cracking will be 90° to the grain of the sheet with the movable (upper) clamping bar",
-        "b": "The layout should be made so that the bend",
-        "c": "Less pressure than usual should be applied",
+        "a": "The piece should be bent slowly to eliminate cracking",
+        "b": "The layout should be made so that the bend will be 90° to the grain of the sheet",
+        "c": "Less pressure than usual should be applied with the movable (upper) clamping bar",
         "answer": "b"
       },
       {
-        "question": "Which of the following are generally characteristic of carbon/graphite fiber composites? 1. Flexibility 2. Stiffness 3. High compressive strength 4. Corrosive effect in contact with aluminum 5. Ability to conduct electricity",
+        "question": "Which of the following are generally characteristic of carbon/graphite fiber composites? <br/>1. Flexibility <br/>2. Stiffness <br/>3. High compressive strength <br/>4. Corrosive effect in contact with aluminum <br/>5. Ability to conduct electricity",
         "a": "1 and 3",
         "b": "2,3 and 4",
         "c": "1,3 and 5",
@@ -5474,9 +5491,9 @@
       },
       {
         "question": "When repairing large, flat surfaces with polyester resins, warping of the surface is likely to occur. One method of reducing the amount of warpage is to",
-        "a": "Add an extra amount of catalyst to the resin repair be more flexible",
-        "b": "Use short strips of fiberglass in the bonded",
-        "c": "Use less catalyst than normal so the repair will",
+        "a": "Add an extra amount of catalyst to the resin",
+        "b": "Use short strips of fiberglass in the bonded repair",
+        "c": "Use less catalyst than normal so the repair will be more flexible",
         "answer": "b"
       },
       {
@@ -5501,7 +5518,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels? 1. Microballoons 2. Flox 3. Chapped fibers",
+        "question": "Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels? <br/>1. Microballoons <br/>2. Flox <br/>3. Chapped fibers",
         "a": "2 and 3",
         "b": "1 and 3",
         "c": "1,2, and 3",
@@ -5509,9 +5526,9 @@
       },
       {
         "question": "Which procedure is correct when using a reamer to finish a drilled hole to the correct size?",
-        "a": "Turn the reamer in the cutting direction when enlarging the hole and in the opposite direction to remove from the hole when starting the cut and reduce the pressure when finishing the cut",
+        "a": "Turn the reamer in the cutting direction when enlarging the hole and in the opposite direction to remove from the hole",
         "b": "Turn the reamer only in the cutting direction",
-        "c": "Apply considerable pressure on the reamer",
+        "c": "Apply considerable pressure on the reamer when starting the cut and reduce the pressure when finishing the cut",
         "answer": "b"
       },
       {
@@ -5523,16 +5540,16 @@
       },
       {
         "question": "What is generally the best procedure to use when removing a solid shank rivet?",
-        "a": "Drill through the manufactured head and shank with a shank size drill and remove the rivet with a punch head with a drill one size smaller than the rivet shank and remove the rivet with a punch with a drill one size smaller than the rivet and remove the rivet with a punch",
-        "b": "Drill to the base of the manufactured rivet",
-        "c": "Drill through the manufactured head and shank",
+        "a": "Drill through the manufactured head and shank with a shank size drill and remove the rivet with a punch",
+        "b": "Drill to the base of the manufactured rivet head with a drill one size smaller than the rivet shank and remove the rivet with a punch",
+        "c": "Drill through the manufactured head and shank with a drill one size smaller than the rivet and remove the rivet with a punch",
         "answer": "b"
       },
       {
         "question": "What is the minimum edge distance allowed for aluminum alloy single lap sheet splices containing a single row of rivets as compared to a joint with multiple rows, all rivets being equal I diameter?",
-        "a": "The minimum edge distance for the single row is greater than that for the multiple row is less than that for the multiple row row is equal to that for the multiple row",
-        "b": "The minimum edge distance for the single row",
-        "c": "The minimum edge distance for the single",
+        "a": "The minimum edge distance for the single row is greater than that for the multiple row",
+        "b": "The minimum edge distance for the single row is less than that for the multiple row",
+        "c": "The minimum edge distance for the single row is equal to that for the multiple row",
         "answer": "c"
       },
       {
@@ -5557,7 +5574,7 @@
         "answer": "b"
       },
       {
-        "question": "A sheet metal repair is to be made using two pieces of 0.040-inch aluminum riveted together. All rivet holes are drilled for 3/32-inch rivets. The length of the rivets to be used will be",
+        "question": "A sheet metal repair is to be made using two pieces of 0.040-inch aluminum riveted together. <br/>All rivet holes are drilled for 3/32-inch rivets. <br/>The length of the rivets to be used will be",
         "a": "1/8 inch",
         "b": "¼ inch",
         "c": "5/16 inch",
@@ -5565,9 +5582,9 @@
       },
       {
         "question": "Unless otherwise specified, the radius of a bend is the",
-        "a": "Inside radius of the metal being formed metal being formed thickness of the metal being formed",
-        "b": "Inside radius plus one-half the thickness of the",
-        "c": "Radius of the metal axis plus one-half the",
+        "a": "Inside radius of the metal being formed",
+        "b": "Inside radius plus one-half the thickness of the metal being formed",
+        "c": "Radius of the metal axis plus one-half the thickness of the metal being formed",
         "answer": "a"
       },
       {
@@ -5585,7 +5602,7 @@
         "answer": "c"
       },
       {
-        "question": "Which of these methods may be used to inspect fiberglass/ honeycomb structures for entrapped water? 1. Acoustic emission monitoring 2. X-ray 3. Backlighting",
+        "question": "Which of these methods may be used to inspect fiberglass/ honeycomb structures for entrapped water? <br/>1. Acoustic emission monitoring <br/>2. X-ray <br/>3. Backlighting",
         "a": "1 and 2",
         "b": "1 and 3",
         "c": "2 and 3",
@@ -5600,13 +5617,13 @@
       },
       {
         "question": "Select the alternative which best describes the function of the flute section of a twist drill",
-        "a": "Provides a method for cooling oil to be delivered to the cutting surface drill motor",
-        "b": "Forms the area where the drill bit attaches to the",
+        "a": "Provides a method for cooling oil to be delivered to the cutting surface",
+        "b": "Forms the area where the drill bit attaches to the drill motor",
         "c": "Forms the cutting edges of the drill point",
         "answer": "c"
       },
       {
-        "question": "Which of the following are generally characteristic of aramid fiber (Kevlar) composites? 1. High tensile strength 2. Flexibility 3. Stiffness 4. Corrosive effect in contact with aluminum 5. Ability to conduct electricity",
+        "question": "Which of the following are generally characteristic of aramid fiber (Kevlar) composites? <br/>1. High tensile strength <br/>2. Flexibility <br/>3. Stiffness <br/>4. Corrosive effect in contact with aluminum <br/>5. Ability to conduct electricity",
         "a": "1 and 2",
         "b": "2, 3 and 4",
         "c": "1, 3 and 5",
@@ -5614,15 +5631,15 @@
       },
       {
         "question": "One method of inspecting a laminated fiberglass structure that has been subjected to damage is to",
-        "a": "Strip the damaged area of all paint and shine a strong light through the structure exposing the entire damaged area to the penetrant solution. damaged are",
-        "b": "Use dye-penetrant inspection procedures,",
-        "c": "Use an eddy current probe on both sides of the",
+        "a": "Strip the damaged area of all paint and shine a strong light through the structure",
+        "b": "Use dye-penetrant inspection procedures, exposing the entire damaged area to the penetrant solution.",
+        "c": "Use an eddy current probe on both sides of the damaged are",
         "answer": "a"
       },
       {
         "question": "The length of a rivet to be used to join a sheet of .032- inch and .064-inch aluminum alloy should be equal to",
-        "a": "Two times the rivet diameter plus .064 inch plus .096 inch",
-        "b": "One and one-half times the rivet diameter",
+        "a": "Two times the rivet diameter plus .064 inch ",
+        "b": "One and one-half times the rivet diameter plus .096 inch",
         "c": "Three times the rivet diameter plus .096 inch",
         "answer": "b"
       },
@@ -5648,7 +5665,7 @@
         "answer": "b"
       },
       {
-        "question": "Proper pre-preg composite lay-up curing is generally accomplished by 1. Applying external heat 2. Room temperature exposure 3. Adding a catalyst or curing agent to the resin 4. Applying pressure",
+        "question": "Proper pre-preg composite lay-up curing is generally accomplished by <br/>1. Applying external heat <br/>2. Room temperature exposure <br/>3. Adding a catalyst or curing agent to the resin <br/>4. Applying pressure",
         "a": "2 and 3",
         "b": "1 and 4",
         "c": "1, 2, and 4",
@@ -5700,8 +5717,8 @@
       },
       {
         "question": "Where should the flux be applied when oxyacetylene welding aluminum?",
-        "a": "Painted only on the surface to be welded applied to the welding rod",
-        "b": "Painted on the surface to be welded and",
+        "a": "Painted only on the surface to be welded",
+        "b": "Painted on the surface to be welded and applied to the welding rod",
         "c": "Applied only to the welding rod",
         "answer": "b"
       },
@@ -5714,16 +5731,16 @@
       },
       {
         "question": "If too much acetylene is used in the welding of stainless steel",
-        "a": "A porous weld will result resistance to corrosion to the weld",
-        "b": "The metal will absorb carbon and lose its",
-        "c": "Oxide will be formed on the base metal close",
+        "a": "A porous weld will result",
+        "b": "The metal will absorb carbon and lose its resistance to corrosion",
+        "c": "Oxide will be formed on the base metal close to the weld",
         "answer": "b"
       },
       {
         "question": "The shielding gases generally used in the Gas Tungsten Arc (GTA) welding of aluminum consists of",
-        "a": "a mixture of nitrogen and carbon dioxide and hydrogen argon",
-        "b": "nitrogen or hydrogen, or a mixture of nitrogen",
-        "c": "helium or argon, or a mixture of helium and",
+        "a": "a mixture of nitrogen and carbon dioxide",
+        "b": "nitrogen or hydrogen, or a mixture of nitrogen nd hydrogen",
+        "c": "helium or argon, or a mixture of helium and argon",
         "answer": "c"
       },
       {
@@ -5734,7 +5751,7 @@
         "answer": "c"
       },
       {
-        "question": "Which of the following can normally be welded without adversely affecting strength? 1. Aircraft bolts 2. SAE 4130 chrome/molybdenum tubing 3. Spring steel struts 4. Most heat-treated steel/nickel alloy components",
+        "question": "Which of the following can normally be welded without adversely affecting strength? <br/>1. Aircraft bolts <br/>2. SAE 4130 chrome/molybdenum tubing <br/>3. Spring steel struts <br/>4. Most heat-treated steel/nickel alloy components",
         "a": "2 and 4",
         "b": "1 and 3",
         "c": "2",
@@ -5756,23 +5773,23 @@
       },
       {
         "question": "When a butt welded joint is visually inspected for penetration",
-        "a": "The penetration should be 25 to 50 percent of the thickness of the base metal the thickness of the base metal form of a very high bead",
-        "b": "The penetration should be 100 percent of",
-        "c": "Look for evidence of excessive heat in the",
+        "a": "The penetration should be 25 to 50 percent of the thickness of the base metal",
+        "b": "The penetration should be 100 percent of the thickness of the base metal",
+        "c": "Look for evidence of excessive heat in the form of a very high bead",
         "answer": "b"
       },
       {
         "question": "In Gas Tungsten Arc (GTA) welding , a stream of inert gas is used to",
-        "a": "Prevent the formation of oxides in the puddle dissipation fuse the metal",
-        "b": "Concentrate the heat of the arc and prevent its",
-        "c": "Lower the temperature required to properly",
+        "a": "Prevent the formation of oxides in the puddle",
+        "b": "Concentrate the heat of the arc and prevent its dissipation",
+        "c": "Lower the temperature required to properly fuse the metal",
         "answer": "a"
       },
       {
         "question": "The oxyacetylene flame used for aluminum welding should",
-        "a": "Be neutral and soft tip at a relatively low speed",
+        "a": "Be neutral and soft ",
         "b": "Be slightly oxidizing",
-        "c": "Contain an excess of acetylene and leave the",
+        "c": "Contain an excess of acetylene and leave the tip at a relatively low speed",
         "answer": "a"
       },
       {
@@ -5791,9 +5808,9 @@
       },
       {
         "question": "Which statement concerning soldering is correct?",
-        "a": "Joints in electric wire to be soldered should be mechanically secure prior to soldering the surface of a copper soldering tip when the proper temperature for soldering has been reached solder will form in lumps and not produce a positive bond",
-        "b": "Changeable shades of blue can be observed on",
-        "c": "If the soldering temperature is too high, the",
+        "a": "Joints in electric wire to be soldered should be mechanically secure prior to soldering ",
+        "b": "Changeable shades of blue can be observed on the surface of a copper soldering tip when the proper temperature for soldering has been reached",
+        "c": "If the soldering temperature is too high, the solder will form in lumps and not produce a positive bond",
         "answer": "a"
       },
       {
@@ -5812,9 +5829,9 @@
       },
       {
         "question": "Engine mount members should preferably be repaired by using a",
-        "a": "Larger diameter tube with fishmouth and no rosette welds rosette welds rosette welds",
-        "b": "Larger diameter tube with fishmouth and",
-        "c": "Smaller diameter tube with fishmouth and",
+        "a": "Larger diameter tube with fishmouth and no rosette welds",
+        "b": "Larger diameter tube with fishmouth and rosette welds",
+        "c": "Smaller diameter tube with fishmouth and rosette welds",
         "answer": "b"
       },
       {
@@ -5833,9 +5850,9 @@
       },
       {
         "question": "Acetylene at a line pressure above 15 PSI is",
-        "a": "Dangerously unstable 3/8-imch thick",
+        "a": "Dangerously unstable",
         "b": "Used when a reducing flame is necessary",
-        "c": "Usually necessary when welding metal over",
+        "c": "Usually necessary when welding metal over 3/8-imch thick",
         "answer": "a"
       },
       {
@@ -5847,16 +5864,16 @@
       },
       {
         "question": "Which statement concerning a welding process is true?",
-        "a": "The inert-arc welding process uses an inert gas to protect the weld zone from the atmosphere material, if needed, is provided by a separate metal tool of the proper material held in the arc rod used for steel is covered with a thin coating of flux",
-        "b": "In the metallic-arc welding process, filler",
-        "c": "In the oxyacetylene welding process, the filler",
+        "a": "The inert-arc welding process uses an inert gas to protect the weld zone from the atmosphere",
+        "b": "In the metallic-arc welding process, filler material, if needed, is provided by a separate metal tool of the proper material held in the arc",
+        "c": "In the oxyacetylene welding process, the filler rod used for steel is covered with a thin coating of flux",
         "answer": "a"
       },
       {
         "question": "Welding over brazed or soldered joint is",
-        "a": "Not permitted not heat treated",
+        "a": "Not permitted ",
         "b": "Permissible for mild steel",
-        "c": "Permissible for most metals or alloys that are",
+        "c": "Permissible for most metals or alloys that are not heat treated",
         "answer": "a"
       },
       {
@@ -5868,9 +5885,9 @@
       },
       {
         "question": "Which statement best describes magnesium welding?",
-        "a": "Magnesium can be welded to other metals as a base metal",
+        "a": "Magnesium can be welded to other metals ",
         "b": "Filler rod should be nickel-steel",
-        "c": "Filler rod should be the same composition",
+        "c": "Filler rod should be the same composition as a base metal",
         "answer": "c"
       },
       {
@@ -5882,16 +5899,16 @@
       },
       {
         "question": "Edge notching is generally recommended in butt welding above a certain thickness of aluminum because it",
-        "a": "Helps hold the metal in alignment during welding the metal surface and prevents local distortion",
-        "b": "Aids in the removal or penetration of oxides o",
-        "c": "Aids in getting full penetration of the metal",
+        "a": "Helps hold the metal in alignment during welding",
+        "b": "Aids in the removal or penetration of oxides of the metal surface",
+        "c": "Aids in getting full penetration of the metal and prevents local distortion",
         "answer": "c"
       },
       {
         "question": "Filing or grinding a weld bead is considered to be",
-        "a": "An acceptable means t7o achieve a smoother surface joint weight to a weld joint",
-        "b": "A way to bring about strength reduction in",
-        "c": "Frequently necessary to avoid adding excess",
+        "a": "An acceptable means to achieve a smoother   ",
+        "b": "A way to bring about strength reduction in surface",
+        "c": "Frequently necessary to avoid adding excess joint weight to a weld joint",
         "answer": "b"
       },
       {
@@ -5910,9 +5927,9 @@
       },
       {
         "question": "Which statement is true in regard to welding heattreated magnesium?",
-        "a": "The welded section does not have the strength of the original metal difficult to remove and is likely to cause corrosion welding because of the high probability of igniting the metal",
-        "b": "Flux should not be used because it is very",
-        "c": "Magnesium cannot be repaired by fusion",
+        "a": "The welded section does not have the strength of the original metal  welding ",
+        "b": "Flux should not be used because it is very difficult to remove and is likely to cause corrosion",
+        "c": "Magnesium cannot be repaired by fusion because of the high probability of igniting the metal",
         "answer": "a"
       },
       {
@@ -5924,9 +5941,9 @@
       },
       {
         "question": "Why are aluminum plates ¼ inch or more thick usually preheated before welding?",
-        "a": "Reduces internal stresses and assures more complete penetration distribution of flux",
+        "a": "Reduces internal stresses and assures more complete penetration ",
         "b": "Reduces welding time",
-        "c": "Prevents corrosion and ensures proper",
+        "c": "Prevents corrosion and ensures proper distribution of flux",
         "answer": "a"
       }
     ],
@@ -5940,9 +5957,9 @@
       },
       {
         "question": "What is likely to occur if hydrated wash primer is applied to unpainted aluminum and then about 30 to 40 minutes later a finish topcoat, when the humidity is low?",
-        "a": "Corrosion in’ to primer that is still too soft",
+        "a": "Corrosion ",
         "b": "A glossy, blush-free finish",
-        "c": "A dull finish due to the topcoat ‘sinking",
+        "c": "A dull finish due to the topcoat ‘sinking in’ to primer that is still too soft",
         "answer": "b"
       },
       {
@@ -5982,23 +5999,23 @@
       },
       {
         "question": "Aluminum-pigment in dope is used primarily to",
-        "a": "Provide a silver color fabric",
-        "b": "Aid in sealing out moisture from the",
+        "a": "Provide a silver color ",
+        "b": "Aid in sealing out moisture from the fabric",
         "c": "Reflect ultraviolet from the fabric",
         "answer": "c"
       },
       {
         "question": "Fungicidal dopes are used in aircraft finishing as the",
-        "a": "First, full-bodied, brushed-on coat to prevent fungus damage are applied thin enough to saturate the fabric reduce blushing",
-        "b": "First coat to prevent fabric rotting and",
-        "c": "Final, full-bodied, brushed-on coat to",
+        "a": "First, full-bodied, brushed-on coat to prevent fungus damage",
+        "b": "First coat to prevent fabric rotting and are applied thin enough to saturate the fabric",
+        "c": "Final, full-bodied, brushed-on coat to reduce blushing",
         "answer": "b"
       },
       {
         "question": "Which statement is true regarding paint system compatibility?",
-        "a": "Old-type zinc chromate primer may not be used directly for touchup of bare metal surfaces used old nitrocellulose finishes overcoated directly with epoxy finishes",
-        "b": "Acrylic nitrocellulose lacquers may be",
-        "c": "Old wash primer coats may be",
+        "a": "Old-type zinc chromate primer may not be used directly for touchup of bare metal surfaces",
+        "b": "Acrylic nitrocellulose lacquers may be used old nitrocellulose finishes",
+        "c": "Old wash primer coats may be overcoated directly with epoxy finishes",
         "answer": "c"
       },
       {
@@ -6010,13 +6027,13 @@
       },
       {
         "question": "Before applying a protective coating to any unpainted clean aluminum, you should",
-        "a": "Wipe the surface with avgas or kerosene hands",
+        "a": "Wipe the surface with avgas or kerosene",
         "b": "Remove any conversion coating film",
-        "c": "Avoid touching the surface with bare",
+        "c": "Avoid touching the surface with bare hands",
         "answer": "c"
       },
       {
-        "question": "If registration numbers are to be applied to an aircraft with a letter height of 12 inches, what is the minimum space required for the registration mark N1683C? Note: 2/3 x height = character width 1/6 x height = width for 1 ¼ x 2/3 height = spacing 1/6 x height = stroke or line width",
+        "question": "If registration numbers are to be applied to an aircraft with a letter height of 12 inches, what is the minimum space required for the registration mark N1683C? <br/>Note: <br/>2/3 x height = character width <br/>1/6 x height = width for 1 <br/>¼ x 2/3 height = spacing <br/>1/6 x height = stroke or line width",
         "a": "52 inches",
         "b": "48 inches",
         "c": "57 inches",
@@ -6024,16 +6041,16 @@
       },
       {
         "question": "What is likely to occur if unhydrated wash primer is applied to unpainted aluminum and then about 30 to 40 minutes later a finish topcoat, when the humidity is low?",
-        "a": "Corrosion in’ to primer that is still too soft",
+        "a": "Corrosion",
         "b": "A glossy, blush-free finish",
-        "c": "A dull finish due to the topcoat ‘sinking",
+        "c": "A dull finish due to the topcoat ‘sinking in to primer that is still too soft",
         "answer": "a"
       },
       {
         "question": "If masking tape is applied to an aircraft such as for trim spraying, and is left on for several days and/or exposed to heat, it is likely that the tape will",
-        "a": "Not seal out the finishing material if the delay or heating occurs before spraying surface to remove",
-        "b": "Be weakened in its ability to adhere to the",
-        "c": "Cure to the finish and be very difficult",
+        "a": "Not seal out the finishing material if the delay or heating occurs before spraying  ",
+        "b": "Be weakened in its ability to adhere to the surface",
+        "c": "Cure to the finish and be very difficult to remove",
         "answer": "c"
       }
     ]
@@ -10234,9 +10251,9 @@
       },
       {
         "question": "The shop head of a rivet should be",
-        "a": "One and one-half times the diameter of the rivet shank manufactured head of the rivet",
+        "a": "One and one-half times the diameter of the rivet shank",
         "b": "One-half times the diameter of the rivet shank",
-        "c": "One and one-half times the diameter of the",
+        "c": "One and one-half times the diameter of the manufactured head of the rivet",
         "answer": "a"
       }
     ]
@@ -13120,7 +13137,7 @@
         "answer": "b"
       },
       {
-        "question": "Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service? i. A 100-hour inspection ii. An annual inspection, under specified circumstances iii. A progressive inspection, under specified circumstances",
+        "question": "Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service? <br/>i. A 100-hour inspection <br/>ii. An annual inspection, under specified circumstances <br/>iii. A progressive inspection, under specified circumstances",
         "a": "i,ii",
         "b": "i,iii",
         "c": "i,ii,iii",
@@ -13302,7 +13319,7 @@
         "answer": "c"
       },
       {
-        "question": "What is /are the appropriate action (s) concerning minor repairs performed on a certificated aircraft? 1. FAA form 337’s must be completed 2. Entries must be made in the aircraft maintenance record. 3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annualy.",
+        "question": "What is /are the appropriate action (s) concerning minor repairs performed on a certificated aircraft? <br/>1. FAA form 337’s must be completed <br/>2. Entries must be made in the aircraft maintenance record. <br/>3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annualy.",
         "a": "2.",
         "b": "2 and 3.",
         "c": "1 and 2.",
