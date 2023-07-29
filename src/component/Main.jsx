@@ -53,10 +53,11 @@ const Main = ({ options, data, setScore }) => {
     if (minute === -99 && second === -99 && timeoutNext && !isNextBook) {
       handleNext(answer, target, true);
       setTimeoutNext(false);
-    }else if (isNextBook && bookIndex < questions.length - 1) {
+    } else if (isNextBook && bookIndex < questions.length - 1) {
       setBookIndex((prevState) => prevState + 1);
       setPageIndex(0);
-    } else if(isNextBook && bookIndex === questions.length - 1) navigate('/score')
+    } else if (isNextBook && bookIndex === questions.length - 1)
+      navigate("/score");
   }, [time]);
 
   useEffect(() => {
@@ -213,23 +214,25 @@ const Main = ({ options, data, setScore }) => {
         second: 0,
       });
     }
-    const interval = setInterval(() => {
-      setTime((prevState) => ({
-        minute:
-          prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
-            ? prevState.minute - 1
-            : prevState.minute === 0 && prevState.second - 1 < 0
-            ? -99
-            : prevState.minute,
-        second:
-          prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
-            ? 59
-            : prevState.second - 1 < 0
-            ? -99
-            : prevState.second - 1,
-      }));
-    }, 1000);
-    setTimeInterval(interval);
+    if (set !== "unlimited") {
+      const interval = setInterval(() => {
+        setTime((prevState) => ({
+          minute:
+            prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
+              ? prevState.minute - 1
+              : prevState.minute === 0 && prevState.second - 1 < 0
+              ? -99
+              : prevState.minute,
+          second:
+            prevState.second - 1 < 0 && prevState.minute > 0 && set === "hour"
+              ? 59
+              : prevState.second - 1 < 0
+              ? -99
+              : prevState.second - 1,
+        }));
+      }, 1000);
+      setTimeInterval(interval);
+    }
   };
 
   return (
