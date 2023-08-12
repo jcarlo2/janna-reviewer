@@ -914,7 +914,9 @@
       },
       {
         "question": "Which of the ff. Is a portion of the required permanent maintenance record entry a 100 hour inspection",
-        "a": "undefined service",
+        "a": "The date of the inspection and aircraft time in service",
+        "b": "The name of the owner of the aircraft",
+        "c": "A brief description of the extent of the inspection",
         "answer": "a"
       },
       {
@@ -939,19 +941,23 @@
       },
       {
         "question": "Which is considered to be typical preventive maintenance operations",
-        "a": "undefined gear tires",
+        "a": "Piston removal",
+        "b": "Overhauling Instruments",
+        "c": "Removal, installation and repair of landing gear tires",
         "answer": "c"
       },
       {
         "question": "What does it mean when it is said that a component conforms with the technical standard order",
-        "a": "undefined alteration",
+        "a": "It does not require an STC when used in alteration",
+        "b": "It does not require AD when used in major repair",
         "c": "It can be used in my certified aircraft",
         "answer": "a"
       },
       {
         "question": "When can you consider the repair on the following airframe, a major repair",
-        "a": "undefined stressed covering (6) inches covering at least (10) inches convenient type",
-        "c": "The repair of a control surface ribs of a",
+        "a": "The repair of damaged areas in the plywood stressed covering (6) inches",
+        "b": "The repair of damaged areas in the stressed covering at least (10) inches",
+        "c": "The repair of a control surface ribs of a convenient type",
         "answer": "a"
       },
       {
@@ -2139,7 +2145,7 @@
     ],
     "AIRCRAFT ELECTRICAL SYSTEM": [
       {
-        "question": "undefined bulkheads, formers, ribs, Firewalls, etc., the wires should be protected from chafing by",
+        "question": "Where electric cables must pass through holes in bulkheads, formers, ribs, Firewalls, etc., the wires should be protected from chafing by",
         "a": "wrapping with electrical tape.",
         "b": "using a suitable grommet.",
         "c": "wrapping with plastic.",

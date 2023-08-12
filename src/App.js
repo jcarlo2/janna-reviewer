@@ -41,6 +41,11 @@ function App() {
   });
   const [score, setScore] = useState(0);
 
+  useEffect(()=> {
+    console.log(score)
+  }, [score])
+
+
   return (
     <Routes>
       <Route

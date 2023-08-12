@@ -128,37 +128,86 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    > button {
+    > div {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      outline: none;
-      border-radius: 4px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      transition: 0.3s;
-      background-color: transparent;
-      &:active {
-        transform: translateX(-2px);
-      }
-      &:hover {
-        border-color: rgba(0, 0, 0, 0.3);
-      }
-      i {
-        height: 30px;
-        width: 50px;
-        display: inline-block;
-        background-image: url("./../images/back.svg");
-        background-size: 100% 100%;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: 0.3s;
+        background-color: transparent;
+        &:active {
+          transform: translateX(-2px);
+        }
+        &:hover {
+          border-color: rgba(0, 0, 0, 0.3);
+        }
+        i {
+          height: 30px;
+          width: 50px;
+          display: inline-block;
+          
+          &.back {
+            background-image: url("./../images/back.svg");
+            background-size: 100% 100%;
+          }
+          &.forward {
+            transform: rotate(180deg);
+            background-image: url("./../images/back.svg");
+            background-size: 100% 100%;
+          }
+        }
       }
     }
     > p:nth-child(2) {
       font-weight: bold;
       font-size: 20px;
     }
-    > p:last-child {
-      font-weight: bold;
-      font-size: 18px;
+    > div:last-child {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      > button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: 0.3s;
+        background-color: transparent;
+        &:active {
+          transform: translateY(-2px);
+        }
+        &:hover {
+          border-color: rgba(0, 0, 0, 0.3);
+        }
+        i.setting {
+          height: 30px;
+          width: 50px;
+          display: inline-block;
+          background-image: url("./../images/setting.svg");
+          background-size: 100% 100%;
+          animation: rotate 3s infinite linear;
+          @keyframes rotate {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(359deg);
+            }
+          }
+        }
+      }
+      > p {
+        font-weight: bold;
+        font-size: 18px;
+      }
     }
   }
   section {
@@ -166,11 +215,13 @@ a {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    justify-content: flex-start;
+    gap: 50px;
     > div:first-child {
-      height: 100%;
+      height: auto;
       overflow-x: hidden;
       overflow-y: auto;
+      // border-bottom: 3px solid black;
       > p:first-child {
         font-size: 24px;
         font-weight: bold;
@@ -188,13 +239,13 @@ a {
         width: 100%;
         max-width: 100%;
         overflow-x: hidden;
-        padding: 0 10px;
+        padding: 20px 10px;
       }
     }
     > div:nth-child(2) {
       overflow-x: hidden;
       overflow-y: auto;
-      height: max(50%, 250px);
+      height: auto;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;

@@ -5,7 +5,7 @@ const Main = ({ options, data, setScore }) => {
   const navigate = useNavigate();
   const [bookIndex, setBookIndex] = useState(0);
   const [pageIndex, setPageIndex] = useState(0);
-  const [questions, setQuestions] = useState([
+  const [questionList, setQuestionList] = useState([
     {
       "": [{}],
     },
@@ -20,12 +20,17 @@ const Main = ({ options, data, setScore }) => {
   const [timeInterval, setTimeInterval] = useState(-1);
   const [time, setTime] = useState({ minute: 0, second: 0 });
   const [timeoutNext, setTimeoutNext] = useState(false);
-  const [nextBookTimeout, setNextBookTimeout] = useState(-1);
   const aRef = useRef();
   const bRef = useRef();
   const cRef = useRef();
   const dRef = useRef();
   const choicesContainerRef = useRef();
+  const [backOrForwardFlag, setBackOrForwardFlag] = useState(false);
+  const [userAnswerList, setUserAnswerList] = useState([[]]);
+  const [currentBookAndPage, setCurrentBookAndPage] = useState({
+    book: 0,
+    page: 0,
+  });
 
   useEffect(() => {
     if (!options.start) navigate("/");
@@ -51,29 +56,45 @@ const Main = ({ options, data, setScore }) => {
     else target = dRef;
 
     if (minute === -99 && second === -99 && timeoutNext && !isNextBook) {
-      handleNext(answer, target, true);
+      handleNextQuestion(answer, target, true);
       setTimeoutNext(false);
-    } else if (isNextBook && bookIndex < questions.length - 1) {
+    } else if (isNextBook && bookIndex < questionList.length - 1) {
       setBookIndex((prevState) => prevState + 1);
       setPageIndex(0);
-    } else if (isNextBook && bookIndex === questions.length - 1)
+    } else if (isNextBook && bookIndex === questionList.length - 1)
       navigate("/score");
   }, [time]);
 
   useEffect(() => {
     setQuestion(
-      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex]
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex]
         .question
     );
-    setA(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].a);
-    setB(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].b);
-    setC(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].c);
-    setD(questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].d);
-    setAnswer(
-      questions[bookIndex][Object.keys(questions[bookIndex])][pageIndex].answer
+    setA(
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex].a
     );
-    setBookFlag(Object.keys(questions[bookIndex])[0]);
-  }, [questions, bookIndex, pageIndex]);
+    setB(
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex].b
+    );
+    setC(
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex].c
+    );
+    setD(
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex].d
+    );
+    setAnswer(
+      questionList[bookIndex][Object.keys(questionList[bookIndex])][pageIndex]
+        .answer
+    );
+    setBookFlag(Object.keys(questionList[bookIndex])[0]);
+    if (backOrForwardFlag && userAnswerList[bookIndex][pageIndex]) {
+      resetChoicesBackground();
+      choicesContainerRef.current.classList.add("next");
+      updateChoicesBackground(userAnswerList[bookIndex][pageIndex]);
+      setBackOrForwardFlag(false);
+    } else resetChoicesBackground();
+    console.log(bookIndex, pageIndex);
+  }, [questionList, bookIndex, pageIndex]);
 
   const handleQuestions = () => {
     const booksName = Object.keys(options.books).filter(
@@ -95,7 +116,7 @@ const Main = ({ options, data, setScore }) => {
     });
     if (options.shuffle) initShuffle(questionSet);
     const newArr = convertToOneArray(questionSet);
-    setQuestions(newArr);
+    setQuestionList(newArr);
   };
 
   const convertToOneArray = (arr) => {
@@ -132,34 +153,62 @@ const Main = ({ options, data, setScore }) => {
     }
   };
 
-  const handleNext = (choice, target, isTimeout) => {
-    updateChoicesBackground();
-    if (
-      choice === answer &&
-      !target?.current.classList.contains("incorrect") &&
-      !target?.current.classList.contains("correct") &&
-      !isTimeout
-    ) {
-      setScore((prevState) => prevState + 1);
-    }
+  const handleNextQuestion = (choice, target, isTimeout) => {
+    const currentBook = currentBookAndPage.book;
+    const currentPage = currentBookAndPage.page;
+
+    updateScore(target, choice, isTimeout);
     if (choicesContainerRef.current.classList.contains("next")) {
-      const book = questions[bookIndex];
+      const book = questionList[bookIndex];
+
       if (
-        bookIndex < questions.length - 1 &&
+        bookIndex < questionList.length - 1 &&
         pageIndex === book[Object.keys(book)].length - 1
       ) {
         setBookIndex((prevState) => prevState + 1);
         setPageIndex(0);
+        if (bookIndex === currentBook && pageIndex === currentPage) {
+          setCurrentBookAndPage((prevState) => ({
+            book: prevState.book + 1,
+            page: 0,
+          }));
+        }
       } else if (pageIndex < book[Object.keys(book)].length - 1) {
         setPageIndex((prevState) => prevState + 1);
-      } else {
-        navigate("/score");
-      }
+        if (bookIndex === currentBook && pageIndex === currentPage) {
+          setCurrentBookAndPage((prevState) => ({
+            book: prevState.book,
+            page: prevState.page + 1,
+          }));
+        }
+      } else navigate("/score");
       resetChoicesBackground();
     } else choicesContainerRef.current.classList.add("next");
   };
 
-  const updateChoicesBackground = () => {
+  const updateScore = (target, choice, isTimeout) => {
+    const userAnswer = userAnswerList[bookIndex][pageIndex];
+    const targetClassList = target?.current.classList;
+    console.log(userAnswer, "USER ANSWER");
+    if (!userAnswer) {
+      if (
+        choice === answer &&
+        !targetClassList.contains("incorrect") &&
+        !targetClassList.contains("correct") &&
+        !isTimeout
+      ) {
+        userAnswerList[bookIndex][pageIndex] = answer;
+        updateChoicesBackground(answer);
+        console.log("IF");
+        setScore((prevScore) => prevScore + 1);
+      } else {
+        userAnswerList[bookIndex][pageIndex] = answer;
+        updateChoicesBackground(answer);
+      }
+    } else updateChoicesBackground(userAnswer);
+  };
+
+  const updateChoicesBackground = (answer) => {
     aRef.current.classList.add("incorrect");
     bRef.current.classList.add("incorrect");
     cRef.current.classList.add("incorrect");
@@ -235,21 +284,63 @@ const Main = ({ options, data, setScore }) => {
     }
   };
 
+  const handleBackButton = () => {
+    setBackOrForwardFlag(true);
+    const currentBook = currentBookAndPage.book;
+    const currentPage = currentBookAndPage.page;
+
+    if (bookIndex === 0 && pageIndex === 0) return;
+    else if (currentBook !== 0 && currentPage === 0) {
+      setBookIndex((prevState) => prevState - 1);
+      setPageIndex(questionList[bookIndex - 1][0].length - 1);
+    } else setPageIndex((prevState) => (prevState <= 0 ? 0 : prevState - 1));
+  };
+
+  const handleForwardButton = () => {
+    setBackOrForwardFlag(true);
+    const key = Object.keys(questionList[bookIndex]);
+    const questionBook = questionList.length;
+    const questionPage = questionList[bookIndex][key[0]].length;
+    if (
+      (bookIndex === questionBook && pageIndex === questionPage) ||
+      (currentBookAndPage.book === bookIndex &&
+        currentBookAndPage.page === pageIndex)
+    )
+      return;
+    else if (bookIndex < questionBook && pageIndex === questionPage) {
+      setBookIndex((prevState) => prevState + 1);
+      setPageIndex(0);
+    } else setPageIndex((prevState) => prevState + 1);
+  };
+
   return (
     <div className="main">
       <div>
-        <button onDoubleClick={() => navigate("/")}>
-          <i></i>
-        </button>
+        <div>
+          <button onClick={handleBackButton}>
+            <i className="back"></i>
+          </button>
+          <button onClick={handleForwardButton}>
+            <i className="forward"></i>
+          </button>
+        </div>
         {options.time !== "unlimited" && (
           <p className="time">
             {time.minute} : {time.second}
           </p>
         )}
-        <p>
-          {pageIndex + 1} /{" "}
-          {questions[bookIndex][Object.keys(questions[bookIndex])].length}
-        </p>
+        <div>
+          <p>
+            {pageIndex + 1} /{" "}
+            {
+              questionList[bookIndex][Object.keys(questionList[bookIndex])]
+                .length
+            }
+          </p>
+          <button onDoubleClick={() => navigate("/")}>
+            <i className="setting"></i>
+          </button>
+        </div>
       </div>
       <section>
         <div>
@@ -259,20 +350,22 @@ const Main = ({ options, data, setScore }) => {
             dangerouslySetInnerHTML={{ __html: question }}></p>
         </div>
         <div ref={choicesContainerRef} className="choices">
-          <div ref={aRef} onClick={() => handleNext("a", aRef, false)}>
+          <div ref={aRef} onClick={() => handleNextQuestion("a", aRef, false)}>
             <span>A</span>
             <p>{a}</p>
           </div>
-          <div ref={bRef} onClick={() => handleNext("b", bRef, false)}>
+          <div ref={bRef} onClick={() => handleNextQuestion("b", bRef, false)}>
             <span>B</span>
             <p>{b}</p>
           </div>
-          <div ref={cRef} onClick={() => handleNext("c", cRef, false)}>
+          <div ref={cRef} onClick={() => handleNextQuestion("c", cRef, false)}>
             <span>C</span>
             <p>{c}</p>
           </div>
           {d && (
-            <div ref={dRef} onClick={() => handleNext("d", dRef, false)}>
+            <div
+              ref={dRef}
+              onClick={() => handleNextQuestion("d", dRef, false)}>
               <span>D</span>
               <p>{d}</p>
             </div>
