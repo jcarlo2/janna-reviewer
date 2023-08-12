@@ -30,6 +30,11 @@ a {
   gap: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  @media screen and (max-width: 500px){
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
 }
 
 .invalid {
@@ -123,6 +128,7 @@ a {
   height: 100%;
   max-width: 100%;
   padding: 10px;
+  background-color: red;
   > div:first-child {
     display: flex;
     justify-content: space-between;
