@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/janna-reviewer/static/css/main.a3624e9e.css",
-    "main.js": "/janna-reviewer/static/js/main.f2208d30.js",
+    "main.css": "/janna-reviewer/static/css/main.7f0e4409.css",
+    "main.js": "/janna-reviewer/static/js/main.55b5498d.js",
     "static/js/787.76a6362b.chunk.js": "/janna-reviewer/static/js/787.76a6362b.chunk.js",
+    "static/media/setting.svg": "/janna-reviewer/static/media/setting.0b8b0e87c72e112a07ab.svg",
     "index.html": "/janna-reviewer/index.html",
     "static/media/back.svg": "/janna-reviewer/static/media/back.87fd3953b10ee9867681.svg",
-    "main.a3624e9e.css.map": "/janna-reviewer/static/css/main.a3624e9e.css.map",
-    "main.f2208d30.js.map": "/janna-reviewer/static/js/main.f2208d30.js.map",
+    "main.7f0e4409.css.map": "/janna-reviewer/static/css/main.7f0e4409.css.map",
+    "main.55b5498d.js.map": "/janna-reviewer/static/js/main.55b5498d.js.map",
     "787.76a6362b.chunk.js.map": "/janna-reviewer/static/js/787.76a6362b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3624e9e.css",
-    "static/js/main.f2208d30.js"
+    "static/css/main.7f0e4409.css",
+    "static/js/main.55b5498d.js"
   ]
 }
