@@ -1612,9 +1612,9 @@
       },
       {
         "question": "Other than the manufacturer maintenance manual what other document could be used to determine the primary flight control surface deflection for an imported aircraft that is reassembled after shipment?",
-        "a": "Aircraft type certificate data sheet importing country",
+        "a": "Aircraft type certificate data sheet ",
         "b": "Import manual for the aircraft",
-        "c": "The certificate of airworthiness issued by the",
+        "c": "The certificate of airworthiness issued by the importing country",
         "answer": "a"
       },
       {
@@ -1654,16 +1654,16 @@
       },
       {
         "question": "A reduction in anti-torque thrust will cause the",
-        "a": "Tail pivot in the opposite direction of torque rotation around the main rotor axis rotation around the main rotor axis in the hover mode",
-        "b": "Tail to pivot in the direction of torque",
-        "c": "Anti-torque system to become more efficient",
+        "a": "Tail pivot in the opposite direction of torque rotation around the main rotor axis",
+        "b": "Tail to pivot in the direction of torque rotation around the main rotor axis",
+        "c": "Anti-torque system to become more efficient in the hover mode",
         "answer": "b"
       },
       {
         "question": "Which statement concerning the 100-hour inspection of an airplane equipped with a push-pull tube-type control system is true?",
-        "a": "The threaded rod ends should not be adjusted in length for rigging purposes because the rod ends have been properly positioned and staked during manufacture should be visible through the safety hole in the barrel for the amount of thread engagement by means of the inspection hole provided",
-        "b": "The terminal end threads of the turnbuckles",
-        "c": "The threaded rod ends should be checked",
+        "a": "The threaded rod ends should not be adjusted in length for rigging purposes because the rod ends have been properly positioned and staked during manufacture",
+        "b": "The terminal end threads of the turnbuckles should be visible through the safety hole in the barrel",
+        "c": "The threaded rod ends should be checked for the amount of thread engagement by means of the inspection hole provided",
         "answer": "c"
       },
       {
@@ -1696,16 +1696,16 @@
       },
       {
         "question": "The purpose of spring tabs or servo tabs is to",
-        "a": "Assist the pilot in moving the control surfaces surface",
-        "b": "Contribute to the static balance of the control",
+        "a": "Assist the pilot in moving the control surfaces",
+        "b": "Contribute to the static balance of the control surface",
         "c": "Make in-flight trim adjustments possible",
         "answer": "a"
       },
       {
         "question": "Why is it generally necessary to jack an aircraft indoors for weighing?",
-        "a": "So aircraft may be placed in a level position scales pounds",
-        "b": "So that air currents do not destabilize the",
-        "c": "So weighing scales may be calibrated to 0",
+        "a": "So aircraft may be placed in a level position",
+        "b": "So that air currents do not destabilize the scales",
+        "c": "So weighing scales may be calibrated to 0 pounds",
         "answer": "b"
       },
       {
@@ -1717,30 +1717,30 @@
       },
       {
         "question": "As the angle of attack of an airfoil increases, the center of pressure will",
-        "a": "Move toward the trailing edge components increase proportionally to increased angle of attack",
-        "b": "Remain stationary because both lift and drag",
+        "a": "Move toward the trailing edge ",
+        "b": "Remain stationary because both lift and drag components increase proportionally to increased angle of attack",
         "c": "Move toward the leading edge",
         "answer": "c"
       },
       {
         "question": "During inspection of the flight control system of an airplane equipped with differential-type aileron control, side-to-side movement of the control stick will cause",
-        "a": "Each aileron to have a greater up travel (from the streamlined position) than down travel (from the streamlined position) than up travel number of degrees (from full up to full down) than the right aileron",
-        "b": "Each aileron to have a greater down travel",
-        "c": "The left aileron to move through a greater",
+        "a": "Each aileron to have a greater up travel (from the streamlined position) than down travel",
+        "b": "Each aileron to have a greater down travel (from the streamlined position) than up travel",
+        "c": "The left aileron to move through a greater number of degrees (from full up to full down) than the right aileron",
         "answer": "a"
       },
       {
         "question": "What nondestructive checking method is normally used to ensure that the correct amount of swaging has taken place when installing swaged-type terminals on aircraft control cable?",
-        "a": "Check the surface of the swaged portion of the terminal for small cracks which indicate incomplete swaging barrel and compare with the beginning length of the swaged portion of the terminal",
-        "b": "Measure the finished length of the terminal",
-        "c": "Use a terminal gauge to check the diameter",
+        "a": "Check the surface of the swaged portion of the terminal for small cracks which indicate incomplete swaging",
+        "b": "Measure the finished length of the terminal barrel and compare with the beginning length",
+        "c": "Use a terminal gauge to check the diameter of the swaged portion of the terminal",
         "answer": "c"
       },
       {
         "question": "Aircraft flight control trim systems must be designed and installed so that the",
-        "a": "Pilot can determine the relative position of the trim tab from the cockpit move in the same direction inoperative if the primary flight control system fails",
-        "b": "Operating control and the trim tab will always",
-        "c": "Trim system will disengage or become",
+        "a": "Pilot can determine the relative position of the trim tab from the cockpit",
+        "b": "Operating control and the trim tab will always move in the same direction",
+        "c": "Trim system will disengage or become inoperative if the primary flight control system fails",
         "answer": "a"
       },
       {
@@ -1773,9 +1773,9 @@
       },
       {
         "question": "If the right wing of a monoplane is improperly rigged to a greater angle of incidence than designated in the manufacturer’s specifications, it will cause the",
-        "a": "Airplane to be off balance both laterally and directionally decreased drag",
+        "a": "Airplane to be off balance both laterally and directionally ",
         "b": "Airplane to pitch and roll about the lateral axis",
-        "c": "Right wing to have both an increased lift and a",
+        "c": "Right wing to have both an increased lift and a decreased drag",
         "answer": "a"
       },
       {
@@ -1787,8 +1787,8 @@
       },
       {
         "question": "One purpose of the freewheeling unit required between the engine and the helicopter transmission is to",
-        "a": "Automatically disengage the rotor from the engine in case of an engine failure the starter load",
-        "b": "Disconnect the rotor from the engine to relieve",
+        "a": "Automatically disengage the rotor from the engine in case of an engine failure",
+        "b": "Disconnect the rotor from the engine to relieve the starter load",
         "c": "Permit practice of autorotation landings",
         "answer": "a"
       },
@@ -1822,9 +1822,9 @@
       },
       {
         "question": "The correct dihedral angle can be determined by",
-        "a": "Measuring the angular setting of each wing at the rear spar with a bubble protractor across the spars while the airplane is in flying position along the front spar of each wing",
-        "b": "Placing a straightedge and bubble protractor",
-        "c": "Using a dihedral board and bubble level",
+        "a": "Measuring the angular setting of each wing at the rear spar with a bubble protractor",
+        "b": "Placing a straightedge and bubble protractor across the spars while the airplane is in flying position",
+        "c": "Using a dihedral board and bubble level along the front spar of each wing",
         "answer": "c"
       },
       {
@@ -1836,16 +1836,16 @@
       },
       {
         "question": "What is the purpose of the free-wheeling unit in a helicopter drive system?",
-        "a": "It disconnects the rotor whenever the engine stops or slows below the equivalent of rotor RPM during starting",
+        "a": "It disconnects the rotor whenever the engine stops or slows below the equivalent of rotor RPM",
         "b": "It releases the rotor brake for starting",
-        "c": "It relieves bending stress on the rotor blades",
+        "c": "It relieves bending stress on the rotor blades during starting",
         "answer": "a"
       },
       {
         "question": "The angle of incidence is that acute angle formed by",
-        "a": "The angular difference between the setting of the main airfoil and the auxiliary airfoil (horizontal stabilizer) in reference to the longitudinal axis of the aircraft parallel to the longitudinal axis of the aircraft a line parallel to the lateral axis of the aircraft",
-        "b": "A line parallel to the wing chord and a line",
-        "c": "A line parallel to the wing from root to tip and",
+        "a": "The angular difference between the setting of the main airfoil and the auxiliary airfoil (horizontal stabilizer) in reference to the longitudinal axis of the aircraft",
+        "b": "A line parallel to the wing chord and a line parallel to the longitudinal axis of the aircraft ",
+        "c": "A line parallel to the wing from root to tip and a line parallel to the lateral axis of the aircraft",
         "answer": "b"
       },
       {
@@ -1871,16 +1871,16 @@
       },
       {
         "question": "When the lift of an airfoil increases, the drag will",
-        "a": "Decrease return to its original value",
+        "a": "Decrease",
         "b": "Also increase",
-        "c": "Increase while the lift is changing but will",
+        "c": "Increase while the lift is changing but will return to its original value",
         "answer": "b"
       },
       {
         "question": "Very often, repairs to a control surface require static rebalancing of the control surface. Generally, flight control balance condition may be determined by",
-        "a": "Checking for equal distribution of weight throughout the control surface surface is suspended from its hinge points leading edge in the stream line position and checking weight distribution",
-        "b": "The behavior of the trailing edge when the",
-        "c": "Suspending the control surface from its",
+        "a": "Checking for equal distribution of weight throughout the control surface",
+        "b": "The behavior of the trailing edge when the surface is suspended from its hinge points",
+        "c": "Suspending the control surface from its leading edge in the stream line position and checking weight distribution",
         "answer": "b"
       },
       {
@@ -1892,23 +1892,23 @@
       },
       {
         "question": "A helicopter in forward flight, cruise configuration, changes direction by",
-        "a": "Varying the pitch of the main rotor blades direction",
+        "a": "Varying the pitch of the main rotor blades",
         "b": "Changing rotor RPM",
-        "c": "Tilting the main rotor disk in the desired",
+        "c": "Tilting the main rotor disk in the desired direction",
         "answer": "c"
       },
       {
         "question": "Differential control on an aileron system means that",
-        "a": "The down travel is more than the up travel than the aileron on the opposite wing to adjust for wash-in and wash-out",
+        "a": "The down travel is more than the up travel",
         "b": "The up travel is more than the down travel",
-        "c": "One aileron on one wing travels further up",
+        "c": "One aileron on one wing travels further up than the aileron on the opposite wing to adjust for wash-in and wash-out",
         "answer": "b"
       },
       {
         "question": "The vertical flight of a helicopter is controlled by",
-        "a": "Collective pitch changes rotor",
+        "a": "Collective pitch changes",
         "b": "Cyclic pitch changes",
-        "c": "Increasing or decreasing the RPM of the main",
+        "c": "Increasing or decreasing the RPM of the main rotor",
         "answer": "a"
       },
       {
@@ -1920,22 +1920,22 @@
       },
       {
         "question": "The cable-operated control system of an all-metal aircraft, not incorporating a temperature compensating device, has been rigged to the correct tension in a heated hangar. If the aircraft is operated in very cold weather, the cable tension will",
-        "a": "Decrease when the aircraft structure and cables become cold become cold installed",
-        "b": "Increase when the aircraft structure and cables",
-        "c": "Be unaffected if stainless steel cable is",
+        "a": "Decrease when the aircraft structure and cables become cold",
+        "b": "Increase when the aircraft structure and cables become cold",
+        "c": "Be unaffected if stainless steel cable is installed",
         "answer": "a"
       },
       {
         "question": "Washing-in the left wing of a monoplane, for purposes of rigging corrections after flight test, will have what effect on the lift and drag of that wing?",
-        "a": "Both drag and lift will decrease due to decreased angle of attack increased angle of attack lift increase",
-        "b": "Both drag and lift will increase due to",
-        "c": "The drag will decrease due to the effect of the",
+        "a": "Both drag and lift will decrease due to decreased angle of attack",
+        "b": "Both drag and lift will increase due to increased angle of attack",
+        "c": "The drag will decrease due to the effect of the lift increase",
         "answer": "b"
       },
       {
         "question": "A tension regulator in the flight control cable system of a large all-metal aircraft is used primarily to",
-        "a": "Increase the cable tension in cold weather flight",
-        "b": "Provide a means of changing cable tension in",
+        "a": "Increase the cable tension in cold weather",
+        "b": "Provide a means of changing cable tension in flight",
         "c": "Retain a set tension",
         "answer": "c"
       },
@@ -1955,22 +1955,22 @@
       },
       {
         "question": "Where is the buttock line or buttline of an aircraft?",
-        "a": "A height measurement left or right of, and perpendicular to, the horizontal centerline perpendicular to, the vertical centerline parallel to, the vertical centerline",
-        "b": "A width measurement left of, and",
-        "c": "A width measurement left or right of, and",
+        "a": "A height measurement left or right of, and perpendicular to, the horizontal centerline ",
+        "b": "A width measurement left of, and perpendicular to, the vertical centerline",
+        "c": "A width measurement left or right of, and parallel to, the vertical centerline",
         "answer": "c"
       },
       {
         "question": "If a pilot reports that an airplane flies left wing heavy, this condition may be corrected by",
-        "a": "Increasing the angle of incidence of the left wing, or decreasing the angle of incidence of the right wing, or both or decreasing the dihedral angle adjusting the dihedral of the right wing, or both that differential pressure between the upper and lower wing surfaces is increased",
-        "b": "Increasing the dihedral angle of the left wing,",
-        "c": "Adjusting the dihedral angle of the left wing so",
+        "a": "Increasing the angle of incidence of the left wing, or decreasing the angle of incidence of the right wing, or both",
+        "b": "Increasing the dihedral angle of the left wing, or decreasing the dihedral angle adjusting the dihedral of the right wing, or both",
+        "c": "Adjusting the dihedral angle of the left wing so that differential pressure between the upper and lower wing surfaces is increased",
         "answer": "a"
       },
       {
         "question": "If the vertical fin of a single-engine, propellerdriven airplane is rigged properly, it will generally be parallel to",
-        "a": "The longitudinal axis but not the vertical axis axis",
-        "b": "The vertical axis but not the longitudinal",
+        "a": "The longitudinal axis but not the vertical axis",
+        "b": "The vertical axis but not the longitudinal axis",
         "c": "Both the longitudinal and vertical axes",
         "answer": "b"
       },
@@ -1983,15 +1983,15 @@
       },
       {
         "question": "If the travel of an airplane’s controls is correct but the cables are rigged exceptionally tight, what probable effect will this have when flying the airplane?",
-        "a": "The airplane will tend to fall off on one wing hands-off",
+        "a": "The airplane will tend to fall off on one wing",
         "b": "The airplane will be heavy on the controls",
-        "c": "The pilot will be unable to fly the airplane",
+        "c": "The pilot will be unable to fly the airplane hands-off",
         "answer": "b"
       },
       {
         "question": "The angle of incidence of an airplane at rest",
-        "a": "Affects the dihedral of the wings in flight wind and the chord of the wing",
-        "b": "Is the same as the angle between the relative",
+        "a": "Affects the dihedral of the wings in flight",
+        "b": "Is the same as the angle between the relative wind and the chord of the wing",
         "c": "Does not change when in flight",
         "answer": "c"
       },
@@ -2011,9 +2011,9 @@
       },
       {
         "question": "Where does the breakage of control cable wires occur most frequently?",
-        "a": "Breakage usually occurs where cables pass over pulleys and through fairleads occur randomly anywhere along the length of a cable swaged to turnbuckle and ball terminals",
-        "b": "Breakage sites are unpredictable and usually",
-        "c": "Breakage usually occurs where cables are",
+        "a": "Breakage usually occurs where cables pass over pulleys and through fairleads",
+        "b": "Breakage sites are unpredictable and usually occur randomly anywhere along the length of a cable",
+        "c": "Breakage usually occurs where cables are swaged to turnbuckle and ball terminals",
         "answer": "a"
       },
       {
@@ -2025,37 +2025,37 @@
       },
       {
         "question": "Movement of an airplane along its lateral axis (roll) is also movement",
-        "a": "Around or about the longitudinal axis controlled by the elevator the ailerons controlled by the ailerons",
-        "b": "Around or about the lateral axis controlled by",
-        "c": "Around or about the longitudinal axis",
+        "a": "Around or about the longitudinal axis controlled by the elevator ",
+        "b": "Around or about the lateral axis controlled by the ailerons ",
+        "c": "Around or about the longitudinal axis controlled by the ailerons",
         "answer": "c"
       },
       {
         "question": "The purpose in checking main rotor blade tracking is to determine the",
-        "a": "Relative position of the blades during rotation rotation",
+        "a": "Relative position of the blades during rotation",
         "b": "Flight path of the blades during rotation",
-        "c": "Extent of an out of balance condition during",
+        "c": "Extent of an out of balance condition during rotation",
         "answer": "a"
       },
       {
         "question": "Where is fuselage station No. 137 located?",
-        "a": "137 centimeters aft of the nose or fixed reference line line",
-        "b": "137 inches aft of the zero or fixed reference",
+        "a": "137 centimeters aft of the nose or fixed reference line",
+        "b": "137 inches aft of the zero or fixed reference line",
         "c": "Aft of the engine",
         "answer": "b"
       },
       {
         "question": "The vast majority of aircraft control cables are terminated with swaged terminals, that must be",
-        "a": "Corrosion treated to show compliance with the manufacturer’s requirements after the swaging operation manufacturer’s requirements after the swaging operation after, to show compliance with manufacturer’s requirements after the swaging operation",
-        "b": "Pull tested to show compliance with the",
-        "c": "Checked with a go-no-go gauge before and",
+        "a": "Corrosion treated to show compliance with the manufacturer’s requirements after the swaging operation",
+        "b": "Pull tested to show compliance with the manufacturer’s requirements after the swaging operation",
+        "c": "Checked with a go-no-go gauge before and after, to show compliance with manufacturer’s requirements after the swaging operation",
         "answer": "c"
       },
       {
         "question": "When inspecting a control cable turnbuckle for proper installation, determine that",
-        "a": "No more than four threads are exposed on either side of the turnbuckle barrel the safety hole in the barrel minimum of four turns around the terminal end shanks",
-        "b": "The terminal end threads are visible through",
-        "c": "The safety wire ends are wrapped a",
+        "a": "No more than four threads are exposed on either side of the turnbuckle barrel",
+        "b": "The terminal end threads are visible through the safety hole in the barrel",
+        "c": "The safety wire ends are wrapped a minimum of four turns around the terminal end shanks",
         "answer": "c"
       },
       {
@@ -2109,9 +2109,9 @@
       },
       {
         "question": "Proper wing twist in a sheet metal constructed wing can usually be checked by utilizing",
-        "a": "Plum bob, string, and straightedge by the manufacturer square",
-        "b": "Bubble level and special fixtures described",
-        "c": "Straightedge, tape measure, and carpenter’s",
+        "a": "Plum bob, string, and straightedge ",
+        "b": "Bubble level and special fixtures described by the manufacturer",
+        "c": "Straightedge, tape measure, and carpenter’s square",
         "answer": "b"
       },
       {
@@ -2123,9 +2123,9 @@
       },
       {
         "question": "An airplane’s center of lift is usually located aft of its center of gravity",
-        "a": "So that the airplane will have a tail-heavy tendency tendency axis",
-        "b": "So that the airplane will have a nose-heavy",
-        "c": "To improve stability about the longitudinal",
+        "a": "So that the airplane will have a tail-heavy tendency",
+        "b": "So that the airplane will have a nose-heavy tendency",
+        "c": "To improve stability about the longitudinal axis",
         "answer": "b"
       },
       {
@@ -2137,8 +2137,8 @@
       },
       {
         "question": "Rigging and alignment checks should not be undertaken in the open; however, if this cannot be avoided, the aircraft should be positioned",
-        "a": "Obliquely into the wind difference if the wind is steady (not gusting) ",
-        "b": "Facing any direction since it makes no",
+        "a": "Obliquely into the wind ",
+        "b": "Facing any direction since it makes no difference if the wind is steady (not gusting)",
         "c": "With the nose into the wind",
         "answer": "c"
       }
@@ -2167,22 +2167,22 @@
       },
       {
         "question": "How can it be determined if a transformer winding has some of its turns shorted together?",
-        "a": "Measure the input voltage with an ohmmeter. operation.",
+        "a": "Measure the input voltage with an ohmmeter",
         "b": "The output voltage will be high.",
-        "c": "The transformer will get hot in normal",
+        "c": "The transformer will get hot in normal operation",
         "answer": "c"
       },
       {
         "question": "If the reverse current cutout relay contact points fail to open after the generator output has dropped below battery potential, current will flow through the generator armature",
-        "a": "in the normal direction and through the shunt field opposite the normal direction. shunt field in the normal direction.",
+        "a": "in the normal direction and through the shunt field opposite the normal direction.",
         "b": "and the shunt field opposite the normal direction.",
-        "c": "opposite the normal direction and through the",
+        "c": "opposite the normal direction and through theshunt field in the normal direction." ,
         "answer": "c"
       },
       {
         "question": "What is the color and orientation of the position lights for navigation on civil airplanes?",
-        "a": "Left side - green, right side - red, rear aft - white. white.",
-        "b": "Left side - red, right side - green, rear aft -",
+        "a": "Left side - green, right side - red, rear aft - white. .",
+        "b": "Left side - red, right side - green, rear aft - white",
         "c": "Left side - white, right side - green, rear aft – red.",
         "answer": "b"
       },
@@ -2209,9 +2209,9 @@
       },
       {
         "question": "When handling a high voltage capacitor in an electrical circuit, be sure it",
-        "a": "has a full charge before removing it from the circuit. from the circuit. circuit.",
-        "b": "has at least a residual charge before removing it",
-        "c": "is fully discharged before removing it from the",
+        "a": "has a full charge before removing it from the circuit.",
+        "b": "has at least a residual charge before removing it from the circuit",
+        "c": "is fully discharged before removing it from the circuit",
         "answer": "c"
       },
       {
@@ -2237,16 +2237,16 @@
       },
       {
         "question": "A battery-generator system provides direct current. On installations requiring alternating current from the batterygenerator system, it is necessary to have",
-        "a": "a transformer. generator.",
+        "a": "a transformer. .",
         "b": "an inverter.",
-        "c": "a variable resistor between the battery and",
+        "c": "a variable resistor between the battery and generator",
         "answer": "b"
       },
       {
         "question": "Which of the following must be accomplished when installing an anti-collision light?",
-        "a": "Install a switch independent of the position light switch. operation. position light switch.",
-        "b": "Use shielded electrical cable to assure fail-safe",
-        "c": "Connect the anticollision light to the aircraft",
+        "a": "Install a switch independent of the position light switch. ",
+        "b": "Use shielded electrical cable to assure fail-safe operation.",
+        "c": "Connect the anticollision light to the aircraft position light switch.",
         "answer": "a"
       },
       {
@@ -2286,9 +2286,9 @@
       },
       {
         "question": "What is the purpose of the selection of derated switches for known continuous load current applications?",
-        "a": "To calculate the voltage, drop across the circuit. windings. service life.",
-        "b": "To prevent short circuits in the motor field",
-        "c": "To obtain reasonable switch efficiency and",
+        "a": "To calculate the voltage, drop across the circuit ",
+        "b": "To prevent short circuits in the motor field windings.",
+        "c": "To obtain reasonable switch efficiency and service life.",
         "answer": "c"
       },
       {
@@ -2300,16 +2300,16 @@
       },
       {
         "question": "Which of the following should be accomplished in the installation of aircraft wiring?",
-        "a": "Support the bundle to structure and/ or solid fluid lines to prevent chafing damage. compensate for large changes in temperature. and securely clamp to structure.",
-        "b": "Provide adequate slack in the wire bundle to",
-        "c": "Locate the bundle above flammable fluid lines",
+        "a": "Support the bundle to structure and/ or solid fluid lines to prevent chafing damage. ",
+        "b": "Provide adequate slack in the wire bundle to compensate for large changes in temperature.",
+        "c": "Locate the bundle above flammable fluid lines and securely clamp to structure.",
         "answer": "c"
       },
       {
         "question": "If one switch is used to control all navigation lights, the lights are most likely connected",
-        "a": "in series with each other and parallel to the switch. switch. switch.",
-        "b": "in series with each other and in series with the",
-        "c": "parallel to each other and in series with the",
+        "a": "in series with each other and parallel to the switch.",
+        "b": "in series with each other and in series with the switch.",
+        "c": "parallel to each other and in series with the switch.",
         "answer": "c"
       },
       {
@@ -2321,9 +2321,9 @@
       },
       {
         "question": "Which statement relating to electric wiring is true?",
-        "a": "When attaching a terminal to the end of an electric cable, it should be determined that the strength of the cable-to-terminal joint is at least twice the tensile strength of the cable. electric cable, it should be determined that the strength of the cable-to-terminal joint is at least equal to the tensile strength of the cable itself. soft insulating tubing (spaghetti) for mechanical protection against external abrasion.",
-        "b": "When attaching a terminal to the end of an",
-        "c": "All electric cable splices should be covered with",
+        "a": "When attaching a terminal to the end of an electric cable, it should be determined that the strength of the cable-to-terminal joint is at least twice the tensile strength of the cable.",
+        "b": "When attaching a terminal to the end of an electric cable, it should be determined that the strength of the cable-to-terminal joint is at least equal to the tensile strength of the cable itself.",
+        "c": "All electric cable splices should be covered with soft insulating tubing (spaghetti) for mechanical protection against external abrasion.",
         "answer": "b"
       },
       {
@@ -2363,15 +2363,15 @@
       },
       {
         "question": "Certain transport aircraft use ac electrical power for all normal operation and battery furnished dc electrical power for standby emergency use. In aircraft of this type that operate no dc generators, the batteries are kept charged by",
-        "a": "inverters which use the aircraft’s ac generators as a source of power. a source of power. generators as a source of power.",
-        "b": "alternators which use the aircraft’s generators as",
-        "c": "rectifiers which use the aircraft’s ac",
+        "a": "inverters which use the aircraft’s ac generators as a source of power.",
+        "b": "alternators which use the aircraft’s generators as a source of power.",
+        "c": "rectifiers which use the aircraft’s ac generators as a source of power.",
         "answer": "c"
       },
       {
         "question": "The most common method of regulating the voltage output of a compound dc generator is to vary the",
-        "a": "current flowing through the shunt field coils. reluctance of the magnetic circuit.",
-        "b": "total effective field strength by changing the",
+        "a": "current flowing through the shunt field coils. ",
+        "b": "total effective field strength by changing the reluctance of the magnetic circuit.",
         "c": "resistance of the series field circuit.",
         "answer": "a"
       },
@@ -2391,9 +2391,9 @@
       },
       {
         "question": "One advantage of using ac electrical power in aircraft is",
-        "a": "that ac electrical motors can be reversed while dc motors cannot. down. maximum instantaneous voltage; therefore, less power input is required.",
-        "b": "greater ease in stepping the voltage up or",
-        "c": "that the effective voltage is 1 .41 times the",
+        "a": "that ac electrical motors can be reversed while dc motors cannot.",
+        "b": "greater ease in stepping the voltage up or down",
+        "c": "that the effective voltage is 1 .41 times the maximum instantaneous voltage; therefore, less power input is required.",
         "answer": "b"
       },
       {
@@ -2447,23 +2447,23 @@
       },
       {
         "question": "If a generator is equipped with a vibrator-type voltage regulator, the actual time the voltage regulator points remain open",
-        "a": "depends on the load carried by the generator. point clearance. the generator output.",
-        "b": "is controlled by the reverse-current cutout relay",
-        "c": "is increased when the external load is greater than",
+        "a": "depends on the load carried by the generator.",
+        "b": "is controlled by the reverse-current cutout relay point clearance.",
+        "c": "is increased when the external load is greater than  the generator output.",
         "answer": "a"
       },
       {
         "question": "What is an important factor in selecting aircraft fuses?",
-        "a": "The current exceeds a predetermined value. maximum circuit voltage.",
-        "b": "The voltage rating should be lower than the",
+        "a": "The current exceeds a predetermined value. ",
+        "b": "The voltage rating should be lower than the maximum circuit voltage.",
         "c": "Capacity matches the needs of the circuit.",
         "answer": "c"
       },
       {
         "question": "When dc generators are operated in parallel to supply power for a single load, their controls include an equalizer circuit to assure that all generators share the load equally. The equalizer circuit operates by",
-        "a": "increasing the output of the low generator to equal the output of the high generator. equal the output of the low generator. and decreasing the output of the high generator until they are equal",
-        "b": "decreasing the output of the high generator to",
-        "c": "increasing the output of the low generator",
+        "a": "increasing the output of the low generator to equal the output of the high generator. ",
+        "b": "decreasing the output of the high generator to equal the output of the low generator.",
+        "c": "increasing the output of the low generator and decreasing the output of the high generator until they are equal",
         "answer": "c"
       },
       {
@@ -2475,23 +2475,23 @@
       },
       {
         "question": "The method most often used in overcoming the effect of armature reaction is through the use of",
-        "a": "interpoles. negatively connected series field",
+        "a": "interpoles. ",
         "b": "shaded poles.",
-        "c": "drum-wound armatures in combination with a",
+        "c": "drum-wound armatures in combination with a negatively connected series field",
         "answer": "a"
       },
       {
         "question": "The commutator of a generator",
-        "a": "changes direct current produced in the armature into alternating current as it is taken from the armature. armature into direct current as it is taken from the armature. time in order to produce direct current.",
-        "b": "changes alternating current produced in the",
-        "c": "reverses the current in the field coils at the proper",
+        "a": "changes direct current produced in the armature into alternating current as it is taken from the armature.",
+        "b": "changes alternating current produced in the armature into direct current as it is taken from the armature.",
+        "c": "reverses the current in the field coils at the proper time in order to produce direct current.",
         "answer": "b"
       },
       {
         "question": "What is the ratio of turns between the primary coil winding and the secondary coil winding of a transformer designed to triple its input voltage?",
-        "a": "Primary will have one-third as many turns as its secondary. secondary. secondary",
-        "b": "Primary will have twice as many turns as its",
-        "c": "Primary will have three times as many turns as its",
+        "a": "Primary will have one-third as many turns as its secondary. ",
+        "b": "Primary will have twice as many turns as its secondary.",
+        "c": "Primary will have three times as many turns as its  secondary",
         "answer": "a"
       },
       {
@@ -2504,7 +2504,7 @@
       {
         "question": "When using the voltage drop method of checking circuit resistance, the",
         "a": "input voltage must be maintained at a constant value. value.",
-        "b": "output voltage must be maintained at a constant",
+        "b": "output voltage must be maintained at a constan valuet",
         "c": "input voltage must be varied.",
         "answer": "a"
       },
@@ -2524,22 +2524,22 @@
       },
       {
         "question": "How does the magnetic brake used to stop rotation of an electric motor armature operate?",
-        "a": "Centrifugal force releases a rotating brake cog from a stationary notch when the armature reaches a certain speed and magnetic force reengages the cog when the electrical power is turned off. released by a spring. released by a magnet.",
-        "b": "A friction brake is applied by a magnet and",
-        "c": "A friction brake is applied by a spring and",
+        "a": "Centrifugal force releases a rotating brake cog from a stationary notch when the armature reaches a certain speed and magnetic force reengages the cog when the electrical power is turned off.",
+        "b": "A friction brake is applied by a magnet and  released by a spring. ",
+        "c": "A friction brake is applied by a spring and released by a magnet.",
         "answer": "c"
       },
       {
         "question": "What does a rectifier do?",
-        "a": "Changes direct current into alternating current. current.",
-        "b": "Changes alternating current into direct",
+        "a": "Changes direct current into alternating current. ",
+        "b": "Changes alternating current into direct current.",
         "c": "Reduces voltage.",
         "answer": "b"
       },
       {
         "question": "A series-wound dc electric motor will normally require",
-        "a": "more current at high RPM than at low RPM. operating range of speed.",
-        "b": "approximately the same current throughout its",
+        "a": "more current at high RPM than at low RPM. ",
+        "b": "approximately the same current throughout its operating range of speed.",
         "c": "more current at low RPM than at high RPM.",
         "answer": "c"
       },
@@ -2552,8 +2552,8 @@
       },
       {
         "question": "The navigation lights of some aircraft consist of a single circuit controlled by a single switch which has an ON position and an OFF position, with no additional positions possible. This switch is referred to as a",
-        "a": "double-pole, single-throw (DPST), two-position switch. switch.",
-        "b": "single-pole, double-throw (SPDT), two-position",
+        "a": "double-pole, single-throw (DPST), two-position switch. ",
+        "b": "single-pole, double-throw (SPDT), two-position switch.",
         "c": "single-pole, single-throw (S PST), twoposition switch.",
         "answer": "c"
       },
@@ -2573,15 +2573,15 @@
       },
       {
         "question": "Some electric motors have two sets of field windings wound in opposite directions so that the",
-        "a": "speed of the motor can be more closely controlled. controlled.",
-        "b": "power output of the motor can be more closely",
+        "a": "speed of the motor can be more closely controlled. ",
+        "b": "power output of the motor can be more closely controlled.",
         "c": "motor can be operated in either direction.",
         "answer": "c"
       },
       {
         "question": "When using an ohmmeter to check the continuity of a generator field coil, the coil should",
-        "a": "be removed from the generator housing. connected to the terminals of the coil.",
-        "b": "show high resistance when the meter prods are",
+        "a": "be removed from the generator housing. ",
+        "b": "show high resistance when the meter prods are connected to the terminals of the coil.",
         "c": "show very low resistance if it is a series field coil.",
         "answer": "c"
       },
@@ -2608,9 +2608,9 @@
       },
       {
         "question": "Aluminum wire must be stripped very carefully because",
-        "a": "high resistance will develop in stripping nicks. being nicked.",
+        "a": "high resistance will develop in stripping nicks. ",
         "b": "stripping nicks can cause short circuits.",
-        "c": "individual strands will break easily after",
+        "c": "individual strands will break easily after being nicked.",
         "answer": "c"
       },
       {
@@ -2629,9 +2629,9 @@
       },
       {
         "question": "The three kinds of circuit-protection devices used most commonly in aircraft circuits are",
-        "a": "circuit breakers, resistors, and current limiters. plug-ins mechanical reset types.",
+        "a": "circuit breakers, resistors, and current limiters. ",
         "b": "circuit breakers, fuses, and current limiters.",
-        "c": "circuit breakers, capacitors, and current limiter",
+        "c": "circuit breakers, capacitors, and current limiter plug-ins mechanical reset types.",
         "answer": "b"
       },
       {
@@ -2685,9 +2685,9 @@
       },
       {
         "question": "How is a shunt-wound dc generator connected?",
-        "a": "One field is shunted across the other. capacitor.",
+        "a": "One field is shunted across the other. ",
         "b": "Both fields are shunted across the armature.",
-        "c": "The field and armature are shunted with a",
+        "c": "The field and armature are shunted with a capacitor.",
         "answer": "b"
       },
       {
@@ -2713,30 +2713,30 @@
       },
       {
         "question": "To test generator or motor armature windings for opens,",
-        "a": "place armature in a growler and connect a 110V test light on adjacent segments; light should light. ohmmeter on the high resistance scale. segments and the shaft.",
-        "b": "check adjacent segments on commutator with an",
-        "c": "use a 12/24V test light between the armature core",
+        "a": "place armature in a growler and connect a 110V test light on adjacent segments; light should light. ",
+        "b": "check adjacent segments on commutator with an ohmmeter on the high resistance scale. ",
+        "c": "use a 12/24V test light between the armature core segments and the shaft.",
         "answer": "a"
       },
       {
         "question": "The primary considerations when selecting electric cable size are",
-        "a": "current-carrying capacity and allowable voltage drop. carry.",
-        "b": "the voltage and amperage of the load it must",
+        "a": "current-carrying capacity and allowable voltage drop. ",
+        "b": "the voltage and amperage of the load it must carry.",
         "c": "the system voltage and cable length.",
         "answer": "a"
       },
       {
         "question": "Static inverters are electronic devices that change DC to AC with the",
-        "a": "use of an oscillator. circuits.",
+        "a": "use of an oscillator. ",
         "b": "properties of an exclusive OR gate.",
-        "c": "input from an amplifier control by integrated",
+        "c": "input from an amplifier control by integrated circuits.",
         "answer": "a"
       },
       {
         "question": "An aircraft electrical circuit control relay is",
-        "a": "an electronically operated switch. kinetic energy. and passes it on with little or no resistance.",
-        "b": "a device which converts electrical energy to",
-        "c": "any conductor which receives electrical energy",
+        "a": "an electronically operated switch.  ",
+        "b": "a device which converts electrical energy to kinetic energy.",
+        "c": "any conductor which receives electrical energy and passes it on with little or no resistance.",
         "answer": "a"
       },
       {
@@ -2755,8 +2755,8 @@
       },
       {
         "question": "When considering an alteration, the criteria upon which the selection of electric cable size should be based are",
-        "a": "applied voltage and allowable voltage drop. voltage drop.",
-        "b": "current-carrying capacity and allowable",
+        "a": "applied voltage and allowable voltage drop. ",
+        "b": "current-carrying capacity and allowable voltage drop.",
         "c": "current-carrying capacity and applied voltage.",
         "answer": "b"
       },
@@ -2769,9 +2769,9 @@
       },
       {
         "question": "The strength of the core of an electromagnet depends upon the material from which it is constructed and which of the following?",
-        "a": "The number of turns of wire in the coil and the applied voltage. amount of current (amperes) passing through the coil. wire in the coil and the applied voltage.",
-        "b": "The number of turns of wire in the coil and the",
-        "c": "The size (cross section) and the number of turns of",
+        "a": "The number of turns of wire in the coil and the applied voltage.  ",
+        "b": "The number of turns of wire in the coil and the amount of current (amperes) passing through the coil.",
+        "c": "The size (cross section) and the number of turns of wire in the coil and the applied voltage.",
         "answer": "b"
       },
       {
@@ -2827,7 +2827,7 @@
         "question": "The overvoltage control automatically protects the generator system when excessive voltage is present by",
         "a": "opening the shunt field circuit. relay.",
         "b": "opening and resetting the field control relay.",
-        "c": "breaking a circuit to the trip coil of the field control",
+        "c": "breaking a circuit to the trip coil of the field control relay.",
         "answer": "a"
       },
       {
@@ -2846,9 +2846,9 @@
       },
       {
         "question": "During inspection of an anti-collision light installation for condition and proper operation, it should be determined that",
-        "a": "electrical or mechanical interconnections are provided so that the anti-collision light will operate at position. an appropriately rated fuse is in position at the light to protect the connecting wiring against electrical faults. independently of the position lights.",
-        "b": "all times that the position light switch is in the ON",
-        "c": "the anti-collision light can be operated",
+        "a": "electrical or mechanical interconnections are provided so that the anti-collision light will operate at position. ",
+        "b": "all times that the position light switch is in the ON an appropriately rated fuse is in position at the light to protect the connecting wiring against electrical faults. ",
+        "c": "the anti-collision light can be operated independently of the position lights.",
         "answer": "c"
       },
       {
@@ -2874,8 +2874,8 @@
       },
       {
         "question": "How does the routing of coaxial cables differ from the routing of electrical wiring?",
-        "a": "Coaxial cables are routed parallel with stringers or ribs. stringers or ribs.",
-        "b": "Coaxial cables are routed at right angles to",
+        "a": "Coaxial cables are routed parallel with stringers or ribs. ",
+        "b": "Coaxial cables are routed at right angles to stringers or ribs.",
         "c": "Coaxial cables are routed as directly as possible.",
         "answer": "c"
       },
@@ -2895,15 +2895,15 @@
       },
       {
         "question": "During inspection of the terminal strips of an aircraft electrical system, it should be determined that",
-        "a": "only locknuts have been used for terminal attachment to the studs. rotation. for terminal attachment to the studs.",
-        "b": "the terminal studs are anchored against",
-        "c": "only plain nuts and lockwashers have been used",
+        "a": "only locknuts have been used for terminal attachment to the studs.  ",
+        "b": "the terminal studs are anchored against rotation.",
+        "c": "only plain nuts and lockwashers have been used for terminal attachment to the studs.",
         "answer": "b"
       },
       {
         "question": "The type of electric wire terminals used for most aircraft applications, in addition to providing good current carrying capabilities, are designed primarily",
-        "a": "To prevent circuit failure due to terminal disconnection. and disconnection.",
-        "b": "for uncomplicated and rapid circuit connection",
+        "a": "To prevent circuit failure due to terminal disconnection. ",
+        "b": "for uncomplicated and rapid circuit connection and disconnection.",
         "c": "for permanent connection to the circuit.",
         "answer": "a"
       },
@@ -2923,9 +2923,9 @@
       },
       {
         "question": "In aircraft electrical systems, automatic reset circuit breakers",
-        "a": "Should not be used as circuit protective devices. normally encountered. operation of the aircraft.",
-        "b": "Are useful where only temporary overloads are",
-        "c": "Must be used in all circuits essential to safe",
+        "a": "Should not be used as circuit protective devices.  ",
+        "b": "Are useful where only temporary overloads are normally encountered.",
+        "c": "Must be used in all circuits essential to safe operation of the aircraft.",
         "answer": "a"
       },
       {
@@ -2944,9 +2944,9 @@
       },
       {
         "question": "A circuit breaker is installed in an aircraft electrical system primarily to protect the",
-        "a": "circuit and should be located as close to the source as possible. as possible. as close to the source as possible.",
-        "b": "circuit and should be located as close to the unit",
-        "c": "electrical unit in the circuit and should be located",
+        "a": "circuit and should be located as close to the source as possible.  ",
+        "b": "circuit and should be located as close to the unit as possible.",
+        "c": "electrical unit in the circuit and should be located as close to the source as possible.",
         "answer": "a"
       },
       {
@@ -2972,16 +2972,16 @@
       },
       {
         "question": "Which of the following is most likely to cause thermal runaway in a nickel- cadmium battery?",
-        "a": "A high internal resistance condition. than 100 percent of its capacity.",
+        "a": "A high internal resistance condition. ",
         "b": "Excessive current draw from the battery.",
-        "c": "Constant current charging of the battery to more",
+        "c": "Constant current charging of the battery to more than 100 percent of its capacity.",
         "answer": "b"
       },
       {
         "question": "How can the direction of rotation of a dc electric motor be changed?",
-        "a": "Interchange the wires which connect the motor to the external power source. the field or armature windings. segment.",
-        "b": "Reverse the electrical connections to either",
-        "c": "Rotate the positive brush one commutator",
+        "a": "Interchange the wires which connect the motor to the external power source.  ",
+        "b": "Reverse the electrical connections to either the field or armature windings.",
+        "c": "Rotate the positive brush one commutator segment.",
         "answer": "b"
       },
       {
@@ -3007,9 +3007,9 @@
       },
       {
         "question": "A certain switch is described as a single-pole, doublethrow switch (SPDT). The throw of a switch indicates the number of",
-        "a": "circuits each pole can complete through the switch. switch. plunger, etc.) will come to rest and at the same time open or close a circuit.",
-        "b": "terminals at which current can enter or leave the",
-        "c": "places at which the operating device (toggle,",
+        "a": "circuits each pole can complete through the switch.  ",
+        "b": "terminals at which current can enter or leave the switch.",
+        "c": "places at which the operating device (toggle, plunger, etc.) will come to rest and at the same time open or close a circuit.",
         "answer": "a"
       },
       {
@@ -3028,9 +3028,9 @@
       },
       {
         "question": "Electric wiring installed in aircraft without special enclosing means (open wiring) offers the advantages of ease of installation, simple maintenance, and reduced weight. When bundling open wiring, the bundles should",
-        "a": "be limited as to the number of cables to minimize damage from a single electrical fault. good bonding of the bundle to the airframe. times the bundle diameter to avoid excessive stresses on the cable insulation.",
-        "b": "include at least one shielded cable to provide",
-        "c": "be limited to a minimum bend radius of five",
+        "a": "be limited as to the number of cables to minimize damage from a single electrical fault.  ",
+        "b": "include at least one shielded cable to provide good bonding of the bundle to the airframe.",
+        "c": "be limited to a minimum bend radius of five times the bundle diameter to avoid excessive stresses on the cable insulation.",
         "answer": "a"
       },
       {
@@ -3049,9 +3049,9 @@
       },
       {
         "question": "The voltage in an ac transformer secondary that contains twice as many loops as the primary will be",
-        "a": "greater and the amperage less than in the primary. primary. primary.",
-        "b": "greater and the amperage greater than in the",
-        "c": "less and the amperage greater than in the",
+        "a": "greater and the amperage less than in the primary.  ",
+        "b": "greater and the amperage greater than in the primary.",
+        "c": "less and the amperage greater than in the primary.",
         "answer": "a"
       },
       {
@@ -3072,9 +3072,9 @@
     "AIRCRAFT INSTRUMENT SYSTEM": [
       {
         "question": "Turbine engine exhaust gas temperatures are measured by using",
-        "a": "Iron/constantan thermocouples. thermometers.",
+        "a": "Iron/constantan thermocouples. ",
         "b": "chromel/alumel thermocouples.",
-        "c": "Ratiometer electrical resistance",
+        "c": "Ratiometer electrical resistance thermometers.",
         "answer": "b"
       },
       {
@@ -3086,9 +3086,9 @@
       },
       {
         "question": "When flags such as NAV, HDG, or GS are displayed on an HSI, the indication is",
-        "a": "that function is inoperative. desired setting, or flight path, or heading, etc.",
+        "a": "that function is inoperative. ",
         "b": "that function is operating.",
-        "c": "to call attention to deviation from the",
+        "c": "to call attention to deviation from the desired setting, or flight path, or heading, etc.",
         "answer": "a"
       },
       {
@@ -3100,8 +3100,8 @@
       },
       {
         "question": "Which of the following instruments will normally have range markings?",
-        "a": "Altimeter. airspeed indicator.",
-        "b": "Cylinder head temperature gauge,",
+        "a": "Altimeter. ",
+        "b": "Cylinder head temperature gauge, airspeed indicator.",
         "c": "Altimeter, airspeed indicator",
         "answer": "b"
       },
@@ -3128,9 +3128,9 @@
       },
       {
         "question": "The operating mechanism of most hydraulic pressure gauges is",
-        "a": "a Bourdon tube. gas to which suitable arms, levers, and gears are attached.",
+        "a": "a Bourdon tube. ",
         "b": "an airtight diaphragm.",
-        "c": "an evacuated bellows filled with an inert",
+        "c": "an evacuated bellows filled with an inert gas to which suitable arms, levers, and gears are attached.",
         "answer": "a"
       },
       {
@@ -3149,9 +3149,9 @@
       },
       {
         "question": "Which statement regarding an aircraft instrument vacuum system is true?",
-        "a": "Dry-type vacuum pumps with carbon vanes are very susceptible to damage from solid airborne particles and must take in only filtered air. effective at high altitudes than positive pressure systems. instrument is connected to a common atmospheric pressure manifold, the system generally will be equipped with individual instrument filters only",
-        "b": "Vacuum systems are generally more",
-        "c": "If the air inlet to each vacuum",
+        "a": "Dry-type vacuum pumps with carbon vanes are very susceptible to damage from solid airborne particles and must take in only filtered air. ",
+        "b": "Vacuum systems are generally more effective at high altitudes than positive pressure systems. ",
+        "c": "If the air inlet to each vacuum instrument is connected to a common atmospheric pressure manifold, the system generally will be equipped with individual instrument filters only",
         "answer": "a"
       },
       {
@@ -3177,9 +3177,9 @@
       },
       {
         "question": "How is a flangeless instrument case mounted in an instrument panel?",
-        "a": "By four machine screws which extend through the instrument panel. to the back of the panel and tightened by a screw from the front of the instrument panel. located behind the instrument panel.",
-        "b": "By an expanding-type clamp secured",
-        "c": "By a metal shelf separate from and",
+        "a": "By four machine screws which extend through the instrument panel. ",
+        "b": "By an expanding-type clamp secured to the back of the panel and tightened by a screw from the front of the instrument panel. ",
+        "c": "By a metal shelf separate from and located behind the instrument panel.",
         "answer": "b"
       },
       {
@@ -3233,9 +3233,9 @@
       },
       {
         "question": "A certificated mechanic with airframe and powerplant ratings may",
-        "a": "perform minor repairs to aircraft instruments. alterations to aircraft instruments. instruments.",
-        "b": "perform minor repairs and minor",
-        "c": "not perform repairs to aircraft",
+        "a": "perform minor repairs to aircraft instruments.  ",
+        "b": "perform minor repairs and minor alterations to aircraft instruments.",
+        "c": "not perform repairs to aircraft instruments.",
         "answer": "c"
       },
       {
@@ -3247,16 +3247,16 @@
       },
       {
         "question": "What will be the result if the instrument static pressure line becomes disconnected inside a pressurized cabin during cruising flight?",
-        "a": "The altimeter and airspeed indicator will both read low. will both read high. airspeed indicator will read high.",
-        "b": "The altimeter and airspeed indicator",
-        "c": "The altimeter will read low and the",
+        "a": "The altimeter and airspeed indicator will both read low.  ",
+        "b": "The altimeter and airspeed indicator will both read high.",
+        "c": "The altimeter will read low and the airspeed indicator will read high.",
         "answer": "a"
       },
       {
         "question": "What must be done to an instrument panel that is supported by shock mounts?",
-        "a": "Bonding straps must be installed across the instrument mounts as a current path. grounded to the aircraft structure as a current path. tightened to the specified torque required by the maintenance manual.",
-        "b": "The instrument mounts must be",
-        "c": "The instrument mounts must be",
+        "a": "Bonding straps must be installed across the instrument mounts as a current path.  ",
+        "b": "The instrument mounts must be grounded to the aircraft structure as a current path.",
+        "c": "The instrument mounts must be tightened to the specified torque required by the maintenance manual.",
         "answer": "a"
       },
       {
@@ -3275,9 +3275,9 @@
       },
       {
         "question": "The function of a symbol generator (SG) in an [FIS is to",
-        "a": "display alphanumeric data and representations of aircraft instruments. system configuration for the current flight situation. from aircraft and engine sensors and send the data to the appropriate display.",
-        "b": "allow the pilot to select the appropriate",
-        "c": "receive and process input signals",
+        "a": "display alphanumeric data and representations of aircraft instruments.  ",
+        "b": "allow the pilot to select the appropriate system configuration for the current flight situation.",
+        "c": "receive and process input signals from aircraft and engine sensors and send the data to the appropriate display.",
         "answer": "c"
       },
       {
@@ -3289,9 +3289,9 @@
       },
       {
         "question": "The function of a CRT in an EFIS is to",
-        "a": "allow the pilot to select the appropriate system configuration for the current flight situation. representations of aircraft instruments. aircraft and engine sensors and send the data to the appropriate display.",
-        "b": "display alphanumeric data and",
-        "c": "receive and process input signals from",
+        "a": "allow the pilot to select the appropriate system configuration for the current flight situation.  ",
+        "b": "display alphanumeric data and representations of aircraft instruments.",
+        "c": "receive and process input signals from aircraft and engine sensors and send the data to the appropriate display.",
         "answer": "b"
       },
       {
@@ -3310,22 +3310,22 @@
       },
       {
         "question": "If a static pressure system check reveals excessive leakage, the leak(s) maybe located by",
-        "a": "pressurizing the system and adding leak detection dye. testing each portion systematically starting at the instrument connections. line segments.",
-        "b": "isolating portions of the line and",
-        "c": "removing and visually inspecting the",
+        "a": "pressurizing the system and adding leak detection dye. ",
+        "b": "isolating portions of the line and testing each portion systematically starting at the instrument connections. ",
+        "c": "removing and visually inspecting the line segments.",
         "answer": "b"
       },
       {
         "question": "A turn coordinator instrument indicates",
-        "a": "the longitudinal attitude of the aircraft during climb and descent. bank.",
-        "b": "the need for corrections in pitch and",
+        "a": "the longitudinal attitude of the aircraft during climb and descent. ",
+        "b": "the need for corrections in pitch and bank.",
         "c": "both roll and yaw.",
         "answer": "c"
       },
       {
         "question": "A radar altimeter determines altitude by",
-        "a": "transmitting a signal and receiving back a reflected signal. ground radar stations.",
-        "b": "receiving signals transmitted from",
+        "a": "transmitting a signal and receiving back a reflected signal. ",
+        "b": "receiving signals transmitted from ground radar stations.",
         "c": "means of transponder interrogation.",
         "answer": "a"
       },
@@ -3338,8 +3338,8 @@
       },
       {
         "question": "Aircraft temperature thermocouple leads may",
-        "a": "not be altered and are designed for a specific installation. post of the indicator.",
-        "b": "be installed with either lead to either",
+        "a": "not be altered and are designed for a specific installation. ",
+        "b": "be installed with either lead to either post of the indicator.",
         "c": "be repaired using solderless connectors.",
         "answer": "a"
       },
@@ -3352,9 +3352,9 @@
       },
       {
         "question": "Instrument static system leakage can be detected by observing the rate of change in indication of the",
-        "a": "airspeed indicator after suction has been applied to the static system to cause a prescribed equivalent airspeed to be indicated. applied to the static system to cause a prescribed equivalent altitude to be indicated. applied to the static system to cause a prescribed equivalent altitude to be indicated.",
-        "b": "altimeter after pressure has been",
-        "c": "altimeter after suction has been",
+        "a": "airspeed indicator after suction has been applied to the static system to cause a prescribed equivalent airspeed to be indicated. ",
+        "b": "altimeter after pressure has been applied to the static system to cause a prescribed equivalent altitude to be indicated. ",
+        "c": "altimeter after suction has been applied to the static system to cause a prescribed equivalent altitude to be indicated.",
         "answer": "c"
       },
       {
@@ -3366,9 +3366,9 @@
       },
       {
         "question": "The operation of an angle-of-attack indicating system is based on detectionof differential pressure at a point where the airstream flows in a direction",
-        "a": "not parallel to the true angle of attack of the aircraft. aircraft. aircraft.",
-        "b": "parallel to the angle of attack of the",
-        "c": "parallel to the longitudinal axis of the",
+        "a": "not parallel to the true angle of attack of the aircraft.  ",
+        "b": "parallel to the angle of attack of the aircraft.",
+        "c": "parallel to the longitudinal axis of the aircraft.",
         "answer": "a"
       },
       {
@@ -3380,9 +3380,9 @@
       },
       {
         "question": "Instrument panel shock mounts absorb",
-        "a": "high energy impact shocks caused by hard landings. shocks. turbulent air.",
-        "b": "low frequency, high-amplitude",
-        "c": "high G shock loads imposed by",
+        "a": "high energy impact shocks caused by hard landings.  ",
+        "b": "low frequency, high-amplitude shocks.",
+        "c": "high G shock loads imposed by turbulent air.",
         "answer": "b"
       },
       {
@@ -3408,9 +3408,9 @@
       },
       {
         "question": "Aircraft instrument value should be marked and graduated in accordance with",
-        "a": "the instrument manufacturer’s specifications. manufacturers’ specifications. flight manual.",
-        "b": "both the aircraft and engine",
-        "c": "the specific aircraft maintenance or",
+        "a": "the instrument manufacturer’s specifications.  ",
+        "b": "both the aircraft and engine manufacturers’ specifications.",
+        "c": "the specific aircraft maintenance or flight manual.",
         "answer": "c"
       },
       {
@@ -3436,8 +3436,8 @@
       },
       {
         "question": "A certificated mechanic may perform",
-        "a": "minor repairs to instruments. instruments.",
-        "b": "100-hour inspections of",
+        "a": "minor repairs to instruments. ",
+        "b": "100-hour inspections of instruments.",
         "c": "instrument overhaul.",
         "answer": "b"
       },
@@ -3450,9 +3450,9 @@
       },
       {
         "question": "The red radial lines on the face of an engine oil pressure gauge indicates",
-        "a": "minimum engine safe RPM operating range. range. operating limits.",
-        "b": "minimum precautionary safe operating",
-        "c": "minimum and! or maximum safe",
+        "a": "minimum engine safe RPM operating range.  ",
+        "b": "minimum precautionary safe operating range.",
+        "c": "minimum and! or maximum safe operating limits.",
         "answer": "c"
       },
       {
@@ -3471,16 +3471,16 @@
       },
       {
         "question": "An aircraft magnetic compass is swung to up-date the compass correction card when",
-        "a": "an annual inspection is accomplished on the aircraft. compass deviation.",
+        "a": "an annual inspection is accomplished on the aircraft. ",
         "b": "the compass is serviced.",
-        "c": "equipment is added that could effect",
+        "c": "equipment is added that could effect compass deviation.",
         "answer": "c"
       },
       {
         "question": "The function of a display controller in an EFIS is to",
-        "a": "display alphanumeric data and representations of aircraft instruments. appropriate system configuration for the current flight situation. aircraft and engine sensors and send the data to the appropriate display.",
-        "b": "allow the pilot to select the",
-        "c": "receive and process input signals from",
+        "a": "display alphanumeric data and representations of aircraft instruments.  ",
+        "b": "allow the pilot to select the appropriate system configuration for the current flight situation.",
+        "c": "receive and process input signals from aircraft and engine sensors and send the data to the appropriate display.",
         "answer": "b"
       },
       {
@@ -3515,9 +3515,9 @@
       },
       {
         "question": "A manifold pressure gauge is designed to",
-        "a": "Maintain constant pressure in the intake manifold intake manifold and atmospheric pressure manifold",
-        "b": "Indicate differential pressure between the",
-        "c": "Indicate absolute pressure in the intake",
+        "a": "Maintain constant pressure in the intake manifold ",
+        "b": "Indicate differential pressure between the intake manifold and atmospheric pressure ",
+        "c": "Indicate absolute pressure in the intake manifold",
         "answer": "c"
       },
       {
@@ -3530,14 +3530,14 @@
       {
         "question": "Thermocouple leads",
         "a": "May be installed with either lead to either post of the indicator may not be altered",
-        "b": "Are designed for a specific installation and",
+        "b": "Are designed for a specific installation and may not be altered",
         "c": "May be repaired using solderless connectors",
         "answer": "b"
       },
       {
         "question": "The EGT gauge used with reciprocating engines is primarily used to furnish temperature readings in order to",
-        "a": "Obtain the best mixture setting for fuel efficiency cooling",
-        "b": "Obtain the best mixture setting for engine",
+        "a": "Obtain the best mixture setting for fuel efficiency ",
+        "b": "Obtain the best mixture setting for engine cooling",
         "c": "Prevent engine over temperature",
         "answer": "a"
       },
@@ -3557,9 +3557,9 @@
       },
       {
         "question": "The purpose of an exhaust gas analyzer is to indicate the",
-        "a": "Brake specific fuel consumption exhaust manifold",
+        "a": "Brake specific fuel consumption ",
         "b": "Fuel/air ratio being burned in the cylinders",
-        "c": "Temperature of the exhaust gases in the",
+        "c": "Temperature of the exhaust gases in the exhaust manifold",
         "answer": "b"
       },
       {
@@ -3571,9 +3571,9 @@
       },
       {
         "question": "Engine pressure ratio is determined by",
-        "a": "Multiplying engine inlet total pressure by turbine outlet total pressure engine inlet total pressure outlet total pressure",
-        "b": "Dividing turbine outlet total pressure by",
-        "c": "Dividing engine inlet total pressure by turbine",
+        "a": "Multiplying engine inlet total pressure by turbine outlet total pressure ",
+        "b": "Dividing turbine outlet total pressure by engine inlet total pressure ",
+        "c": "Dividing engine inlet total pressure by turbine outlet total pressure",
         "answer": "b"
       },
       {
@@ -3607,21 +3607,21 @@
       {
         "question": "A red triangle, dot, or diamond mark on an engine instrument face or glass indicates",
         "a": "The maximum operating limit of all normal operations as starting",
-        "b": "The maximum limit for high transients such",
+        "b": "The maximum limit for high transients such as starting",
         "c": "A restricted operating range",
         "answer": "b"
       },
       {
         "question": "The exhaust gas temperature (EGT) indicator on a gas turbine engine provides a relative indication of the",
-        "a": "Exhaust temperature the exhaust con",
-        "b": "Temperature of the exhaust gases as they pass",
+        "a": "Exhaust temperature ",
+        "b": "Temperature of the exhaust gases as they pass the exhaust con",
         "c": "Turbine inlet temperature",
         "answer": "c"
       },
       {
         "question": "In a turbine engine, where is the turbine discharge pressure indicator sensor located?",
-        "a": "At the aft end of the compressor section determined to be subjected to the highest pressures",
-        "b": "At a location in the exhaust cone that is",
+        "a": "At the aft end of the compressor section ",
+        "b": "At a location in the exhaust cone that is determined to be subjected to the highest pressures",
         "c": "Immediately aft of the last turbine stage",
         "answer": "c"
       },
@@ -3662,15 +3662,15 @@
       },
       {
         "question": "What is the primary purpose of the tachometer on an axial-compressor turbine engine?",
-        "a": "Monitor engine RPM during cruise conditions establishing thrust settings under all conditions indicate overspeed conditions",
-        "b": "It is the most accurate instrument for",
-        "c": "Monitor engine RPM during starting and to",
+        "a": "Monitor engine RPM during cruise conditions ",
+        "b": "It is the most accurate instrument for establishing thrust settings under all conditions ",
+        "c": "Monitor engine RPM during starting and to indicate overspeed conditions",
         "answer": "c"
       },
       {
         "question": "In an aircraft equipped with a pressure-drop type fuel-flow indicating system, if one of the injector nozzles becomes restricted, this would cause a decrease in fuel flow with",
-        "a": "A decreased fuel flow indication on the gauge gauge",
-        "b": "An increased fuel flow indication on the",
+        "a": "A decreased fuel flow indication on the gauge ",
+        "b": "An increased fuel flow indication on the gauge",
         "c": "No change in fuel flow indication on the gauge",
         "answer": "b"
       },
@@ -3753,15 +3753,15 @@
       },
       {
         "question": "Where are the hot and cold junctions located in an engine cylinder temperature indicating system?",
-        "a": "Both junctions are located at the instrument and the cold junction is located at the instrument",
+        "a": "Both junctions are located at the instrument ",
         "b": "Both junctions are located at the cylinder",
-        "c": "The hot junction is located at the cylinder",
+        "c": "The hot junction is located at the cylinder and the cold junction is located at the instrument",
         "answer": "c"
       },
       {
         "question": "The engine pressure ratio (ERP) indicator is a direct indication of",
-        "a": "Engine thrust being produced the compressor",
-        "b": "Pressure ratio between the font and aft end of",
+        "a": "Engine thrust being produced ",
+        "b": "Pressure ratio between the font and aft end of the compressor",
         "c": "Ratio of engine RPM to compressor pressure",
         "answer": "a"
       },
@@ -3774,9 +3774,9 @@
       },
       {
         "question": "In regard to using a turbine engine oil analysis program, which of the following is NOT true?",
-        "a": "Generally, an accurate trend forecast may be made after an engine’s first oil sample analysis engine when it is new run over an engine’s total operating life so that normal trends can be established",
-        "b": "It is best to start an oil analysis program on an",
-        "c": "A successful oil analysis program should be",
+        "a": "Generally, an accurate trend forecast may be made after an engine’s first oil sample analysis ",
+        "b": "It is best to start an oil analysis program on an engine when it is new ",
+        "c": "A successful oil analysis program should be run over an engine’s total operating life so that normal trends can be established",
         "answer": "a"
       },
       {
@@ -3803,8 +3803,8 @@
       {
         "question": "Why do helicopters require a minimum of two synchronous tachometer systems?",
         "a": "One indicates engine RPM and the other tail rotor RPM tail rotor RPM main rotor RPM",
-        "b": "One indicates main rotor RPM and the other",
-        "c": "One indicates engine RPM and the other",
+        "b": "One indicates main rotor RPM and the other tail rotor RPM main rotor RPM",
+        "c": "One indicates engine RPM and the other main rotor RPM",
         "answer": "c"
       },
       {
@@ -3831,8 +3831,8 @@
       {
         "question": "Engine pressure ratio is the total pressure ratio between the",
         "a": "Aft end of the compressor and the aft end of the turbine turbine compressor",
-        "b": "Front of the compressor and the rear of the",
-        "c": "Front of the engine inlet and the aft end of the",
+        "b": "Front of the compressor and the rear of the turbine ",
+        "c": "Front of the engine inlet and the aft end of the compressor",
         "answer": "b"
       },
       {
@@ -3844,23 +3844,23 @@
       },
       {
         "question": "Which statement is correct concerning a thermocouple-type temperature indicating instrument system?",
-        "a": "It is a balanced-type, variable resistor circuit instrument case to prevent fluctuations of the system voltage from affecting the temperature reading",
+        "a": "It is a balanced-type, variable resistor circuit ",
         "b": "It requires no external power source",
-        "c": "It usually contains a balancing circuit in the",
+        "c": "It usually contains a balancing circuit in the instrument case to prevent fluctuations of the system voltage from affecting the temperature reading",
         "answer": "b"
       },
       {
         "question": "The indication on a thermocouple-type cylinder head temperature indicator is produced by",
-        "a": "Resistance changes in two dissimilar metals dissimilar metals difference between dissimilar metal hot and cold junctions",
-        "b": "A difference in the voltage between two",
-        "c": "A current generated by the temperature",
+        "a": "Resistance changes in two dissimilar metals ",
+        "b": "A difference in the voltage between two dissimilar metals ",
+        "c": "A current generated by the temperature difference between dissimilar metal hot and cold junctions",
         "answer": "c"
       },
       {
         "question": "Which statement is true regarding a thermocoupletype cylinder head temperature measuring system?",
-        "a": "The resistance required for cylinder head temperature indicators is measured in farads system is determined by the temperature difference between the two ends of the thermocouple thermocouple indicator will move off-scale to the low side",
-        "b": "The voltage output of a thermocouple",
-        "c": "When the master switch is turned on, a",
+        "a": "The resistance required for cylinder head temperature indicators is measured in farads ",
+        "b": "The voltage output of a thermocouple system is determined by the temperature difference between the two ends of the thermocouple ",
+        "c": "When the master switch is turned on, a thermocouple indicator will move off-scale to the low side",
         "answer": "b"
       },
       {
@@ -3881,16 +3881,16 @@
     "FLUID LINES & FITTINGS": [
       {
         "question": "Flexible lines must be installed with",
-        "a": "A slack of 5 to 8 percent of the length length during operation",
-        "b": "A slack of at least 10 to 12 percent of the",
-        "c": "Enough slack to allow maximum flexing",
+        "a": "A slack of 5 to 8 percent of the length ",
+        "b": "A slack of at least 10 to 12 percent of the length ",
+        "c": "Enough slack to allow maximum flexing during operation",
         "answer": "a"
       },
       {
         "question": "Hydraulic tubing, which is damaged in a localized area to such an extent that repair is necessary, may be repaired",
-        "a": "By cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends (connection to connection) using the same size and material as the original soldering in a replacement section of tubing",
-        "b": "Only by replacing the tubing section run",
-        "c": "By cutting out the damaged section and",
+        "a": "By cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends ",
+        "b": "Only by replacing the tubing section run (connection to connection) using the same size and material as the original ",
+        "c": "By cutting out the damaged section and soldering in a replacement section of tubing",
         "answer": "a"
       },
       {
@@ -3902,8 +3902,8 @@
       },
       {
         "question": "If a flared tube coupling nut is overtightened, where is the tube most likely to be weakened/damaged?",
-        "a": "Along the entire length of the sleeve and tube interface of the tube",
-        "b": "At the edge of the sleeve and straight portion",
+        "a": "Along the entire length of the sleeve and tube interface ",
+        "b": "At the edge of the sleeve and straight portion of the tube",
         "c": "At the sleeve and flare junction",
         "answer": "c"
       },
@@ -3923,9 +3923,9 @@
       },
       {
         "question": "Which statement is true regarding flattening of tubing in bends?",
-        "a": "Flattening by a maximum of 20 percent of the original diameter is permissible the original diameter is permissible exceed more than 75 percent of the diameter of straight tubing",
-        "b": "Flattening by not more than 25 percent of",
-        "c": "The small diameter portion in the bend cannot",
+        "a": "Flattening by a maximum of 20 percent of the original diameter is permissible ",
+        "b": "Flattening by not more than 25 percent of the original diameter is permissible ",
+        "c": "The small diameter portion in the bend cannot exceed more than 75 percent of the diameter of straight tubing",
         "answer": "b"
       },
       {
@@ -3937,9 +3937,9 @@
       },
       {
         "question": "A gas or fluid line marked with the letters PHDAN is",
-        "a": "A dual-purpose pneumatic and/or hydraulic line for normal and emergency system use discharge line",
+        "a": "A dual-purpose pneumatic and/or hydraulic line for normal and emergency system use ",
         "b": "Used to carry a hazardous substance",
-        "c": "A pneumatic or hydraulic system drain or",
+        "c": "A pneumatic or hydraulic system drain or discharge line",
         "answer": "b"
       },
       {
@@ -3951,16 +3951,16 @@
       },
       {
         "question": "Which statement concerning Bernoulli’s principle is true?",
-        "a": "The pressure of a fluid increases at points where the velocity of the fluid increases where the velocity of the fluid increases",
-        "b": "The pressure of a fluid decreases at points",
+        "a": "The pressure of a fluid increases at points where the velocity of the fluid increases ",
+        "b": "The pressure of a fluid decreases at point where the velocity of the fluid increases",
         "c": "It applies only to gases and vaporized liquids",
         "answer": "b"
       },
       {
         "question": "In most aircraft hydraulic systems, two-piece tube connectors consisting of a sleeve and a nut are used when a tubing flare is required. The use of this type connector eliminates",
-        "a": "The flaring operation prior to assembly thickness by wiping or ironing during the tightening process tightening process",
-        "b": "The possibility of reducing the flare",
-        "c": "Wrench damage to the tubing during the",
+        "a": "The flaring operation prior to assembly ",
+        "b": "The possibility of reducing the flare thickness by wiping or ironing during the tightening process ",
+        "c": "Wrench damage to the tubing during the tightening process",
         "answer": "b"
       },
       {
@@ -4014,9 +4014,9 @@
       },
       {
         "question": "What is an advantage of a double flare on aluminum tubing?",
-        "a": "Ease of construction tightened of tubing",
-        "b": "More resistant to damage when the joint is",
-        "c": "Can be applied to any size and wall-thickness",
+        "a": "Ease of construction  ",
+        "b": "More resistant to damage when the joint is tightened",
+        "c": "Can be applied to any size and wall-thickness of tubing",
         "answer": "b"
       },
       {
@@ -4042,30 +4042,30 @@
       },
       {
         "question": "When installing bonded clamps to support metal tubing",
-        "a": "Paint removal from tube is not recommended as it will inhibit corrosion to prevent corrosion clamp location",
-        "b": "Paint clamp and tube after clamp installation",
-        "c": "Remove paint or anodizing from tube at",
+        "a": "Paint removal from tube is not recommended as it will inhibit corrosion ",
+        "b": "Paint clamp and tube after clamp installation to prevent corrosion ",
+        "c": "Remove paint or anodizing from tube at clamp location",
         "answer": "c"
       },
       {
         "question": "Which of the following statements is true regarding minimum allowable bend radii for 1.5 inches OD or less aluminum alloy and steel tubing of the same size?",
-        "a": "The minimum radius for steel is greater than for aluminum aluminum aluminum",
-        "b": "The minimum radius for steel is less than for",
-        "c": "The minimum radius is the same both steel and",
+        "a": "The minimum radius for steel is greater than for aluminum  ",
+        "b": "The minimum radius for steel is less than for aluminum",
+        "c": "The minimum radius is the same both steel and aluminum",
         "answer": "a"
       },
       {
         "question": "Excessive stress on fluid or pneumatic metal tubing caused by expansion and contraction due to temperature changes can best be avoided by",
-        "a": "Using short, straight sections of tubing between fixed parts of the aircraft majority of the adjoining structure",
-        "b": "Using tubing of the same material as the",
+        "a": "Using short, straight sections of tubing between fixed parts of the aircraft ",
+        "b": "Using tubing of the same material as the majority of the adjoining structure",
         "c": "Providing bends in the tubing",
         "answer": "c"
       },
       {
         "question": "Which statement is true regarding the variety of symbols utilized on the identifying color-code bands that are currently used on aircraft plumbing lines",
-        "a": "symbols are composed of various single colors according to line content background regardless of line content contrasting colors according to line content",
-        "b": "symbols are always black against a white",
-        "c": "symbols are composed of one to three",
+        "a": "symbols are composed of various single colors according to line content ",
+        "b": "symbols are always black against a white background regardless of line content ",
+        "c": "symbols are composed of one to three contrasting colors according to line content",
         "answer": "b"
       },
       {
@@ -4077,16 +4077,16 @@
       },
       {
         "question": "The term ‘cold flow’ is generally associated with",
-        "a": "The effects of low temperature gasses or liquids flowing in hose or tubing rubber hose material materials at low ambient temperatures",
-        "b": "Impressions left in natural or synthetic",
-        "c": "Flexibility characteristics of various hose",
+        "a": "The effects of low temperature gasses or liquids flowing in hose or tubing ",
+        "b": "Impressions left in natural or synthetic rubber hose material ",
+        "c": "Flexibility characteristics of various hose materials at low ambient temperatures",
         "answer": "b"
       },
       {
         "question": "When a Teflon hose has been in service for a time, what condition may have occurred and/or what precautions should be taken when it is temporarily removed from the aircraft?",
-        "a": "The hose interior must be kept wet with fluid carried to prevent embrittlement/deterioration flexed or moved regularly been manufactured with a pre-set shape, and must be supported to maintain its shape",
-        "b": "The hose may become stiff and brittle if not",
-        "c": "The hose may have developed a set, or have",
+        "a": "The hose interior must be kept wet with fluid carried to prevent embrittlement/deterioration ",
+        "b": "The hose may become stiff and brittle if not flexed or moved regularly ",
+        "c": "The hose may have developed a set, or have been manufactured with a pre-set shape, and must be supported to maintain its shape",
         "answer": "c"
       },
       {
@@ -4098,16 +4098,16 @@
       },
       {
         "question": "A certain amount of slack must be left in a flexible hose during installation because, when under pressure, it",
-        "a": "Expands in length and diameter diameter",
+        "a": "Expands in length and diameter ",
         "b": "Expands in length and contracts in diameter",
-        "c": "Contracts in length and expands in",
+        "c": "Contracts in length and expands in diameter",
         "answer": "c"
       },
       {
         "question": "In a metal tubing installation,",
-        "a": "Rigid straight line runs are preferable pressurization will cause it to expand and shift start on the threaded coupling",
-        "b": "Tension is undesirable because",
-        "c": "A tube may be pulled in line if the nut will",
+        "a": "Rigid straight line runs are preferable ",
+        "b": "Tension is undesirable because pressurization will cause it to expand and shift ",
+        "c": "A tube may be pulled in line if the nut will start on the threaded coupling",
         "answer": "b"
       },
       {
@@ -4135,9 +4135,9 @@
       },
       {
         "question": "Fuel scheduling during APU start under varying pneumatic bleed and electrical loads is maintained",
-        "a": "Manually through power control lever position. unit.",
+        "a": "Manually through power control lever position. ",
         "b": "Automatically by the APU fuel control system.",
-        "c": "Automatically by an aircraft main engine fuel control",
+        "c": "Automatically by an aircraft main engine fuel control unit.",
         "answer": "b"
       },
       {
@@ -4149,16 +4149,16 @@
       },
       {
         "question": "When in operation, the speed of an APU",
-        "a": "Is controlled by a cockpit power lever. speed when placed under load. load condition",
-        "b": "Remains at idle and automatically accelerates to rated",
-        "c": "Remains at or near rated speed regardless of the",
+        "a": "Is controlled by a cockpit power lever. ",
+        "b": "Remains at idle and automatically accelerates to rated speed when placed under load.",
+        "c": "Remains at or near rated speed regardless of the  load condition",
         "answer": "c"
       },
       {
         "question": "Frequently, an aircraft’s auxiliary power unit (APU) generator",
-        "a": "Is identical to the engine-driven generators. during peak loads. generators.",
-        "b": "Supplements the aircraft’s engine- driven generators",
-        "c": "Has a higher load capacity than the engine-driven",
+        "a": "Is identical to the engine-driven generators.  ",
+        "b": "Supplements the aircraft’s engine- driven generators during peak loads.",
+        "c": "Has a higher load capacity than the engine-driven generators.",
         "answer": "a"
       },
       {
@@ -4170,9 +4170,9 @@
       },
       {
         "question": "Generally, when maximum APU shaft output power is being used in conjunction with pneumatic power",
-        "a": "Pneumatic loading will be automatically modulated to maintain a safe EGT. maintain a safe EGT. monitored by the operator to maintain a safe EGT.",
-        "b": "Electrical loading will be automatically modulated to",
-        "c": "Temperature limits and loads must be carefully",
+        "a": "Pneumatic loading will be automatically modulated to maintain a safe EGT.  ",
+        "b": "Electrical loading will be automatically modulated to maintain a safe EGT.",
+        "c": "Temperature limits and loads must be carefully monitored by the operator to maintain a safe EGT.",
         "answer": "a"
       },
       {
@@ -4184,16 +4184,16 @@
       },
       {
         "question": "The function of an APU air inlet plenum is to",
-        "a": "Increase the velocity of the air before entering the compressor. compressor. compressor.",
-        "b": "Decrease the pressure of the air before entering the",
-        "c": "Stabilize the pressure of the air before it enters the",
+        "a": "Increase the velocity of the air before entering the compressor.  ",
+        "b": "Decrease the pressure of the air before entering the compressor.",
+        "c": "Stabilize the pressure of the air before it enters the compressor.",
         "answer": "c"
       },
       {
         "question": "On APU’s equipped with a free turbine and load compressor, the primary function of the load compressor is to",
-        "a": "Provide air for combustion and cooling in the engine gas path. generator(s). ",
+        "a": "Provide air for combustion and cooling in the engine gas path.  ",
         "b": "Provide bleed air for aircraft pneumatic systems.",
-        "c": "Supply the turning force for operation of the APU",
+        "c": "Supply the turning force for operation of the APU generator(s).",
         "answer": "b"
       }
     ],
@@ -4214,9 +4214,9 @@
       },
       {
         "question": "Which statement regarding aircraft bolts is correct?",
-        "a": "When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole the material thickness should not be used in primary structure",
-        "b": "In general, bolt grip lengths should equal",
-        "c": "Alloy steel bolts smaller than ¼ -inch diameter",
+        "a": "When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole ",
+        "b": "In general, bolt grip lengths should equal the material thickness ",
+        "c": "Alloy steel bolts smaller than ¼ -inch diameter should not be used in primary structure",
         "answer": "b"
       },
       {
@@ -4256,9 +4256,9 @@
       },
       {
         "question": "In examining and evaluating a welded joint, a mechanic should be familiar with",
-        "a": "Likely ambient exposure conditions and intended use of the part, along with type of weld and original part material composition and temperature range used of a weld",
-        "b": "The welding technique, filler material,",
-        "c": "The parts, proportions, and formation",
+        "a": "Likely ambient exposure conditions and intended use of the part, along with type of weld and original part material composition ",
+        "b": "The welding technique, filler material, and temperature range used ",
+        "c": "The parts, proportions, and formation of a weld",
         "answer": "a"
       },
       {
@@ -4270,30 +4270,30 @@
       },
       {
         "question": "Which of the following is a main determinant of the dwell time to use when conducting a dye r fluorescent penetrant inspection?",
-        "a": "The size and shape of the discontinuities being looked for inspected material",
-        "b": "The size and shape of the part being",
-        "c": "The type and/or density of the part",
+        "a": "The size and shape of the discontinuities being looked for ",
+        "b": "The size and shape of the part being inspected ",
+        "c": "The type and/or density of the part material",
         "answer": "a"
       },
       {
         "question": "Circular magnetization of a part can be used to detect which defects?",
-        "a": "Defects parallel to the long axis of the part the part circles of magnetic force within the part",
-        "b": "Defects perpendicular to the long axis of",
-        "c": "Defects perpendicular to the concentric",
+        "a": "Defects parallel to the long axis of the part ",
+        "b": "Defects perpendicular to the long axis of the part ",
+        "c": "Defects perpendicular to the concentric circles of magnetic force within the part",
         "answer": "a"
       },
       {
         "question": "If it is necessary to accurately measure the diameter of a hole approximately ¼ inch in diameter, the mechanic should use a",
-        "a": "Telescoping gauge and determine the size of the hole by taking a micrometer reading of the adjustable end of the telescoping gauge measurement directly from the micrometer the hole by taking a micrometer reading of the ball end of the gauge",
-        "b": "0 - to 1-inch inside micrometer and read the",
-        "c": "Small-hole gauge and determine the size of",
+        "a": "Telescoping gauge and determine the size of the hole by taking a micrometer reading of the adjustable end of the telescoping gauge ",
+        "b": "0 - to 1-inch inside micrometer and read the measurement directly from the micrometer ",
+        "c": "Small-hole gauge and determine the size of the hole by taking a micrometer reading of the ball end of the gauge",
         "answer": "c"
       },
       {
         "question": "Which statement relating to the residual magnetizing inspection method is true?",
         "a": "Subsurface discontinuities are made readily apparent longitudinal magnetizing procedures heat treated for stressed applications",
-        "b": "It is used in practically all circular and",
-        "c": "It may be used with steels which have been",
+        "b": "It is used in practically all circular and longitudinal magnetizing procedures ",
+        "c": "It may be used with steels which have been heat treated for stressed applications",
         "answer": "c"
       },
       {
@@ -4305,9 +4305,9 @@
       },
       {
         "question": "If dye penetrant inspection indications are not sharp and clear, the most cause is that part",
-        "a": "Was not correctly degaussed before the developer was applied developer was applied",
-        "b": "Has no appreciable damage",
-        "c": "Was not thoroughly washed before the",
+        "a": "Was not correctly degaussed before the developer ",
+        "b": "Has no appreciable damage developer was applied",
+        "c": "Was not thoroughly washed before the was applied",
         "answer": "c"
       },
       {
@@ -4333,9 +4333,9 @@
       },
       {
         "question": "How is the locking feature of the fiber-type locknut obtained?",
-        "a": "By the use of an unthreaded fiber locking insert base of the load carrying section slightly smaller than those in the load carrying section",
-        "b": "By a fiber insert held firmly in place at the",
-        "c": "By making the threads in the fiber insert",
+        "a": "By the use of an unthreaded fiber locking insert ",
+        "b": "By a fiber insert held firmly in place at the base of the load carrying section ",
+        "c": "By making the threads in the fiber insert slightly smaller than those in the load carrying section",
         "answer": "a"
       },
       {
@@ -4354,9 +4354,9 @@
       },
       {
         "question": "In performing a dye penetrant inspection, the developer",
-        "a": "Seeps into a surface crack to indicate the presence of a defect indication inspection",
-        "b": "Acts as a blotter to produce a visible",
-        "c": "Thoroughly cleans the surface prior to",
+        "a": "Seeps into a surface crack to indicate the presence of a defect ",
+        "b": "Acts as a blotter to produce a visible indication ",
+        "c": "Thoroughly cleans the surface prior to inspection",
         "answer": "b"
       },
       {
@@ -4375,9 +4375,9 @@
       },
       {
         "question": "Alclad is a metal consisting of",
-        "a": "Aluminum alloy surface layers and a pure aluminum core aluminum alloy core aluminum and aluminum alloy",
-        "b": "Pure aluminum surface layers on an",
-        "c": "A homogeneous mixture of pure",
+        "a": "Aluminum alloy surface layers and a pure aluminum core ",
+        "b": "Pure aluminum surface layers on an aluminum alloy core ",
+        "c": "A homogeneous mixture of pure aluminum and aluminum alloy",
         "answer": "b"
       },
       {
@@ -4389,8 +4389,8 @@
       },
       {
         "question": "The society of Automotive Engineers (SAE) and the American Iron and Steel Institute use a numerical index system to identify the composition of various steels. In the number ‘4130’ designating chromium molybdenum steel, the first digit indicates the",
-        "a": "Percentage of the basic element in the alloy hundredths of a percent",
-        "b": "Percentage of carbon in the alloy in",
+        "a": "Percentage of the basic element in the alloy ",
+        "b": "Percentage of carbon in the alloy in hundredths of a percent",
         "c": "Basic alloying element",
         "answer": "c"
       },
@@ -4424,16 +4424,16 @@
       },
       {
         "question": "What is steel tempered after being hardened",
-        "a": "To increase its hardness and ductility internal stresses reduce its brittleness",
-        "b": "To increase its strength and decrease its",
-        "c": "To relieve its internal stresses and",
+        "a": "To increase its hardness and ductility ",
+        "b": "To increase its strength and decrease its internal stresses ",
+        "c": "To relieve its internal stresses and reduce its brittleness",
         "answer": "c"
       },
       {
         "question": "Identify the correct statement",
-        "a": "An outside micrometer is limited to measuring diameters an approved type used as measuring device",
-        "b": "Tools used on certificated aircraft must be",
-        "c": "Dividers do not provide a reading when",
+        "a": "An outside micrometer is limited to measuring diameters ",
+        "b": "Tools used on certificated aircraft must be an approved type ",
+        "c": "Dividers do not provide a reading when used as measuring device",
         "answer": "c"
       },
       {
@@ -4445,9 +4445,9 @@
       },
       {
         "question": "How is the locking feature of the fiber-type locknut obtained?",
-        "a": "By the use of an unthreaded fiber locking insert base of the load carrying section slightly smaller than those in the load carrying section",
-        "b": "By a fiber insert held firmly in place at the",
-        "c": "By making the threads in the fiber insert",
+        "a": "By the use of an unthreaded fiber locking insert ",
+        "b": "By a fiber insert held firmly in place at the base of the load carrying section ",
+        "c": "By making the threads in the fiber insert slightly smaller than those in the load carrying section",
         "answer": "a"
       },
       {
@@ -4480,16 +4480,16 @@
       },
       {
         "question": "Generally speaking, bolt grip lengths should be",
-        "a": "Equal to the thickness of the material which is fastened together, plus approximately one diameter which is fastened together the material which is fastened together",
-        "b": "Equal to the thickness of the material",
-        "c": "One and one half times the thickness of",
+        "a": "Equal to the thickness of the material which is fastened together, plus approximately one diameter ",
+        "b": "Equal to the thickness of the material which is fastened together ",
+        "c": "One and one half times the thickness of the material which is fastened together",
         "answer": "b"
       },
       {
         "question": "Which statement regarding aircraft bolts is correct?",
-        "a": "When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole equal the material thickness diameter should not be used in primary structure",
-        "b": "In general, bolt grip lengths should",
-        "c": "Alloy steel bolts smaller than ¼-inch",
+        "a": "When tightening castellated nuts on drilled bolts, if the cotter pin holes do not line up, it is permissible to overtighten the nut to permit alignment of the next slot with the cotter pin hole",
+        "b": "In general, bolt grip lengths should equal the material thickness ",
+        "c": "Alloy steel bolts smaller than ¼-inch diameter should not be used in primary structure",
         "answer": "b"
       },
       {
@@ -4508,9 +4508,9 @@
       },
       {
         "question": "Why is it considered good practice to normalize a part after welding?",
-        "a": "To relieve internal stresses developed within the base metal during welding",
+        "a": "To relieve internal stresses developed within the base metal ",
         "b": "To increase the hardness of the weld",
-        "c": "To remove the surface scale formed",
+        "c": "To remove the surface scale formed during welding",
         "answer": "a"
       },
       {
@@ -4522,9 +4522,9 @@
       },
       {
         "question": "The aluminum code number 1100 identifies what type of aluminum",
-        "a": "Aluminum alloy containing 11 percent copper aluminum",
+        "a": "Aluminum alloy containing 11 percent copper ",
         "b": "Aluminum alloy containing zinc",
-        "c": "99 percent commercially pure",
+        "c": "99 percent commercially pure aluminum",
         "answer": "c"
       },
       {
@@ -16928,9 +16928,9 @@
       },
       {
         "question": "Hydraulic tubing, which is damaged in a localized area to such an extent that repair is necessary, may be repaired",
-        "a": "By cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends (connection to connection) using the same size and material as the original soldering in a replacement section of tubing",
-        "b": "Only by replacing the tubing section run",
-        "c": "By cutting out the damaged section and",
+        "a": "By cutting out the damaged area and utilizing a swaged tube fitting to join the tube ends ",
+        "b": "Only by replacing the tubing section run (connection to connection) using the same size and material as the original ",
+        "c": "By cutting out the damaged section and ",
         "answer": "a"
       },
       {
@@ -16942,8 +16942,8 @@
       },
       {
         "question": "If a flared tube coupling nut is overtightened, where is the tube most likely to be weakened/damaged?",
-        "a": "Along the entire length of the sleeve and tube interface the tube",
-        "b": "At the edge of the sleeve and straight portion of",
+        "a": "Along the entire length of the sleeve and tube interface ",
+        "b": "At the edge of the sleeve and straight portion of the tube",
         "c": "At the sleeve and flare junction",
         "answer": "c"
       },
@@ -16963,9 +16963,9 @@
       },
       {
         "question": "Which statement is true regarding flattening of tubing in bends?",
-        "a": "Flattening by a maximum of 20 percent of the original diameter is permissible original diameter is permissible exceed more than 75 percent of the diameter of straight tubing",
-        "b": "Flattening by not more than 25 percent of the",
-        "c": "The small diameter portion in the bend cannot",
+        "a": "Flattening by a maximum of 20 percent of the original diameter is permissible ",
+        "b": "Flattening by not more than 25 percent of the original diameter is permissible ",
+        "c": "The small diameter portion in the bend cannot exceed more than 75 percent of the diameter of straight tubing",
         "answer": "b"
       },
       {
@@ -16977,9 +16977,9 @@
       },
       {
         "question": "A gas or fluid line marked with the letters PHDAN is",
-        "a": "A dual-purpose pneumatic and/or hydraulic line for normal and emergency system use discharge line",
+        "a": "A dual-purpose pneumatic and/or hydraulic line for normal and emergency system use ",
         "b": "Used to carry a hazardous substance",
-        "c": "A pneumatic or hydraulic system drain or",
+        "c": "A pneumatic or hydraulic system drain or discharge line",
         "answer": "b"
       },
       {
